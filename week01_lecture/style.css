@@ -1,0 +1,11 @@
+#app {
+  width: 1000px;
+  height: 100px;
+  background: silver;
+}
+
+#el {
+  width: 1000px;
+  height: 300px;
+  background: black;
+}

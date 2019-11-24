@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./week01.css">
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+    <script src="./week01.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="evt_wrap">
+      <div class="quiz_con">
+        <!--content-->
+        <div class="inner p_r">
+          <div class="quiz_box on" id="quiz_start">
+            <!--첫화면-->
+            <div class="main">
+              <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/lv_main_b.jpg" alt="영어회화인강 1위 해커스톡 영어회화 무료 레벨테스트 강의할인쿠폰 제공!"  usemap="#lv_main" />
+              <map name="lv_main">
+                <area alt="무료 레벨테스트 시작 go" shape="rect" coords="310,400,665,465" href="#;" id="btn_quiz_start" /> <!--407,525,861,601-->
+              </map>
+            </div>
+            <!--//첫화면-->
+          </div>
+
+          <!--테스트 진행-->
+          <div class="quiz">
+            <!--step1-->
+            <div class="con_qz_1" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li class="on">01</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">빈칸에 들어갈 알맞은 보기를 선택하세요.</p>
+                <p class="txt_main">나는 점심을 먹어요.<br/>I<em class="line"></em>lunch.</p>
+                <div class="ck_area">
+                  <ul style="width:404px;">
+                    <li><input type="radio" name="qz1" id="qz1_ck1" class="answer_check" value="1"><label for="qz1_ck1"><span class="ckbox"></span>Make</label></li>
+                    <li><input type="radio" name="qz1" id="qz1_ck2" class="answer_check" value="2"><label for="qz1_ck2"><span class="ckbox"></span>Eat</label></li>
+                    <li><input type="radio" name="qz1" id="qz1_ck3" class="answer_check" value="3"><label for="qz1_ck3"><span class="ckbox"></span>모르겠어요.</label></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step1-->
+
+            <!--step2-->
+            <div class="con_qz_2" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li class="on">02</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">아래의 문장에 대한 올바른 영어 문장을 선택하세요.</p>
+                <p class="txt_main">나는 고양이를 좋아해요.</p>
+                <div class="ck_area">
+                  <ul style="width:537px;">
+                    <li><input type="radio" name="qz2" id="qz2_ck1" value="1" class="answer_check"><label for="qz2_ck1"><span class="ckbox"></span>I like cats</label></li>
+                    <li><input type="radio" name="qz2" id="qz2_ck2" value="2" class="answer_check"><label for="qz2_ck2"><span class="ckbox"></span>I'm like cats</label></li>
+                    <li><input type="radio" name="qz2" id="qz2_ck3" value="3" class="answer_check"><label for="qz2_ck3"><span class="ckbox"></span>모르겠어요.</label></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step2-->
+
+            <!--step3-->
+            <div class="con_qz_3" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">03</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">빈칸에 들어갈 알맞은 보기를 선택하세요.</p>
+                <p class="txt_main">볼펜 한 자루 빌릴 수 있을까요?<br/>Can I<em class="line"></em>a pen?</p>
+                <div class="ck_area">
+                  <ul style="width:437px;">
+                    <li><input type="radio" name="qz3" id="qz3_ck1" value="1" class="answer_check"><label for="qz3_ck1"><span class="ckbox"></span>save</label></li>
+                    <li><input type="radio" name="qz3" id="qz3_ck2" value="2" class="answer_check"><label for="qz3_ck2"><span class="ckbox"></span>borrow</label></li>
+                    <li><input type="radio" name="qz3" id="qz3_ck3" value="3" class="answer_check"><label for="qz3_ck3"><span class="ckbox"></span>모르겠어요.</label></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step3-->
+
+            <!--step4-->
+            <div class="con_qz_4" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">04</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">빈칸에 들어갈 알맞은 보기를 선택하세요.</p>
+                <p class="txt_main">그는 커피 안 마셔요.<br/>He<em class="line"></em>coffee.</p>
+                <div class="ck_area">
+                  <ul style="width:600px;">
+                    <li><input type="radio" name="qz4" id="qz4_ck1" value="1" class="answer_check"><label for="qz4_ck1"><span class="ckbox"></span>doesn't drink</label></li>
+                    <li><input type="radio" name="qz4" id="qz4_ck2" value="2" class="answer_check"><label for="qz4_ck2"><span class="ckbox"></span>isn't drinking</label></li>
+                    <li><input type="radio" name="qz4" id="qz4_ck3" value="3" class="answer_check"><label for="qz4_ck3"><span class="ckbox"></span>모르겠어요.</label></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step4-->
+
+            <!--step5-->
+            <div class="con_qz_5" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">05</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">빈칸에 들어갈 알맞은 보기를 선택하세요.</p>
+                <p class="txt_main">나는 돈을 쓰지 않을 거예요.<br/>I am not going to<em class="line"></em>money.</p>
+                <div class="ck_area">
+                  <ul style="width:475px;">
+                    <li><input type="radio" name="qz5" id="qz5_ck1" value="1" class="answer_check"><label for="qz5_ck1"><span class="ckbox"></span>spend</label></li>
+                    <li><input type="radio" name="qz5" id="qz5_ck2" value="2" class="answer_check"><label for="qz5_ck2"><span class="ckbox"></span>spending</label></li>
+                    <li><input type="radio" name="qz5" id="qz5_ck3" value="3" class="answer_check"><label for="qz5_ck3"><span class="ckbox"></span>모르겠어요.</label></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step5-->
+
+            <!--step6-->
+            <div class="con_qz_6" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">06</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">단어를 올바른 순서로 배치하여 문장을 완성하세요.</p>
+                <p class="txt_main">당신은 (지금까지) 얼마나 오래 여기서 살았어요?<br/>
+                  <div class="show_seq"></div>
+                </p>
+                <div class="seq_area">
+                  <ul style="width: 540px;">
+                    <li><a href="#;" class="answer_check" data-no="1">You<i class="cencel"></i></a></li>
+                    <li><a href="#;" class="answer_check" data-no="2">How long<i class="cencel"></i></a></li>
+                    <li><a href="#;" class="answer_check" data-no="3">here?<i class="cencel"></i></a></li>
+                    <li><a href="#;" class="answer_check" data-no="4">have<i class="cencel"></i></a></li>
+                    <li><a href="#;" class="answer_check" data-no="5">lived<i class="cencel"></i></a></li>
+                  </ul>
+                  <p>단어를 클릭해 보세요.</p>
+                </div>
+
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step6-->
+
+            <!--step7-->
+            <div class="con_qz_7" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">07</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">아래의 문장에 대한 올바른 영어 문장을 선택하세요.</p>
+                <p class="txt_main">방문했었던 그 남자는 이름을 남기지 않았어요.</p>
+                <div class="ck_area">
+                  <ul style="width:570px;">
+                    <li class="t_l">
+                      <input type="radio" name="qz7" id="qz7_ck1" value="1" class="answer_check">
+                      <label for="qz7_ck1"><span class="ckbox"></span>The man who visited didn't leave his name.</label>
+                    </li>
+                    <li class="t_l">
+                      <input type="radio" name="qz7" id="qz7_ck2" value="2" class="answer_check">
+                      <label for="qz7_ck2"><span class="ckbox"></span>The man which visited didn't leave his name.</label>
+                    </li>
+                    <li class="t_l">
+                      <input type="radio" name="qz7" id="qz7_ck3" value="3" class="answer_check">
+                      <label for="qz7_ck3"><span class="ckbox"></span>모르겠어요.</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step7-->
+
+            <!--step8-->
+            <div class="con_qz_8" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">08</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">다음을 잘 듣고 단어를 순서대로 배치해주세요.</p>
+                <div class="movie_box">
+                  
+                </div>
+                <p class="txt_main">
+                  <div class="show_seq"></div>
+                </p>
+                <div class="seq_area">
+                  <ul style="width: 689px;">
+                    <li><a href="#;" class="answer_check" data-no="1">I<i class="cencel"></i></a></li>
+                    <li><a href="#;" class="answer_check" data-no="2">water<i class="cencel"></i></a></li>
+                    <li><a href="#;" class="answer_check" data-no="3">have<i class="cencel"></i></a></li>
+                    <li><a href="#;" class="answer_check" data-no="4">drink<i class="cencel"></i></a></li>
+                    <li><a href="#;" class="answer_check" data-no="5">I<i class="cencel"></i></a></li>
+                    <li><a href="#;" class="answer_check" data-no="6">breakfast.<i class="cencel"></i></a></li>
+                    <li><a href="#;" class="answer_check" data-no="7">before<i class="cencel"></i></a></li>
+                  </ul>
+                  <p>단어를 클릭해 보세요.</p>
+                </div>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step8-->
+
+            <!--step9-->
+            <div class="con_qz_9" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">09</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">잘 듣고 원어민의 질문에 알맞은 대답을 선택하세요.</p>
+                <div class="movie_box">
+                  
+                </div>
+                <div class="ck_area">
+                  <ul style="width:480px;">
+                    <li class="t_l"><input type="radio" name="qz9" id="qz9_ck1" value="1" class="answer_check"><label for="qz9_ck1"><span class="ckbox"></span>I went to my friend's wedding</label></li>
+                    <li class="t_l"><input type="radio" name="qz9" id="qz9_ck2" value="2" class="answer_check"><label for="qz9_ck2"><span class="ckbox"></span>I'm going to go shopping</label></li>
+                    <li class="t_l"><input type="radio" name="qz9" id="qz9_ck3" value="3" class="answer_check"><label for="qz9_ck3"><span class="ckbox"></span>모르겠어요.</label></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step9-->
+
+            <!--step10-->
+            <div class="con_qz_10" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">10</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">잘 듣고, 질문에 OX로 답하세요.</p>
+                <div class="movie_box">
+                  
+                </div>
+                <p class="txt_main">Q."남자가 카페에 가는 이유는<br/>친구를 만나기 위해서입니다."</p>
+                <div class="ox_area">
+                  <a class="btn_o answer_check" href="#;" data-no="1">O</a>
+                  <a class="btn_x answer_check" href="#;" data-no="2">X</a>
+                </div>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step10-->
+
+            <!--step11-->
+            <div class="con_qz_11" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">11</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">당신의 영어공부 목표는 무엇인가요?</p>
+                <p class="txt_main select">
+                  저는
+
+                  <select name="survey[]">
+                    <option value="">선택</option>
+                    <option value="1">해외 자유여행을</option>
+                    <option value="2">멋진 부모가 되기</option>
+                    <option value="3">해외에서 생활하기</option>
+                    <option value="4">취업/승진 준비를</option>
+                    <option value="5">자기계발을</option>
+                    <option value="6">미드/영화를 보기</option>
+                    <option value="7">영어 시험 준비를</option>
+                  </select>
+
+                  위해서<br/>
+                  영어회화를 배우고 싶고<br/>
+
+                  <select name="survey[]">
+                    <option value="">선택</option>
+                    <option value="1">영어를 듣고 이해하는 것</option>
+                    <option value="2">간단한 의사표현을 하는 것</option>
+                    <option value="3">기본적인 대화를 주고받는 것</option>
+                    <option value="4">의견을 구체적으로 표현하는 것</option>
+                    <option value="5">복잡한 문장도 자유롭게 말하는 것</option>
+                  </select>
+                  이 목표입니다.
+                </p>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step11-->
+
+            <!--step12-->
+            <div class="con_qz_12" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">12</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">당신은 공부할 때 어떤 스타일인가요?</p>
+                <p class="txt_main select">
+                  저는
+
+                  <select name="survey[]">
+                    <option value="">선택</option>
+                    <option value="1">규칙적으로</option>
+                    <option value="2">시간날 때 틈틈이</option>
+                    <option value="3">한 번에 몰아서</option>
+                  </select>
+                  하는 스타일이고,<br/>
+                  <select name="survey[]">
+                    <option value="">선택</option>
+                    <option value="1">수준 높은 강의</option>
+                    <option value="2">시간 부족</option>
+                    <option value="3">지루한 강의</option>
+                    <option value="4">학습의 귀찮음</option>
+                    <option value="5">금전적인 문제</option>
+                    <option value="6">낮은 집중력</option>
+                  </select>
+                  때문에 영어공부를 망설인 적이 있습니다.
+                </p>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="btn_next">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_next.jpg" alt="다음 질문" />
+                </a>
+              </div>
+            </div>
+            <!--//step12-->
+
+            <!--step13-->
+            <div class="con_qz_13" style="display:none;">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">13</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_sub">당신의 나이와 성별, 직업은 무엇인가요?</p>
+                <p class="txt_main select">
+                  저는
+                  <input type="text" name="survey[]" maxlength="3">
+                  세의
+                  <select name="survey[]">
+                    <option value="">선택</option>
+                    <option value="여">여성</option>
+                    <option value="남">남성</option>
+                  </select>
+                  입니다.<br/>
+                  직업은
+                  <select name="survey[]">
+                    <option value="">선택</option>
+                    <option value="1">주부</option>
+                    <option value="2">직장인</option>
+                    <option value="3">학생</option>
+                    <option value="4">자영업자</option>
+                    <option value="5">취업준비생</option>
+                  </select>
+                  입니다.
+                </p>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5 btn_prev">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_prev.jpg" alt="이전 질문" />
+                </a>
+                <a href="#;" class="answer_check">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_result.jpg" alt="결과 확인하기" />
+                </a>
+              </div>
+            </div>
+            <!--//step13-->
+
+            <!--step login-->
+            <div class="con_login" style="display:none;" id="level_result_nomem">
+              <!--number navigation-->
+              <div class="nav">
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li class="on">13</li>
+                </ul>
+              </div>
+              <!--//number navigation-->
+              <div class="con">
+                <p class="txt_main">
+                  간단하게 로그인하고<br/>
+                  <strong>
+                    지금 바로 당신의 영어실력을<br/>
+                    확인해보세요.
+                  </strong>
+                </p>
+              </div>
+              <div class="quiz_btn">
+                <a href="#;" class="mr5"  onclick="showLogin();">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_login.jpg" alt="로그인하고 결과보기" />
+                </a>
+                <a href="#">
+                  <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_reg.jpg" alt="회원가입하고 결과보기" />
+                </a>
+              </div>
+            </div>
+            <!--//step login-->
+          </div>
+          <!--/테스트 진행-->
+
+          <!--결과 페이지-->
+          <div class="result" id="level_result" style="display:none;">
+            <!-- 팝업 노출 -->
+                    <span class="quiz_result_pop" id="result_pop">
+              <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/img_pop_type2.jpg" alt="" usemap="#cnt_1" />
+              <map name="cnt_1" id="cnt_1">
+                  <area alt="쿠폰+가이드북 받고 결과 보기" href="#" shape="rect" coords="97,470,484,528" onclick="getFreeCoupon('B6847FAD3CFB3627', 'type2');"/>
+              </map>
+            </span>
+                    <?php endif; ?>
+            <!-- //팝업 노출 -->
+
+            <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/tit_result.jpg" alt="" />
+
+            <ul class="txt_result1">
+              <li>레벨<span class="level">왕초보</span></li>
+              <li>점수<span class="result_score">0</span></li>
+            </ul>
+
+            <p class="txt_result2">
+              님은 현재 기초영어회화 5레벨 중 <span class="level">초보</span><span class="level_detail">[level 2]</span> 레벨입니다.
+            </p>
+
+            <div class="guide_result">
+              <dl>
+                <dt><img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/label_iagnosis.png" alt="" /></dt>
+                <dd id="result_txt1">현재 기본적인 문장 구조는 알고 있지만<br/>그것을 회화로 표현하기에는 어려움을 느끼는 단계입니다.</dd>
+              </dl>
+              <dl>
+                <dt><img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/label_solution.png" alt="" /></dt>
+                <dd id="result_txt2">
+                  이혜은님께는 원어민들이 일상에서 쓰는 쉬운 표현을 반복 학습하여<br/>
+                  입을 트이게 하는 것이 필요합니다.<br/><br/>
+                  패턴+반복학습을 바탕으로 기본적인 문장부터 실력을 점점 늘려나갈 수 있는<br/>
+                  평생 0원 패키지를 추천합니다.<br/><br/>
+                  자투리시간을 틈틈이 공부에 잘 활용하는 이혜은님이라면, <br/>
+                  하루에 10분만 투자해도 학습이 가능한 평생 0원 패키지의 강의가 효과적일 것입니다.
+                </dd>
+              </dl>
+            </div>
+
+                    <!-- 맞춤 패키지 -->
+            <!--<div class="bnr_result cont03">-->
+            <div style="margin-top: 140px; text-align: left">
+              <p class="txt_result3"><span></span><?=($my['name'])? $my['name']:'';?>님을 위한 맞춤 추천 패키지 : 평생0원 패키지</p>
+              <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/img_zero_banner.png" alt="" usemap="#ban_1" class="mt40" />
+              <map name="ban_1" id="ban_1">
+                <area alt="평생0원 패키지 자세히 보기" href="?r=hackerstalk&c=event&evt_id=17120601&lnb=Y" target="_blank" shape="rect" coords="310,216,729,291" />
+              </map>
+              <p class="txt_result2">다른 분들은 다음과 같은 패키지도 수강하고 계십니다.</p>
+              <div class="choice_box" id="sub_pack_a" style="display:none;">
+                <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/img_package1.jpg" alt="올인원 스마트탭 패키지" />
+                <p>태블릿으로 와이파이 걱정 없이 평생 수강하고 싶다면<span class="big">올인원 스마트탭 패키지</span></p>
+                <ul class="package_list">
+                  <li>
+                    <span class="p_head">혜택</span>
+                    <span class="p_cnt">LG Gpad 태블릿으로 회화 강의 평생 소장 가능!</span>
+                  </li>
+                  <li>
+                    <span class="p_head">구성</span>
+                    <span class="p_cnt">1,000강 이상 전 강좌+포미앤프렌즈+교재10권</span>
+                  </li>
+                </ul>
+                <a href="/?r=hackerstalk&c=event&evt_id=18050900" target="_blank"><img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_basic_package.jpg" alt="올인원 스마트탭 패키지 자세히 보기" /></a>
+              </div>
+                        <div class="choice_box" id="sub_pack_b"  style="display:none;">
+                            <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/img_package1.jpg" alt="올인원 스마트탭 패키지" />
+                            <p>우리가족 영어는 이거 하나로 평생 끝!<span class="big">올인원 스마트탭 패키지</span></p>
+                            <ul class="package_list">
+                                <li>
+                                    <span class="p_head">혜택</span>
+                                    <span class="p_cnt">LG Gpad 태블릿으로 회화 강의 평생 소장 가능!</span>
+                                </li>
+                                <li>
+                                    <span class="p_head">구성</span>
+                                    <span class="p_cnt">1,000강 이상 전 강좌+포미앤프렌즈+교재10권</span>
+                                </li>
+                            </ul>
+                            <a href="/?r=hackerstalk&c=event&evt_id=18050900" target="_blank"><img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_basic_package.jpg" alt="올인원 스마트탭 패키지 자세히 보기" /></a>
+                        </div>
+                        <div class="choice_box" id="sub_pack_c"  style="display:none;">
+                            <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/img_package2.jpg" alt="기초영문법 0원" />
+                            <p>문법을 알아야 회화가 쉬워진다!<span class="big">기초영문법 0원 패키지</span></p>
+                            <ul class="package_list">
+                                <li>
+                                    <span class="p_head">혜택</span>
+                                    <span class="p_cnt">문법 실력 UP하고 수강료도 100% 현금환급!</span>
+                                </li>
+                                <li>
+                                    <span class="p_head">구성</span>
+                                    <span class="p_cnt">그래머게이트웨이 기초/실전 강좌+추가혜택</span>
+                                </li>
+                            </ul>
+                            <a href="/?r=hackerstalk&c=event&evt_id=17070600&lnb=Y" target="_blank"><img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_talk_package.jpg" alt="기초영문법 0원 패키지 자세히 보기" /></a>
+                        </div>
+              <div class="choice_box" id="sub_pack_d"  style="display:none;">
+                <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/img_package3.jpg" alt="실전회화 전 강좌 패키지" />
+                <p>취업 전 필수! 월 1만원대로 리스닝 기초부터 비즈니스 회화까지!<span class="big">연태흠 실전회화 전 강좌 패키지</span></p>
+                <ul class="package_list">
+                  <li>
+                    <span class="p_head">혜택</span>
+                    <span class="p_cnt">실전회화무제한+회화교재제공+1개월수강연장</span>
+                  </li>
+                  <li>
+                    <span class="p_head">구성</span>
+                    <span class="p_cnt">수업만족도 99.4% 연태흠 전강좌 + 추가혜택</span>
+                  </li>
+                </ul>
+                <a href="/?r=hackerstalk&c=event&evt_id=15090911&lnb=Y" target="_blank"><img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_all_package.jpg" alt="실전회화 전 강좌 패키지 자세히 보기" /></a>
+              </div>
+                        <div class="choice_box"  id="sub_pack_e"  style="display:none;">
+                            <img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/img_package3.jpg" alt="실전회화 전 강좌 패키지" />
+                            <p>월 1만원대로 리스닝 기초부터 비즈니스 회화까지 모두!<span class="big">연태흠 실전회화 전 강좌 패키지</span></p>
+                            <ul class="package_list">
+                                <li>
+                                    <span class="p_head">혜택</span>
+                                    <span class="p_cnt">실전회화무제한+회화교재제공+1개월수강연장</span>
+                                </li>
+                                <li>
+                                    <span class="p_head">구성</span>
+                                    <span class="p_cnt">수업만족도 99.4% 연태흠 전강좌 + 추가혜택</span>
+                                </li>
+                            </ul>
+                            <a href="/?r=hackerstalk&c=event&evt_id=15090911&lnb=Y" target="_blank"><img src="http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/btn_all_package.jpg" alt="실전회화 전 강좌 패키지 자세히 보기" /></a>
+                        </div>
+            </div>
+
+            <div class="ans_result cont01">
+              <p class="txt_result3"><span></span>문제&정답</p>
+            </div>
+          </div>
+          <!--//결과 페이지-->
+        </div>
+        <!--//content-->
+
+      </div>
+    </div>
+  </body>
+</html>

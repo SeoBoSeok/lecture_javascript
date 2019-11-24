@@ -1,0 +1,9976 @@
+.evt_wrap .inner {
+  width: 1000px
+}
+
+.evt_wrap .main_vis {
+  background: #e9ecf1
+}
+
+.evt_wrap .cont {
+  background: url('http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/bg_con.gif')
+}
+
+.evt_wrap .quiz_cont {
+  background: #d9dde4
+}
+
+.evt_wrap .quiz_cont .inner {
+  padding: 100px 0
+}
+
+.quiz_box {
+  display: none;
+  width: 100%;
+  /* height: 490px; */
+  /* margin: 0 auto; */
+  /* padding: 47px 60px 42px; */
+  background: #fff
+}
+
+.quiz_box.on {
+  display: block
+}
+
+.quiz_box img {
+  width: 100%;
+}
+
+.quiz_cont table,
+.quiz_cont th,
+.quiz_cont td {
+  padding: 0;
+  background: 0;
+  border: 0
+}
+
+.quiz_cont th,
+.quiz_cont td {
+  padding: 8px 0;
+  text-align: left
+}
+
+.quiz_cont th {
+  padding-right: 20px;
+  text-align: right
+}
+
+.quiz_cont table input {
+  padding: 0 10px;
+  height: 36px;
+  border: 1px solid #000;
+  line-height: 36px;
+  font-size: 14px
+}
+
+.quiz_box_in {
+  padding-top: 60px;
+  height: 273px
+}
+
+.tx_type {
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: 26px
+}
+
+.c_point {
+  color: #2b66fa
+}
+
+.tx_type.tx_sub {
+  margin-top: 16px;
+  font-size: 17px
+}
+
+.quiz_step02 .tx_type {
+  margin-bottom: 40px
+}
+
+.sand_timer {
+  line-height: 55px
+}
+
+.tx_quiz {
+  width: 100%;
+  height: 250px
+}
+
+.quiz_step04 .tx_quiz {
+  width: 100%;
+  height: 206px
+}
+
+.tx_quiz span {
+  display: inline-block;
+  font-size: 40px;
+  line-height: 45px;
+  vertical-align: middle
+}
+
+.tx_quiz:after {
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 0px
+}
+
+.ie7 .tx_quiz {
+  zoom: 1;
+  line-height: 250px
+}
+
+.btn_wrap a {
+  display: inline-block
+}
+
+.tx_bubble {
+  position: absolute;
+  top: -2px;
+  right: -34px
+}
+
+.lst_type {
+  overflow: hidden;
+  width: 495px;
+  margin: 28px auto 0
+}
+
+.lst_type li {
+  float: left;
+  width: 92px;
+  height: 91px;
+  margin-left: 42px;
+  background-image: url('http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/type_list.png')
+}
+
+.lst_type li:first-child {
+  margin-left: 0;
+  text-indent: -9999px
+}
+
+.lst_type li.type2 {
+  background-position-x: -134px
+}
+
+.lst_type li.type3 {
+  background-position-x: -268px
+}
+
+.lst_type li.type4 {
+  background-position-x: -403px
+}
+
+.lst_type li.on {
+  background-position-y: -93px
+}
+
+.td_rdo input[type="radio"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1
+}
+
+.ie7 .td_rdo input[type="radio"] {
+  filter: alpha(opacity=0)
+}
+
+.td_rdo label {
+  position: relative;
+  display: inline-block;
+  width: 126px;
+  height: 36px;
+  background: #fff;
+  border: 1px solid #000;
+  line-height: 36px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer
+}
+
+.td_rdo label.on {
+  background: #000;
+  color: #fff
+}
+
+.mov_wrap ul {
+  position: absolute;
+  left: 43px;
+  top: 239px
+}
+
+.mov_wrap ul li a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 318px;
+  height: 257px
+}
+
+.mov_wrap ul li a img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.mov_wrap ul li a span {
+  display: block;
+  position: absolute;
+  left: 43px;
+  top: 0;
+  width: 234px;
+  height: 257px;
+  z-index: 1
+}
+
+.mov_wrap ul li {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+.mov_wrap ul li.n2 {
+  left: 305px
+}
+
+.mov_wrap ul li.n3 {
+  left: 600px
+}
+
+.mov_wrap ul li.n1 a span {
+  background: url('http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/photo01.png') no-repeat;
+}
+
+.mov_wrap ul li.n2 a span {
+  background: url('http://gscdn.hackers.co.kr/champ/img/chobo/event/2017/17013100/v1/photo02.png') no-repeat;
+}
+
+.mov_wrap ul li.n3 a span {
+  background: url('http://gscdn.hackers.co.kr/champ/img/chobo/event/2017/17013100/v1/photo03.png') no-repeat;
+}
+
+.mov_wrap ul li a:hover span {
+  -webkit-animation: kenburns-top 4s ease-out both;
+  -moz-animation: kenburns-top 4s ease-out both;
+  animation: kenburns-top 4s ease-out both;
+}
+
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+    transform-origin: 50% 16%
+  }
+
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top
+  }
+}
+
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+    transform-origin: 50% 16%
+  }
+
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top
+  }
+}
+
+.layer_box.type2 {
+  width: 913px !important;
+  height: 610px !important;
+  background: url("http://gscdn.hackers.co.kr/champ/img/chobo/event/2017/17013100/v1/cont_layer_bg01.png") no-repeat 0 0 !important;
+}
+
+.layer_box.type2 .vod-grid {
+  background: none !important;
+}
+
+.cont01 .inner,
+.cont02 .inner,
+.cont03 .inner {
+  width: 840px;
+  padding: 100px 0
+}
+
+.cont01,
+.cont03 {
+  background: #e9ecf1
+}
+
+.tit_h4_evt {
+  position: relative;
+  margin-bottom: 35px;
+  font-size: 24px;
+  color: #000;
+  text-align: left
+}
+
+.tit_h4_evt:after {
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 44px;
+  height: 5px;
+  background: #000;
+  content: ''
+}
+
+.cont03 .tit_h4_evt {
+  margin-bottom: 0
+}
+
+.tbl_type {
+  background: #fff;
+  border: 3px solid #cdced1
+}
+
+.tbl_type th,
+.tbl_type td {
+  padding: 15px;
+  font-size: 15px;
+  color: #000
+}
+
+.lst_lect {
+  overflow: hidden
+}
+
+.lst_lect li {
+  float: left;
+  width: 250px;
+  margin-left: 43px
+}
+
+.lst_lect li a>img {
+  border: 2px solid #000;
+  width: 246px;
+  height: 126px
+}
+
+.lst_lect li a>strong {
+  display: block;
+  margin-top: 18px;
+  font-size: 16px
+}
+
+.lst_lect li a>span {
+  display: block;
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 20px
+}
+
+.lst_lect li:first-child {
+  margin-left: 0
+}
+
+/* tab_slide */
+.bxslider-default.tab_slide {
+  position: absolute;
+  bottom: 30px;
+  left: 234px;
+  width: 281px
+}
+
+.bxslider-default .bx-pager .bx-pager-item {
+  float: none
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.cont_add .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: block;
+  margin-bottom: 9px
+}
+
+.bxslider-default.tab_slide .bx-pager {
+  bottom: -9px;
+  margin-left: -332px
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a {
+  width: 184px;
+  height: 45px;
+  margin: 0;
+  background: url('http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/tab_slide.png') 0 0 no-repeat
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="0"] {}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="1"] {
+  background-position: 0 -54px
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="2"] {
+  background-position: 0 -108px
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="3"] {
+  background-position: 0 -162px
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="4"] {
+  background-position: 0 -216px
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="5"] {
+  background-position: 0 -270px
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="0"]:hover,
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="0"].active {
+  background-position: -194px 0
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="1"]:hover,
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="1"].active {
+  background-position: -194px -54px
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="2"]:hover,
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="2"].active {
+  background-position: -194px -108px
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="3"]:hover,
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="3"].active {
+  background-position: -194px -162px
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="4"]:hover,
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="4"].active {
+  background-position: -194px -216px
+}
+
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="5"]:hover,
+.bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="5"].active {
+  background-position: -194px -270px
+}
+
+/* tab_slide */
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a {
+  width: 184px;
+  height: 71px;
+  margin: 0;
+  background: url('http://gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/tab_slide_pkg2.png') 0 0 no-repeat
+}
+
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="0"] {}
+
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="1"] {
+  background-position: 0 -83px
+}
+
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="2"] {
+  background-position: 0 -165px
+}
+
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="3"] {
+  background-position: 0 -246px
+}
+
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="0"]:hover,
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="0"].active {
+  background-position: -186px 0
+}
+
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="1"]:hover,
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="1"].active {
+  background-position: -186px -83px
+}
+
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="2"]:hover,
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="2"].active {
+  background-position: -186px -165px
+}
+
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="3"]:hover,
+.pkg2 .bxslider-default.tab_slide .bx-pager .bx-pager-item a[data-slide-index="3"].active {
+  background-position: -186px -246px
+}
+
+.more_txt {
+  position: absolute;
+  top: -55px;
+  right: 0
+}
+
+.cont03 .txt_pkg {
+  position: absolute;
+  right: 45px;
+  top: 368px;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.evt_wrap {
+  background: #fff;
+}
+
+.side_bnr {
+  position: absolute;
+  right: -330px;
+  top: 100px;
+}
+
+.bottom_bnr {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #4d52f8;
+  display: block;
+}
+
+.bottom_bnr img {
+  margin-top: -20px;
+}
+
+/*숫자 네비게이션*/
+.quiz>div {
+  padding: 55px 0 90px 0;
+}
+
+.quiz .nav ul {
+  width: 845px;
+  margin: 0 auto;
+}
+
+.quiz .nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.quiz .nav li {
+  float: left;
+  width: 65px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 7px solid #ffec6a;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.quiz .nav li.on {
+  color: #000;
+  border-bottom: 7px solid #000;
+}
+
+/*컨텐츠*/
+/* .main {
+  position: relative;
+} */
+
+.main .main_top {
+  background: url('//gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/lv_main_top_bg.png') repeat-x;
+  text-align: center;
+  width: 100%;
+}
+
+.main .main_con {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  left: -50px;
+}
+
+.main .main_con.v2 {
+  left: 80px;
+}
+
+.quiz .con {
+  padding: 95px 0 60px;
+}
+
+.quiz .txt_sub {
+  font-size: 21px;
+}
+
+.quiz .txt_main {
+  font-size: 45px;
+  margin-top: 40px;
+  line-height: 60px;
+}
+
+.quiz .txt_main.select {
+  margin: 80px 0 40px;
+}
+
+.quiz .txt_main .line {
+  border-bottom: 3px solid #000;
+  margin: 0 20px;
+  padding: 0 100px;
+}
+
+.quiz .txt_main select,
+.quiz .txt_main input[type="text"] {
+  height: 50px;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 18px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+.quiz .movie_box {
+  width: 600px;
+  margin: 20px auto 0;
+}
+
+/*체크박스*/
+.ck_area {
+  margin-top: 80px;
+}
+
+.ck_area ul {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.ck_area li {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.ck_area label {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.ck_area label .ckbox {
+  background: url('//gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/checked.jpg') 0 0;
+  width: 34px;
+  height: 34px;
+  float: left;
+  margin: -1px 5px 0 10px;
+}
+
+.ck_area li:first-child .ckbox,
+.con_qz_7 .ck_area .ckbox,
+.con_qz_9 .ck_area .ckbox {
+  margin-left: 0;
+}
+
+.con_qz7 li,
+.con_qz9 li {
+  margin-bottom: 10px;
+}
+
+.ck_area input[type="radio"].on+label span,
+.ck_area input[type="radio"]:checked+label span {
+  background-position: 0 -34px;
+}
+
+.ck_area input[type="radio"] {
+  -webkit-appearance: none;
+  outline: none;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  selector-dummy: expression(this.hideFocus=true)
+}
+
+
+/*순서배치*/
+.show_seq {
+  width: 900px;
+  height: 54px;
+  margin: 10px auto 0;
+  display: block;
+  border-bottom: 3px solid #000;
+  font-size: 45px;
+  text-align: left;
+}
+
+.show_seq span {
+  margin-left: 20px;
+}
+
+.seq_area {
+  margin-top: 80px;
+}
+
+.seq_area p {
+  font-size: 15px;
+  margin-top: 25px;
+  color: #6e6e6e;
+}
+
+.seq_area ul {
+  margin: 0 auto;
+}
+
+.seq_area ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.seq_area li {
+  margin-left: 30px;
+  float: left;
+}
+
+.seq_area li:first-child {
+  margin-left: 0;
+}
+
+.seq_area li a {
+  position: relative;
+  display: block;
+  background: #e5e5e5;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.seq_area li.on a {
+  background: #ffec6a;
+}
+
+.seq_area li.on a .cencel {
+  background: url('//gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/cencel.png') 0 0;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: -15px;
+  right: -15px;
+}
+
+/*o x*/
+.ox_area {
+  overflow: hidden;
+  width: 300px;
+  margin: 70px auto 0;
+}
+
+.ox_area a:first-child {
+  float: left;
+}
+
+.ox_area a {
+  height: 95px;
+  float: right;
+  text-indent: -9999px;
+  background-position-y: 0px;
+  background-image: url('//gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/ox.png');
+}
+
+.ox_area a.btn_o {
+  width: 98px;
+  background-position-x: 0px;
+}
+
+.ox_area a.btn_x {
+  width: 95px;
+  background-position-x: -97px;
+}
+
+.ox_area a.on {
+  background-position-y: -96px;
+}
+
+/*result*/
+.result {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.txt_result1 {
+  overflow: hidden;
+}
+
+.txt_result1 li {
+  float: left;
+  font-size: 25px;
+  padding-bottom: 2px;
+  border-bottom: 3px solid #000;
+  margin-right: 30px;
+}
+
+.txt_result1 li span {
+  margin-left: 5px;
+  font-size: 42px
+}
+
+.txt_result2 {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 25px;
+  letter-spacing: -1px;
+}
+
+.txt_result2 span {
+  color: #ff5f26;
+  border-bottom: 1px solid #ff5f26;
+}
+
+.txt_result3 {
+  position: relative;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.txt_result3 span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 23px;
+  background: #000;
+}
+
+.guide_result {
+  border: 1px solid #ff7f51;
+  padding: 50px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.guide_result dl {
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.guide_result dl:first-child {
+  display: table;
+  margin-top: 0;
+}
+
+.guide_result dt {
+  float: left;
+  width: 110px;
+}
+
+.guide_result dd {
+  font-size: 18px;
+  line-height: 27px;
+  width: 680px;
+  padding-left: 20px;
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+}
+
+.bnr_result {
+  margin-top: 140px;
+  text-align: left
+}
+
+.lec_result {
+  margin-top: 120px;
+  overflow: hidden;
+}
+
+.lec_result .fit_lec {
+  margin-top: 50px;
+}
+
+.lec_result .fit_lec>a {
+  float: left;
+  margin-left: 85px;
+}
+
+.lec_result .fit_lec>a:first-child {
+  margin-left: 0;
+}
+
+.lec_result dl {
+  width: 250px;
+}
+
+.lec_result dd.txt1 {
+  font-size: 11px;
+  margin: 15px 0;
+}
+
+.lec_result dd.txt2 {
+  font-size: 13px;
+}
+
+.lec_result dd.txt2 span {
+  display: block;
+  margin-top: 15px;
+}
+
+.ans_result {
+  margin-top: 120px;
+}
+
+.ans_result table {
+  margin: 50px 0 100px;
+}
+
+.ans_result td:first-child,
+.ans_result td.answer {
+  font-size: 19px;
+  text-align: center;
+}
+
+.ans_result td {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 20px 10px;
+  text-align: left;
+}
+
+.ans_result td span {
+  color: #ff4e00;
+}
+
+.quiz_result_pop {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -60%);
+  z-index: 1000;
+}
+
+.pop_bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: #000;
+  opacity: 0.7
+}
+
+.pop_user_name {
+  position: absolute;
+  top: 152px;
+  left: 0;
+  width: 100%;
+  font-size: 33px;
+  color: #ff7b01;
+  font-weight: 900;
+}
+
+/* 
+.main {
+  margin-left: -150px;
+} */
+
+/* v0620 */
+.pop_template {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  letter-spacing: -1px
+}
+
+.pop_template .bg {
+  z-index: 9997;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .5
+}
+
+.pop_template img {
+  max-width: 100%
+}
+
+.pop_template .pop_in {
+  z-index: 9998;
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* 테스트결과 renew - type5 */
+.result_box {
+  border: 1px solid #ccc;
+  padding: 35px;
+  margin-top: 20px;
+  width: 851px;
+  text-align: left;
+  font-size: 19px;
+}
+
+.result_box a {
+  display: block;
+  overflow: hidden;
+}
+
+.result_box .left {
+  float: left;
+  width: 33%;
+}
+
+.result_box .right {
+  float: left;
+  width: 67%;
+}
+
+.result_box .right p .big {
+  display: block;
+  font-size: 29px;
+  margin-top: 5px
+}
+
+.result_box .right .package_info {
+  margin-top: 10px;
+}
+
+.result_box .right .package_info table {
+  border: none;
+}
+
+.result_box .right .package_info table td {
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  padding-bottom: 15px;
+  color: #000;
+}
+
+.result_box .right .package_info table tr td.tit {
+  color: #7c7c7c;
+}
+
+.result_box .right .package_info table tr td.cnt .price {
+  color: #f21c00;
+  font-size: 29px;
+  margin-right: 5px;
+}
+
+.result_box .right .package_info table tr td.cnt a.coupon {
+  display: inline-block;
+  vertical-align: middle;
+  background: #fd8627;
+  padding: 2px 8px;
+  color: #fff;
+}
+
+.result_box .right .btn {
+  padding-top: 20px;
+}
+
+.common_box .right p {
+  letter-spacing: -0.5px;
+}
+
+.common_box .right p .big {
+  font-size: 26px;
+  display: inline;
+}
+
+.common_box .right p .small {
+  font-size: 14px;
+  color: #999;
+}
+
+.common_box .btn {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/*.common_box p .big {display:inline;font-size:26px;margin-top:0;}*/
+/*.common_box .btn {display:block;margin:20px auto 0;float:none !important;}*/
+/*.result_box{overflow:hidden;border:1px solid #ccc;padding:35px;margin-top:20px;width:851px;text-align:left;font-size:19px;}*/
+/*.result_box a{display:block;}*/
+/*.result_box img:first-child{float:left;}*/
+/*.result_box p{float:left;margin-left:50px;}*/
+/*.result_box .package_info{width:61%;float:left;margin:10px 0 0 50px;}*/
+/*.result_box .btn{float:right;}*/
+/*.choice_box .package_info {position:absolute;top:100px;left:305px;right:24px;font-size:16px}*/
+/* //renew - type5 */
+
+
+.choice_box {
+  border: 1px solid #ccc;
+  padding: 35px;
+  margin-top: 20px;
+  width: 851px;
+  text-align: left;
+  font-size: 19px;
+  position: relative
+}
+
+.choice_box p {
+  position: absolute;
+  top: 30px;
+  left: 305px;
+  right: 24px;
+}
+
+.choice_box p .big {
+  display: block;
+  font-size: 29px;
+  margin-top: 5px
+}
+
+.choice_box .package_list {
+  position: absolute;
+  top: 91px;
+  left: 305px;
+  right: 24px;
+  font-size: 16px
+}
+
+.choice_box .package_list li {
+  margin-top: 12px
+}
+
+.choice_box .package_list .p_head {
+  background: #000;
+  color: #fff;
+  padding: 4px 10px;
+  float: left;
+  display: inline-block;
+}
+
+.choice_box .package_list .p_cnt {
+  margin-left: 15px;
+  width: 88%;
+  display: inline-block
+}
+
+.choice_box a {
+  position: absolute;
+  bottom: 10px;
+  left: 305px
+}
+
+.review_result {
+  padding-bottom: 100px;
+}
+
+.review_result .txt {
+  margin: 0 0 48px;
+  font-size: 31px;
+  color: #000;
+  text-align: center;
+  line-height: 48px;
+}
+
+.review_result .txt em {
+  font-size: 38px;
+  font-weight: bold
+}
+
+.review_result .txt strong {
+  color: #ff4e00;
+}
+
+.review_result .btn_review_more {
+  display: inline-block;
+  margin-top: 55px;
+}
+
+.review_list_w {
+  width: 100%;
+  margin: 47px auto 0;
+}
+
+.review_list {
+  overflow: hidden;
+}
+
+.review_text {
+  position: relative;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #c5cbce;
+  width: 252px;
+  margin-left: 6px;
+  padding: 3.1em 2em;
+  letter-spacing: -1px;
+}
+
+.review_text:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 105px;
+  left: 25px;
+  width: 58px;
+  height: 2px;
+  background: #000;
+}
+
+.review_list li {
+  width: 920px;
+  height: 452px;
+}
+
+.review_list li .review_text:first-child {
+  margin-left: 2px
+}
+
+.review_text h4 {
+  font-size: 20px;
+  text-align: left;
+  height: 69px;
+  overflow: hidden;
+  color: #000;
+  line-height: 24px;
+}
+
+.review_text p {
+  margin-top: 20px;
+  text-align: left;
+  height: 255px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.review_text span {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  padding-top: 10px;
+}
+
+.borBox_clear {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.borBox {
+  width: 58px;
+  height: 2px;
+  background-color: #000;
+  padding-top: 0 !important;
+  float: left;
+}
+
+.icon_text {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.icon_text em {
+  display: block;
+  letter-spacing: 0 !important;
+  float: left;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fdb813;
+  border: 2px solid #feb300;
+  width: 68px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.review_result .bxslider-default .bx-controls .bx-pager {
+  bottom: 0;
+}
+
+.review_result .bx-wrapper {
+  height: 480px;
+}
+
+.review_result .bxslider-default .bx-pager .bx-pager-item a {
+  width: 15px;
+  height: 15px;
+  background-image: url(//gscdn.hackers.co.kr/champ/img/chobo/event/2017/06/2800/btn_rolling.jpg)
+}
+
+.review_result .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.review_result .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background-position: 100% 0
+}
+
+.review_result .bx-wrapper .bx-pager.bx-default-pager a {
+  margin: 0 6px 0;
+}
+
+/* 180822 */
+.quiz-nav ul {
+  width: 845px;
+  margin: 0 auto;
+}
+
+.quiz-nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.quiz-nav li {
+  float: left;
+  width: 65px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 7px solid #ffec6a;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.quiz-nav li.on {
+  color: #000;
+  border-bottom: 7px solid #000;
+}
+
+.evt_wrap {
+  background: #fff;
+}
+
+.side_bnr {
+  position: absolute;
+  right: -330px;
+  top: 100px;
+}
+
+.bottom_bnr {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #4d52f8;
+  display: block;
+}
+
+.bottom_bnr img {
+  margin-top: -20px;
+}
+
+/*숫자 네비게이션*/
+.quiz>div {
+  padding: 55px 0 90px 0;
+}
+
+.quiz .nav ul {
+  width: 845px;
+  margin: 0 auto;
+}
+
+.quiz .nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.quiz .nav li {
+  float: left;
+  width: 65px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 7px solid #ffec6a;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.quiz .nav li.on {
+  color: #000;
+  border-bottom: 7px solid #000;
+}
+
+/*컨텐츠*/
+/* .main {
+  position: relative;
+} */
+
+.main .main_top {
+  background: url('//gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/lv_main_top_bg.png') repeat-x;
+  text-align: center;
+  width: 100%;
+}
+
+.main .main_con {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  left: -50px;
+}
+
+.main .main_con.v2 {
+  left: 80px;
+}
+
+.quiz .con {
+  padding: 95px 0 60px;
+  text-align: center;
+}
+
+.quiz_btn {
+  text-align: center;
+}
+
+.quiz .txt_sub {
+  font-size: 21px;
+}
+
+.quiz .txt_main {
+  font-size: 45px;
+  margin-top: 40px;
+  line-height: 60px;
+}
+
+.quiz .txt_main.select {
+  margin: 80px 0 40px;
+}
+
+.quiz .txt_main .line {
+  border-bottom: 3px solid #000;
+  margin: 0 20px;
+  padding: 0 100px;
+}
+
+.quiz .txt_main select,
+.quiz .txt_main input[type="text"] {
+  height: 50px;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 18px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+.quiz .movie_box {
+  width: 600px;
+  margin: 20px auto 0;
+}
+
+/*체크박스*/
+.ck_area {
+  margin-top: 80px;
+}
+
+.ck_area ul {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.ck_area li {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.ck_area label {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.ck_area label .ckbox {
+  background: url('//gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/checked.jpg') 0 0;
+  width: 34px;
+  height: 34px;
+  float: left;
+  margin: -1px 5px 0 10px;
+}
+
+.ck_area li:first-child .ckbox,
+.con_qz_7 .ck_area .ckbox,
+.con_qz_9 .ck_area .ckbox {
+  margin-left: 0;
+}
+
+.con_qz7 li,
+.con_qz9 li {
+  margin-bottom: 10px;
+}
+
+.ck_area input[type="radio"].on+label span,
+.ck_area input[type="radio"]:checked+label span {
+  background-position: 0 -34px;
+}
+
+.ck_area input[type="radio"] {
+  -webkit-appearance: none;
+  outline: none;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  selector-dummy: expression(this.hideFocus=true)
+}
+
+
+/*순서배치*/
+.show_seq {
+  width: 900px;
+  height: 54px;
+  margin: 10px auto 0;
+  display: block;
+  border-bottom: 3px solid #000;
+  font-size: 45px;
+  text-align: left;
+}
+
+.show_seq span {
+  margin-left: 20px;
+}
+
+.seq_area {
+  margin-top: 80px;
+}
+
+.seq_area p {
+  font-size: 15px;
+  margin-top: 25px;
+  color: #6e6e6e;
+}
+
+.seq_area ul {
+  margin: 0 auto;
+}
+
+.seq_area ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.seq_area li {
+  margin-left: 30px;
+  float: left;
+}
+
+.seq_area li:first-child {
+  margin-left: 0;
+}
+
+.seq_area li a {
+  position: relative;
+  display: block;
+  background: #e5e5e5;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.seq_area li.on a {
+  background: #ffec6a;
+}
+
+.seq_area li.on a .cencel {
+  background: url('//gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/cencel.png') 0 0;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: -15px;
+  right: -15px;
+}
+
+/*o x*/
+.ox_area {
+  overflow: hidden;
+  width: 300px;
+  margin: 70px auto 0;
+}
+
+.ox_area a:first-child {
+  float: left;
+}
+
+.ox_area a {
+  height: 95px;
+  float: right;
+  text-indent: -9999px;
+  background-position-y: 0px;
+  background-image: url('//gscdn.hackers.co.kr/champ/img/chobo/event/2016/16120101/v2/renew/ox.png');
+}
+
+.ox_area a.btn_o {
+  width: 98px;
+  background-position-x: 0px;
+}
+
+.ox_area a.btn_x {
+  width: 95px;
+  background-position-x: -97px;
+}
+
+.ox_area a.on {
+  background-position-y: -96px;
+}
+
+/*result*/
+.result {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.txt_result1 {
+  overflow: hidden;
+}
+
+.txt_result1 li {
+  float: left;
+  font-size: 25px;
+  padding-bottom: 2px;
+  border-bottom: 3px solid #000;
+  margin-right: 30px;
+}
+
+.txt_result1 li span {
+  margin-left: 5px;
+  font-size: 42px
+}
+
+.txt_result2 {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 25px;
+  letter-spacing: -1px;
+}
+
+.txt_result2 span {
+  color: #ff5f26;
+  border-bottom: 1px solid #ff5f26;
+}
+
+.txt_result3 {
+  position: relative;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.txt_result3 span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 23px;
+  background: #000;
+}
+
+.guide_result {
+  border: 1px solid #ff7f51;
+  padding: 50px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.guide_result dl {
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.guide_result dl:first-child {
+  display: table;
+  margin-top: 0;
+}
+
+.guide_result dt {
+  float: left;
+  width: 110px;
+}
+
+.guide_result dd {
+  font-size: 18px;
+  line-height: 27px;
+  width: 680px;
+  padding-left: 20px;
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+}
+
+.bnr_result {
+  margin-top: 140px;
+  text-align: left
+}
+
+.lec_result {
+  margin-top: 120px;
+  overflow: hidden;
+}
+
+.lec_result .fit_lec {
+  margin-top: 50px;
+}
+
+.lec_result .fit_lec>a {
+  float: left;
+  margin-left: 85px;
+}
+
+.lec_result .fit_lec>a:first-child {
+  margin-left: 0;
+}
+
+.lec_result dl {
+  width: 250px;
+}
+
+.lec_result dd.txt1 {
+  font-size: 11px;
+  margin: 15px 0;
+}
+
+.lec_result dd.txt2 {
+  font-size: 13px;
+}
+
+.lec_result dd.txt2 span {
+  display: block;
+  margin-top: 15px;
+}
+
+.ans_result {
+  margin-top: 120px;
+}
+
+.ans_result table {
+  margin: 50px 0 100px;
+}
+
+.ans_result td:first-child,
+.ans_result td.answer {
+  font-size: 19px;
+  text-align: center;
+}
+
+.ans_result td {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 20px 10px;
+  text-align: left;
+}
+
+.ans_result td span {
+  color: #ff4e00;
+}
+
+.quiz_result_pop {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -60%);
+  z-index: 1000;
+}
+
+.pop_bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: #000;
+  opacity: 0.7
+}
+
+.pop_user_name {
+  position: absolute;
+  top: 152px;
+  left: 0;
+  width: 100%;
+  font-size: 33px;
+  color: #ff7b01;
+  font-weight: 900;
+}
+
+/* .main {
+  margin-left: -150px;
+} */
+
+/* v0620 */
+.pop_template {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  letter-spacing: -1px
+}
+
+.pop_template .bg {
+  z-index: 9997;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .5
+}
+
+.pop_template img {
+  max-width: 100%
+}
+
+.pop_template .pop_in {
+  z-index: 9998;
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* 테스트결과 renew - type5 */
+.result_box {
+  border: 1px solid #ccc;
+  padding: 35px;
+  margin-top: 20px;
+  width: 851px;
+  text-align: left;
+  font-size: 19px;
+}
+
+.result_box a {
+  display: block;
+  overflow: hidden;
+}
+
+.result_box .left {
+  float: left;
+  width: 33%;
+}
+
+.result_box .right {
+  float: left;
+  width: 67%;
+}
+
+.result_box .right p .big {
+  display: block;
+  font-size: 29px;
+  margin-top: 5px
+}
+
+.result_box .right .package_info {
+  margin-top: 10px;
+}
+
+.result_box .right .package_info table {
+  border: none;
+}
+
+.result_box .right .package_info table td {
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  padding-bottom: 15px;
+  color: #000;
+}
+
+.result_box .right .package_info table tr td.tit {
+  color: #7c7c7c;
+}
+
+.result_box .right .package_info table tr td.cnt .price {
+  color: #f21c00;
+  font-size: 29px;
+  margin-right: 5px;
+}
+
+.result_box .right .package_info table tr td.cnt a.coupon {
+  display: inline-block;
+  vertical-align: middle;
+  background: #fd8627;
+  padding: 2px 8px;
+  color: #fff;
+}
+
+.result_box .right .btn {
+  padding-top: 20px;
+}
+
+.common_box .right p {
+  letter-spacing: -0.5px;
+}
+
+.common_box .right p .big {
+  font-size: 26px;
+  display: inline;
+}
+
+.common_box .right p .small {
+  font-size: 14px;
+  color: #999;
+}
+
+.common_box .btn {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/*.common_box p .big {display:inline;font-size:26px;margin-top:0;}*/
+/*.common_box .btn {display:block;margin:20px auto 0;float:none !important;}*/
+/*.result_box{overflow:hidden;border:1px solid #ccc;padding:35px;margin-top:20px;width:851px;text-align:left;font-size:19px;}*/
+/*.result_box a{display:block;}*/
+/*.result_box img:first-child{float:left;}*/
+/*.result_box p{float:left;margin-left:50px;}*/
+/*.result_box .package_info{width:61%;float:left;margin:10px 0 0 50px;}*/
+/*.result_box .btn{float:right;}*/
+/*.choice_box .package_info {position:absolute;top:100px;left:305px;right:24px;font-size:16px}*/
+/* //renew - type5 */
+
+
+.choice_box {
+  border: 1px solid #ccc;
+  padding: 35px;
+  margin-top: 20px;
+  width: 851px;
+  text-align: left;
+  font-size: 19px;
+  position: relative
+}
+
+.choice_box p {
+  position: absolute;
+  top: 30px;
+  left: 305px;
+  right: 24px;
+}
+
+.choice_box p .big {
+  display: block;
+  font-size: 29px;
+  margin-top: 5px
+}
+
+.choice_box .package_list {
+  position: absolute;
+  top: 91px;
+  left: 305px;
+  right: 24px;
+  font-size: 16px
+}
+
+.choice_box .package_list li {
+  margin-top: 12px
+}
+
+.choice_box .package_list .p_head {
+  background: #000;
+  color: #fff;
+  padding: 4px 10px;
+  float: left;
+  display: inline-block;
+}
+
+.choice_box .package_list .p_cnt {
+  margin-left: 15px;
+  width: 88%;
+  display: inline-block
+}
+
+.choice_box a {
+  position: absolute;
+  bottom: 10px;
+  left: 305px
+}
+
+.review_result {
+  padding-bottom: 100px;
+}
+
+.review_result .txt {
+  margin: 0 0 48px;
+  font-size: 31px;
+  color: #000;
+  text-align: center;
+  line-height: 48px;
+}
+
+.review_result .txt em {
+  font-size: 38px;
+  font-weight: bold
+}
+
+.review_result .txt strong {
+  color: #ff4e00;
+}
+
+.review_result .btn_review_more {
+  display: inline-block;
+  margin-top: 55px;
+}
+
+.review_list_w {
+  width: 100%;
+  margin: 47px auto 0;
+}
+
+.review_list {
+  overflow: hidden;
+}
+
+.review_text {
+  position: relative;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #c5cbce;
+  width: 252px;
+  margin-left: 6px;
+  padding: 3.1em 2em;
+  letter-spacing: -1px;
+}
+
+.review_text:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 105px;
+  left: 25px;
+  width: 58px;
+  height: 2px;
+  background: #000;
+}
+
+.review_list li {
+  width: 920px;
+  height: 452px;
+}
+
+.review_list li .review_text:first-child {
+  margin-left: 2px
+}
+
+.review_text h4 {
+  font-size: 20px;
+  text-align: left;
+  height: 69px;
+  overflow: hidden;
+  color: #000;
+  line-height: 24px;
+}
+
+.review_text p {
+  margin-top: 20px;
+  text-align: left;
+  height: 255px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.review_text span {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  padding-top: 10px;
+}
+
+.borBox_clear {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.borBox {
+  width: 58px;
+  height: 2px;
+  background-color: #000;
+  padding-top: 0 !important;
+  float: left;
+}
+
+.icon_text {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.icon_text em {
+  display: block;
+  letter-spacing: 0 !important;
+  float: left;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fdb813;
+  border: 2px solid #feb300;
+  width: 68px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.review_result .bxslider-default .bx-controls .bx-pager {
+  bottom: 0;
+}
+
+.review_result .bx-wrapper {
+  height: 480px;
+}
+
+.review_result .bxslider-default .bx-pager .bx-pager-item a {
+  width: 15px;
+  height: 15px;
+  background-image: url(//gscdn.hackers.co.kr/champ/img/chobo/event/2017/06/2800/btn_rolling.jpg)
+}
+
+.review_result .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.review_result .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background-position: 100% 0
+}
+
+.review_result .bx-wrapper .bx-pager.bx-default-pager a {
+  margin: 0 6px 0;
+}
+
+/* 180822 */
+.quiz-nav ul {
+  width: 845px;
+  margin: 0 auto;
+}
+
+.quiz-nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.quiz-nav li {
+  float: left;
+  width: 65px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 7px solid #ffec6a;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.quiz-nav li.on {
+  color: #000;
+  border-bottom: 7px solid #000;
+}
+
+@charset 'utf-8';
+
+@font-face {
+  font-family: 'noto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Regular'), local('NotoSans-Regular');
+  src: url(/layouts/common/_css/webfont/notokr-regular.eot);
+  src: url(/layouts/common/_css/webfont/notokr-regular.eot?#iefix) format('embedded-opentype'),
+    url(/layouts/common/_css/webfont/notokr-regular.woff2) format('woff2'),
+    url(/layouts/common/_css/webfont/notokr-regular.woff) format('woff'),
+    url(/layouts/common/_css/webfont/notokr-regular.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'noto';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Noto Sans bold'), local('notokr-bold');
+  src: url(/layouts/common/_css/webfont/notokr-bold.eot);
+  src: url(/layouts/common/_css/webfont/notokr-bold.eot?#iefix) format('embedded-opentype'),
+    url(/layouts/common/_css/webfont/notokr-bold.woff2) format('woff2'),
+    url(/layouts/common/_css/webfont/notokr-bold.woff) format('woff'),
+    url(/layouts/common/_css/webfont/notokr-bold.ttf) format('truetype')
+}
+
+/* reset */
+html {
+  height: 100%
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0
+}
+
+fieldset,
+img {
+  border: 0 none;
+  vertical-align: top
+}
+
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none
+}
+
+input,
+select,
+textarea,
+button {
+  vertical-align: top
+}
+
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer
+}
+
+body {
+  height: 100%;
+  background: #fff
+}
+
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 12px;
+  font-family: '돋움', dotum, sans-serif;
+  color: #000
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+img {
+  margin-bottom: 0;
+  vertical-align: top
+}
+
+a {
+  color: #000;
+  text-decoration: none
+}
+
+a:active,
+a:hover {
+  text-decoration: none
+}
+
+address,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+  font-weight: normal
+}
+
+caption,
+.sr {
+  width: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  overflow: hidden;
+  white-space: nowrap
+}
+
+.slides {
+  -webkit-font-smoothing: antialiased
+}
+
+.blind {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: -1000em;
+  left: 0
+}
+
+/* family site */
+.family_active_btn {
+  padding-top: 20px;
+  display: block;
+}
+
+.family_active_btn .open_img {
+  display: block;
+  width: 140px;
+  height: 22px;
+  background: url(//gscdn.hackers.co.kr/champ//img/chobo/common/sp_layout.png) no-repeat 0 0;
+}
+
+.family_active_btn .close_img {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 0;
+  width: 42px;
+  height: 195px;
+  background: url(//gscdn.hackers.co.kr/champ//img/chobo/common/sp_layout.png) no-repeat 0 -26px;
+  text-align: right;
+}
+
+/* active */
+.family_site_box.active {
+  border: 0;
+  margin-left: -98px;
+}
+
+.family_site_box.active .open_area {
+  display: none;
+}
+
+.family_site_box.active .family_active_btn {
+  padding-top: 50px;
+}
+
+.family_site_box.active .open_img {
+  display: none;
+}
+
+.family_site_box.active .close_img {
+  display: block;
+}
+
+.family_site_box {
+  border-right: 1px solid #dedfe2;
+  z-index: 1000;
+  background: #f2f2f2;
+  width: 140px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.family_site_box .close_area {
+  padding-top: 20px
+}
+
+.family_site_box .family_site_open_btn {
+  display: none
+}
+
+.family_site_box .family_site_open_btn a {
+  display: block;
+  margin-bottom: 20px
+}
+
+.family_site_box.close .family_site_open_btn {
+  display: block;
+  padding-left: 118px
+}
+
+.family_site_box.close .close_area {
+  display: none
+}
+
+.family_site_box {
+  border-right: 1px solid #dedfe2;
+  z-index: 10000;
+  background: #f2f2f2;
+  width: 140px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.family_site_box .close_area {
+  padding-top: 20px
+}
+
+.family_site_box .login_line {
+  background: none;
+  text-align: left;
+  color: #a7a7a7;
+  padding: 0 20px 0 30px;
+  line-height: 48px;
+  height: 49px;
+  border-bottom: 1px solid #dedfe2
+}
+
+.family_site_box .login_line a {
+  color: #101013 !important;
+  font-size: 11px
+}
+
+.login_after_line {
+  margin-top: 25px;
+  position: relative;
+  z-index: 111;
+  color: #101013;
+  font-size: 12px;
+  letter-spacing: -1px;
+  padding: 0 20px;
+  height: 80px;
+  text-align: left;
+  border-bottom: 1px solid #dedfe2
+}
+
+.family_site_box .select_box {
+  margin-top: 10px
+}
+
+.family_site_box .select_box>a {
+  display: block;
+  font-size: 12px;
+  color: #9a9a9a;
+  /*width: 110px;*/
+  height: 22px;
+  padding-left: 4px;
+  line-height: 22px;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/family/bg_login.png") 95px 0 no-repeat;
+  border: 1px solid #a0a0a0
+}
+
+.family_site_box .select_list {
+  display: none;
+  border: 1px solid #dedfe2;
+  border-top: 0;
+  background: #c0c0c0;
+  overflow: hidden;
+  float: none !important
+}
+
+.family_site_box .select_list li {
+  float: none !important
+}
+
+.family_site_box .select_list li a {
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: -1px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  padding-left: 5px;
+  display: block;
+  color: #fff
+}
+
+.family_site_box .select_list li a:hover {
+  background: #858585;
+  color: #fff !important
+}
+
+.login_name {
+  color: #101013;
+  font-weight: bold;
+  display: block
+}
+
+.family_site_box.close {
+  /*width:42px;*/
+  overflow: hidden;
+  border: 0;
+  background: #f2f2f2 url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/family/bg_family_site_open.png") repeat-y right 0
+}
+
+.family_site_box.close .close_area {
+  display: none
+}
+
+.family_site_box.close .family_site_open_btn {
+  display: block;
+  float: right;
+  margin-top: 127px
+}
+
+.family_site_tit {
+  margin-top: 22px;
+  font-size: 0;
+  *text-indent: 0;
+  padding-bottom: 22px;
+  display: block;
+  width: 140px;
+  height: 61px;
+  background: url("//gscdn.hackers.co.kr/champ/img/chobo/common/bg_family_site_tit.png") no-repeat 25px 0;
+  border-bottom: 1px solid #dedfe2
+}
+
+.family_list {
+  padding-bottom: 40px;
+  float: none !important
+}
+
+.family_list strong a {
+  position: relative;
+  color: #585858;
+  font-size: 14px;
+  padding-left: 12px;
+  display: block;
+  line-height: 57px;
+}
+
+.family_list strong a:after {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 6px;
+  height: 4px;
+  margin-top: -2px;
+  background: url(//gscdn.hackers.co.kr/champ//img/chobo/common/sp_layout.png) no-repeat -144px 0
+}
+
+.family_list li.no_style strong a:after,
+.family_list li.no_style.active:after,
+.family_list li.no_style.active strong a:after {
+  display: none;
+}
+
+.family_list>li {
+  padding: 0 !important;
+  border-bottom: 1px solid #e0e1e6;
+  float: none !important
+}
+
+.family_list li .family_site_sub {
+  display: none;
+  border-top: 1px solid #e0e1e6
+}
+
+.family_list li.on .family_site_sub {
+  display: block
+}
+
+.family_list li.noSub strong a {
+  background-image: none !important;
+  font-size: 12px
+}
+
+.family_list li.noSub strong a:after {
+  display: none;
+}
+
+.family_list li#wish strong a span {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px
+}
+
+.family_list li#wish strong a span:after {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 21px;
+  height: 20px;
+  margin-top: -10px;
+  background: url(//gscdn.hackers.co.kr/champ//img/chobo/common/sp_layout.png) no-repeat -154px 0;
+}
+
+.family_list li.active,
+.family_list li.on {
+  background: #fff
+}
+
+.family_list li .family_site_sub {
+  overflow: hidden;
+  padding: 25px 0 20px;
+  float: none !important
+}
+
+.family_list li .family_site_sub li {
+  padding-left: 12px;
+  margin-bottom: 8px;
+  float: none !important
+}
+
+.family_list li .family_site_sub li a {
+  color: #858585;
+  font-size: 12px;
+  letter-spacing: -1px;
+}
+
+.family_list li .family_site_sub li span {
+  font-size: 10px
+}
+
+.family_list li .family_site_sub li.active a,
+.family_list li .family_site_sub li a:hover {
+  color: #616161;
+  font-weight: bold;
+}
+
+.family_list li.on a {
+  color: #4487ef
+}
+
+.family_list li.on.active strong a,
+.family_list li.active strong a {}
+
+.family_list .pl0 {
+  padding-left: 0px !important
+}
+
+.family_list .pt5 {
+  padding-top: 5px !important
+}
+
+.family_site_box .myclass_desc {
+  padding: 16px 27px;
+  border-bottom: 1px solid #dedfe2
+}
+
+.family_site_box .myclass_desc a {
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/family/ico_myclass.gif") no-repeat 0;
+  font-size: 14px;
+  padding-left: 19px;
+  color: #4487ef
+}
+
+.facebook_btn {
+  height: 24px;
+  padding: 0 0 6px 18px
+}
+
+.facebook_btn .sns_tit {
+  background: url(//gscdn.hackers.co.kr/champ//img/chobo/common/sp_layout.png) no-repeat -52px -26px;
+  width: 65px;
+  height: 13px;
+  display: block;
+  font-size: 0;
+  *text-indent: -9999px
+}
+
+.facebook_btn .sns_btn {
+  margin: 15px 0;
+  overflow: hidden
+}
+
+.facebook_btn .sns_btn a {
+  float: left;
+  margin-right: 7px;
+  display: block;
+  width: 28px;
+  height: 28px;
+  font-size: 0;
+  *text-indent: -9999px;
+  background: url(//gscdn.hackers.co.kr/champ//img/chobo/common/sp_layout.png) no-repeat -52px -50px
+}
+
+.facebook_btn .sns_btn a:hover {
+  background-position: -52px -50px
+}
+
+.facebook_btn .sns_btn a.btn2 {
+  background-position: -87px -50px
+}
+
+.facebook_btn .sns_btn a.btn2:hover {
+  background-position: -87px -50px
+}
+
+.facebook_btn .sns_btn a.btn3 {
+  background-position: -122px -50px
+}
+
+.facebook_btn .sns_btn a.btn3:hover {
+  background-position: -122px -50px
+}
+
+.facebook_btn .sns_btn a.btn4 {
+  margin-top: 7px;
+  background-position: -52px -91px
+}
+
+.facebook_btn .sns_btn a.btn4:hover {
+  background-position: -52px -91px
+}
+
+.facebook_btn .sns_btn a.btn5 {
+  margin-top: 7px;
+  background-position: -87px -91px
+}
+
+.facebook_btn .sns_btn a.btn5:hover {
+  background-position: -87px -91px
+}
+
+.facebook_btn .sns_btn a.btn6 {
+  margin-top: 7px;
+  background-position: -122px -91px
+}
+
+.facebook_btn .sns_btn a.btn6:hover {
+  background-position: -122px -91px
+}
+
+.facebook_btn .sns_btn a.btn7 {
+  margin-top: 7px;
+  background: url(//gscdn.hackers.co.kr/champ//img/chobo/common/post_icon.png)
+}
+
+.facebook_btn .sns_btn a.btn8 {
+  margin-top: 7px;
+  background-position: -157px -50px;
+  width: 98px;
+  height: 28px;
+}
+
+.login_line2 {
+  text-align: center;
+  padding: 15px 0px 10px 0px
+}
+
+.login_line2 a {
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  padding: 0px;
+}
+
+/* familySiteNew */
+.lst_login_info {
+  border-bottom: 1px solid #e0e1e6
+}
+
+.lst_login_info>li {
+  position: relative;
+  border-top: 1px solid #e0e1e6;
+  line-height: 38px
+}
+
+.lst_login_info>li>a {
+  display: block;
+  height: 38px;
+  padding-left: 12px;
+  font-weight: bold;
+  color: #787878
+}
+
+.lst_login_info>li>a:hover {
+  background: #fff;
+  color: #000
+}
+
+.login_before .lst_login_info>li:first-child {
+  border-top: 0
+}
+
+.login_after .lst_login_info>li.on .lecture {
+  background-position-y: -519px
+}
+
+.login_after .lst_login_info li.on .bx_lect_lst {
+  display: block
+}
+
+.login_after .user_name {
+  display: block;
+  padding: 25px 10px;
+  letter-spacing: -1px
+}
+
+.bx_lect_lst {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 140px;
+  width: 468px;
+  height: 373px;
+  border: 1px solid #000;
+  background: #fff;
+  z-index: 20
+}
+
+.bx_lect_lst ol {
+  overflow: hidden;
+  height: 344px
+}
+
+.bx_lect_lst li {
+  border-top: 1px solid #e0e1e6
+}
+
+.bx_lect_lst li:first-child {
+  border-top: 0
+}
+
+.bx_lect_lst li a {
+  display: block;
+  height: 58px;
+  line-height: 58px;
+  padding: 0 18px;
+  *zoom: 1
+}
+
+.bx_lect_lst li a:after {
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 0px
+}
+
+.bx_lect_lst li a:hover {
+  background: #4487ef;
+  color: #fff
+}
+
+.bx_lect_lst .lect_name {
+  display: inline-block;
+  line-height: 22px;
+  vertical-align: middle;
+  cursor: pointer
+}
+
+.bx_lect_lst .lect_name .teacher {
+  color: #8c8c8c
+}
+
+.bx_lect_lst li a:hover .lect_name .teacher {
+  color: #fff
+}
+
+.bx_lect_lst .txt_nolect {
+  height: 344px;
+  line-height: 344px;
+  color: #787878;
+  text-align: center
+}
+
+.bx_lect_lst .txt_info {
+  display: block;
+  height: 29px;
+  line-height: 29px;
+  padding-right: 16px;
+  background: #e0e1e6;
+  font-size: 11px;
+  color: #585856;
+  text-align: right
+}
+
+/*  familySiteNew_ico_set */
+.lst_login_info>li .ico_set {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url(//gscdn.hackers.co.kr/champ//img/chobo/common/sp_layout.png)
+}
+
+.lst_login_info>li .join {
+  background-position: -175px -1px
+}
+
+.lst_login_info>li .login {
+  background-position: -197px -1px
+}
+
+.lst_login_info>li .lecture {
+  background-position: -241px -1px
+}
+
+.lst_login_info>li .myclass {
+  background-position: -289px 0
+}
+
+.lst_login_info>li .modify {
+  background-position: -268px 0
+}
+
+.lst_login_info>li .logout {
+  background-position: -222px 0
+}
+
+.lst_login_info>li>a:hover .join {
+  background-position-y: -23px
+}
+
+.lst_login_info>li>a:hover .login {
+  background-position-y: -23px
+}
+
+.lst_login_info>li>a:hover .lecture {
+  background-position-y: -23px
+}
+
+.p_r,
+.pos_r {
+  position: relative !important;
+}
+
+/* margin */
+.mt0 {
+  margin-top: 0 !important
+}
+
+.mt3 {
+  margin-top: 3px !important
+}
+
+.mt5 {
+  margin-top: 5px !important
+}
+
+.mt7 {
+  margin-top: 7px !important
+}
+
+.mt8 {
+  margin-top: 8px !important
+}
+
+.mt10 {
+  margin-top: 10px !important
+}
+
+.mt15 {
+  margin-top: 15px !important
+}
+
+.mt20 {
+  margin-top: 20px !important
+}
+
+.mt25 {
+  margin-top: 25px !important
+}
+
+.mt30 {
+  margin-top: 30px !important
+}
+
+.mt35 {
+  margin-top: 35px !important
+}
+
+.mt40 {
+  margin-top: 40px !important
+}
+
+.mt45 {
+  margin-top: 45px !important
+}
+
+.mt50 {
+  margin-top: 50px !important
+}
+
+.mb0 {
+  margin-bottom: 0 !important
+}
+
+.mb5 {
+  margin-bottom: 5px !important
+}
+
+.mb10 {
+  margin-bottom: 10px !important
+}
+
+.mb15 {
+  margin-bottom: 15px !important
+}
+
+.mb20 {
+  margin-bottom: 20px !important
+}
+
+.mb25 {
+  margin-bottom: 25px !important
+}
+
+.mb30 {
+  margin-bottom: 30px !important
+}
+
+.mb35 {
+  margin-bottom: 35px !important
+}
+
+.mb40 {
+  margin-bottom: 40px !important
+}
+
+.mb45 {
+  margin-bottom: 45px !important
+}
+
+.mb50 {
+  margin-bottom: 50px !important
+}
+
+.mr5 {
+  margin-right: 5px !important
+}
+
+.mr10 {
+  margin-right: 10px !important
+}
+
+.mr15 {
+  margin-right: 15px !important
+}
+
+.mr20 {
+  margin-right: 20px !important
+}
+
+.mr25 {
+  margin-right: 25px !important
+}
+
+.mr30 {
+  margin-right: 30px !important
+}
+
+.mr35 {
+  margin-right: 35px !important
+}
+
+.mr40 {
+  margin-right: 40px !important
+}
+
+.ml0 {
+  margin-left: 0 !important
+}
+
+.ml5 {
+  margin-left: 5px !important
+}
+
+.ml10 {
+  margin-left: 10px !important
+}
+
+.ml15 {
+  margin-left: 15px !important
+}
+
+.ml20 {
+  margin-left: 20px !important
+}
+
+.ml25 {
+  margin-left: 25px !important
+}
+
+.ml30 {
+  margin-left: 30px !important
+}
+
+.ml35 {
+  margin-left: 35px !important
+}
+
+.ml40 {
+  margin-left: 40px !important
+}
+
+/* padding */
+.p0 {
+  padding: 0 !important
+}
+
+.pt0 {
+  padding-top: 0 !important
+}
+
+.pt5 {
+  padding-top: 5px !important
+}
+
+.pt10 {
+  padding-top: 10px !important
+}
+
+.pt15 {
+  padding-top: 15px !important
+}
+
+.pt20 {
+  padding-top: 20px !important
+}
+
+.pt25 {
+  padding-top: 25px !important
+}
+
+.pt30 {
+  padding-top: 30px !important
+}
+
+.pt35 {
+  padding-top: 35px !important
+}
+
+.pt40 {
+  padding-top: 40px !important
+}
+
+.pt45 {
+  padding-top: 45px !important
+}
+
+.pt50 {
+  padding-top: 50px !important
+}
+
+.pt100 {
+  padding-top: 100px !important;
+}
+
+.pb0 {
+  padding-bottom: 0 !important
+}
+
+.pb5 {
+  padding-bottom: 5px !important
+}
+
+.pb10 {
+  padding-bottom: 10px !important
+}
+
+.pb15 {
+  padding-bottom: 15px !important
+}
+
+.pb20 {
+  padding-bottom: 20px !important
+}
+
+.pb25 {
+  padding-bottom: 25px !important
+}
+
+.pb30 {
+  padding-bottom: 30px !important
+}
+
+.pb35 {
+  padding-bottom: 35px !important
+}
+
+.pb40 {
+  padding-bottom: 40px !important
+}
+
+.pb45 {
+  padding-bottom: 45px !important
+}
+
+.pb50 {
+  padding-bottom: 50px !important
+}
+
+.pr5 {
+  padding-right: 5px !important
+}
+
+.pr10 {
+  padding-right: 10px !important
+}
+
+.pr15 {
+  padding-right: 15px !important
+}
+
+.pr20 {
+  padding-right: 20px !important
+}
+
+.pr25 {
+  padding-right: 25px !important
+}
+
+.pr30 {
+  padding-right: 30px !important
+}
+
+.pr35 {
+  padding-right: 35px !important
+}
+
+.pr40 {
+  padding-right: 40px !important
+}
+
+.pl5 {
+  padding-left: 5px !important
+}
+
+.pl10 {
+  padding-left: 10px !important
+}
+
+.pl15 {
+  padding-left: 15px !important
+}
+
+.pl20 {
+  padding-left: 20px !important
+}
+
+.pl25 {
+  padding-left: 25px !important
+}
+
+.pl30 {
+  padding-left: 30px !important
+}
+
+.pl35 {
+  padding-left: 35px !important
+}
+
+.pl40 {
+  padding-left: 40px !important
+}
+
+/* form */
+select {
+  padding: 6px 5px;
+  border: 1px solid #e4e4e4
+}
+
+input {
+  *margin-top: -1px;
+  padding: 7px 5px;
+  border: 1px solid #e4e4e4
+}
+
+textarea {
+  padding: 10px 7px;
+  border: 1px solid #e4e4e4
+}
+
+input[type="checkbox"],
+input[type="radio"],
+input[type="file"] {
+  padding: 0;
+  border: 0;
+  vertical-align: middle;
+  *vertical-align: top;
+  *width: 13px;
+  *height: 13px
+}
+
+.placeholder {
+  font-size: 11px;
+  color: #929292
+}
+
+.filebox label {
+  background-color: #b2b2b2;
+  padding: 3px;
+  font-size: 11px;
+  color: #fff;
+  float: left;
+  cursor: pointer
+}
+
+.filebox .upload-name,
+.filebox input[type="text"][disabled] {
+  background-color: #fff;
+  border: 0;
+  padding: 3px 5px;
+  font-size: 11px;
+  color: #929292;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none
+}
+
+.filebox input[type="file"] {
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute
+}
+
+/* align */
+.f_l {
+  float: left
+}
+
+.f_r {
+  float: right
+}
+
+.f_both {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  clear: both
+}
+
+.va_t {
+  vertical-align: top !important
+}
+
+.va_m {
+  vertical-align: middle !important
+}
+
+.va_b {
+  vertical-align: bottom !important
+}
+
+.t_l {
+  text-align: left !important
+}
+
+.t_r {
+  text-align: right !important
+}
+
+.t_c {
+  text-align: center !important
+}
+
+/* text */
+.after {
+  *zoom: 1;
+}
+
+.after:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.txt_over {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis
+}
+
+.u,
+.u:hover {
+  text-decoration: underline
+}
+
+.o_f {
+  overflow: hidden;
+}
+
+.fs11 {
+  font-size: 11px !important
+}
+
+.fs12 {
+  font-size: 12px !important
+}
+
+.fs14 {
+  font-size: 14px !important
+}
+
+.fs16 {
+  font-size: 16px !important
+}
+
+.fc44,
+.fc_point {
+  color: #4487ef !important
+}
+
+.fc92 {
+  color: #929292 !important
+}
+
+.fce0 {
+  color: #e00000 !important
+}
+
+.fc6c {
+  color: #6c6c6c !important
+}
+
+.fc_red {
+  color: #ff0303
+}
+
+.fc_g {
+  color: #4487ef
+}
+
+.fwb {
+  font-weight: bold !important
+}
+
+.fwn {
+  font-weight: normal !important
+}
+
+.lh17 {
+  line-height: 17px !important
+}
+
+.lh65 {
+  line-height: 65px !important
+}
+
+.lh20 {
+  line-height: 20px !important
+}
+
+.lh30 {
+  line-height: 30px !important
+}
+
+.txt_under {
+  text-decoration: underline
+}
+
+/* display */
+.show {
+  display: block
+}
+
+.hide {
+  display: none
+}
+
+/* Scroll */
+.scroll_y {
+  overflow-y: auto
+}
+
+/* bg */
+.btn_comm {
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/button.png") no-repeat;
+  display: inline-block;
+  vertical-align: top
+}
+
+.btn_comm2 {
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/button2.png") no-repeat;
+  display: inline-block
+}
+
+/* 버튼 */
+.certifi_comm {
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/foot_certi.png");
+  display: inline-block;
+  vertical-align: top
+}
+
+.ico_comm {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/bullet.png")
+}
+
+.ico_comm2 {
+  background: url('//gscdn.hackers.co.kr/champ/images/hackerstalk/common/bullet2.png') no-repeat;
+  display: inline-block
+}
+
+/* 아이콘 */
+.ico_download {
+  width: 10px;
+  height: 12px;
+  background-position: -25px 0;
+  margin: 8px 6px -2px 0
+}
+
+.ico_mobile {
+  width: 17px;
+  height: 18px;
+  background-position: 0 -118px;
+  margin: -1px 4px 0 0
+}
+
+.ico_print {
+  width: 17px;
+  height: 18px;
+  background-position: -20px -118px;
+  margin: -1px 4px 0 0
+}
+
+.ico_attendance {
+  width: 25px;
+  height: 25px;
+  background-position: 0 -141px;
+  margin: -6px 9px 0 0
+}
+
+.ico_absence {
+  width: 25px;
+  height: 25px;
+  background-position: 0 -171px;
+  margin: -6px 9px 0 20px
+}
+
+.ico_hand {
+  width: 20px;
+  height: 20px;
+  background-position: 0 -78px
+}
+
+.ico_new {
+  width: 12px;
+  height: 12px;
+  background-position: -25px -202px;
+  margin: -2px 0 0 7px;
+  vertical-align: middle
+}
+
+.ico_new2 {
+  width: 12px;
+  height: 13px;
+  background-position: 0 -273px;
+  margin: -2px 0 0 7px;
+  vertical-align: middle
+}
+
+.ico_speaker {
+  width: 25px;
+  height: 18px;
+  background-position: 0 -249px
+}
+
+.ico_listen {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -576px
+}
+
+.ico_caution {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -1045px
+}
+
+.ico_print2 {
+  width: 14px;
+  height: 14px;
+  background-position: 0 -1066px
+}
+
+.ico_point {
+  background-position: 0 -556px;
+  width: 12px;
+  height: 12px;
+  margin: 10px 4px 0 0;
+  *margin: 2px 4px 0 0
+}
+
+/*.ico_{width:;height:;background-position:}*/
+.ico_stamp {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  vertical-align: top;
+  background-image: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/stamp.png")
+}
+
+.ico_best {
+  background-position: 0 0
+}
+
+.ico_rank {
+  background-position: 0 -65px
+}
+
+.star_box {
+  text-align: center
+}
+
+.ico_star {
+  width: 11px;
+  height: 10px;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/ico_star.png") no-repeat;
+  margin: 0 1px;
+  display: inline-block
+}
+
+.ico_star.active {
+  background-position: 0 -20px
+}
+
+.ico_info_sty {
+  width: 15px;
+  height: 15px;
+  background-position: 0 -484px;
+  vertical-align: middle;
+}
+
+.ico_cmt {
+  width: 20px;
+  height: 16px;
+  background-position: 0 -509px;
+}
+
+.ico_complain {
+  background-position: 0 -535px;
+  width: 22px;
+  height: 18px;
+}
+
+.tbl_top_btn {
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+
+/* btn */
+.btn_s {
+  padding: 0 10px;
+  text-align: center;
+  display: inline-block
+}
+
+.btn_m,
+.btn_m2,
+.btn_m3,
+.btn_r,
+.btn_xr,
+.btn_xxr,
+.btn_xxr3,
+.btn_xxr2 {
+  text-align: center;
+  display: inline-block;
+}
+
+.btn_m,
+.btn_m2,
+.btn_m3,
+.btn_r,
+.btn_xr,
+.btn_xxr,
+.btn_xxr3 {
+  border-style: solid;
+  border-width: 1px
+}
+
+.btn_m {
+  padding: 0 25px;
+}
+
+.btn_m span,
+.btn_m2 span,
+.btn_m3 span,
+.btn_r span,
+.btn_xr span,
+.btn_xxr span,
+.btn_xxr3 span {
+  display: inline-block;
+  cursor: pointer
+}
+
+.btn_m span {
+  padding-top: 1px;
+  line-height: 27px
+}
+
+.btn_m.btn_type21.ty_rt span {
+  padding: 1px 25px 0 25px;
+}
+
+.btn_s span {
+  padding-top: 1px;
+  line-height: 22px !important;
+  display: inline-block;
+  cursor: pointer
+}
+
+.btn_m2 span {
+  padding-top: 1px;
+  line-height: 69px
+}
+
+.btn_m3 span {
+  padding-top: 1px;
+  line-height: 31px
+}
+
+.btn_r span {
+  padding-top: 1px;
+  line-height: 29px;
+  font-size: 14px;
+  font-weight: bold
+}
+
+.btn_xr span {
+  padding-top: 3px;
+  line-height: 35px;
+  font-size: 14px;
+  font-weight: bold
+}
+
+.btn_xxr span {
+  padding-top: 3px;
+  line-height: 45px;
+  font-size: 16px;
+  font-weight: bold
+}
+
+.btn_xxr2 span {
+  padding-top: 3px;
+  line-height: 47px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer
+}
+
+.btn_xxr3 span {
+  padding-top: 3px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: bold
+}
+
+.btn_type1 {
+  background: #4487ef;
+  border-color: #4487ef;
+  color: #fff;
+}
+
+.btn_type2 {
+  background: #fff;
+  color: #4487ef;
+  border: 1px solid #4487ef;
+  /* 이혜원 추가 2016-10-20 */
+}
+
+.btn_s.btn_type2 span {
+  line-height: 22px;
+}
+
+/* 이혜원 추가 2016-10-20  //re.hackerstalk.co.kr/?r=hackerstalk&c=lecture&sub=detail&lec_id=6948 // 교재구매하기 버튼 */
+.btn_type3 {
+  background: #000;
+  border-color: #000;
+  color: #fff
+}
+
+.btn_type4 {
+  background: #fff;
+  border-color: #e4e4e4;
+  color: #000
+}
+
+.btn_type5 {
+  background: #868585;
+  border-color: #868585;
+  color: #fff
+}
+
+.btn_type6 {
+  padding: 0 14px;
+  color: #868585;
+  background: #fff;
+  border-color: #bbb
+}
+
+.btn_type7 {
+  background: #fff;
+  border-color: #868585;
+  color: #868585
+}
+
+.btn_type8 {
+  background: #fff;
+  border-color: #e9e9e9;
+  color: #000
+}
+
+.btn_type9 {
+  padding: 0 14px;
+  color: #868585;
+  background: #fff;
+  border: 1px solid #bbb
+}
+
+.btn_type9 span {
+  padding-top: 0;
+  line-height: 32px
+}
+
+.btn_type17 {
+  padding: 0;
+  border: 1px solid #4487ef
+}
+
+.btn_type17 span {
+  padding-top: 0;
+  line-height: 40px;
+  font-size: 14px;
+  color: #4487ef
+}
+
+.btn_com span {
+  padding: 0 25px;
+}
+
+.btn_type15 {
+  background-color: #f8f8f8;
+  border-left: 1px solid #d7d7d7;
+  color: #484848
+}
+
+.btn_x {
+  background-position: 0 -353px;
+  width: 13px;
+  height: 13px
+}
+
+.btn_more {
+  position: absolute;
+  right: 0;
+  top: -25px;
+  font-size: 0;
+  width: 13px;
+  height: 13px;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/button.png") no-repeat 0 -655px
+}
+
+.btn_memo {
+  vertical-align: top;
+  font-size: 0;
+  width: 15px;
+  height: 19px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-image: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/bullet.png");
+  background-position: 0 -912px
+}
+
+.btn_tbl_type1,
+.btn_tbl_type1:hover {
+  text-decoration: underline;
+  color: #4487ef
+}
+
+.btn_tbl_type2,
+.btn_tbl_type2:hover {
+  text-decoration: underline;
+  color: #000
+}
+
+.btn_tbl_type3,
+.btn_tbl_type3:hover {
+  text-decoration: underline;
+  color: #929292;
+  display: inline-block !important
+}
+
+.btn_area {
+  text-align: right;
+  margin-top: 20px
+}
+
+.btn_area a {
+  padding: 0 25px
+}
+
+.btn_area2 {
+  margin-top: 20px;
+  clear: both;
+  text-align: center;
+  *zoom: 1
+}
+
+.btn_area2:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+.btn_area3 {
+  margin-top: 20px;
+  text-align: center
+}
+
+.btn_area4 {
+  text-align: right;
+  margin-top: 0px
+}
+
+.btn_mp3_more {
+  position: absolute;
+  right: 0;
+  top: -25px
+}
+
+.btn_mp3_more .open {
+  background-position: 0 -340px;
+  width: 25px;
+  height: 25px
+}
+
+.btn_mp3_more .close {
+  background-position: 0 -395px;
+  width: 25px;
+  height: 25px
+}
+
+.btn_mp3_del {
+  position: absolute;
+  right: 0;
+  top: 4px
+}
+
+.btn_mp3_del span {
+  background-position: 0 -370px;
+  width: 20px;
+  height: 20px
+}
+
+/* 테이블 전체보기 버튼 추가 20161122 */
+.table_more {
+  text-align: center;
+  width: 100%;
+  border: 1px solid #ddd;
+  height: 38px;
+  line-height: 38px
+}
+
+.table_more a {
+  display: block;
+  width: 100%
+}
+
+.table_more a>span {
+  padding-right: 20px;
+  color: #4487ef;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/bullet2.png") no-repeat;
+  background-position: 55px -451px;
+}
+
+.table_more a.active>span {
+  background-position: 55px -464px;
+}
+
+/* form */
+.inp_box {
+  position: relative;
+  display: inline-block
+}
+
+.inp_box .i_text {
+  position: relative;
+  border: 0;
+  background: #fff;
+  color: #000
+}
+
+.lbl {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  font-weight: bold;
+  color: #bbb
+}
+
+.blind {
+  visibility: hidden;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  line-height: 0
+}
+
+.bg_inp_chk {
+  display: block;
+  position: relative;
+  height: 31px
+}
+
+.bg_inp_chk input {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  z-index: 9;
+  width: 29px;
+  height: 29px;
+  margin-top: -15px;
+  -webkit-appearance: none;
+  outline: none;
+  selector-dummy: expression(this.hideFocus=true)
+}
+
+.bg_inp_chk label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 31px;
+  line-height: 31px;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/ico_check_off.gif") 100% 50% no-repeat;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer
+}
+
+.bg_inp_chk input:checked+label {
+  background-image: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/ico_check_on.gif")
+}
+
+.bg_inp_chk label.on {
+  background-image: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/ico_check_on.gif")
+}
+
+.select-row {
+  display: inline-block;
+  border: 1px solid #e4e4e4;
+  padding: 7px 5px 5px 7px;
+  *padding: 7px 5px 3px 7px;
+  background: #fff;
+  vertical-align: top
+}
+
+.select-row select {
+  border: none;
+  display: inline-block;
+  height: 18px;
+  *height: auto;
+  margin-top: -2px;
+  padding: 0 !important;
+  vertical-align: top;
+  font-size: 12px;
+  color: #333;
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=-1, OffY=0, color=#ffffff) progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=0, color=#ffffff) progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=-1, color=#ffffff) progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, color=#ffffff);
+}
+
+.select-row select.selected {
+  color: #000
+}
+
+.select-row.ty select {
+  font-weight: normal;
+  font-size: 11px;
+  color: #000
+}
+
+.content_wide {
+  width: 100% !important
+}
+
+.inner2 {
+  position: relative;
+  width: 1050px;
+  margin: 0 auto
+}
+
+.imgover a img {
+  display: inline
+}
+
+.imgover a img.over {
+  display: none
+}
+
+.imgover a:hover,
+.imgover a.selected {
+  position: relative
+}
+
+.imgover a:hover img,
+.imgover a.selected img {
+  display: none
+}
+
+.imgover a:hover img.over,
+.imgover a.selected img.over {
+  display: inline
+}
+
+.slct_set {
+  clear: both;
+  padding: 10px 0;
+  *zoom: 1
+}
+
+.slct_set:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+.slct_set .btn_m {
+  vertical-align: middle
+}
+
+.slct_set .select-row {
+  padding: 7px 5px 4px 7px
+}
+
+.slct_set .range.f_r {
+  margin-top: 9px
+}
+
+/* sub_nav */
+.sub_nav_box {
+  overflow: hidden;
+  margin-bottom: 55px
+}
+
+.sub_nav_box.tab2 .depth1>li {
+  width: 50%
+}
+
+.sub_nav_box.tab3 .depth1>li {
+  width: 33.3%
+}
+
+.sub_nav_box.tab4 .depth1>li {
+  width: 25%;
+  *width: 24.999%
+}
+
+.sub_nav_box.tab5 .depth1>li {
+  width: 20%
+}
+
+.sub_nav_box.tab6 .depth1>li {
+  width: 16.668%
+}
+
+.sub_nav_box.tab10 .depth1>li {
+  width: 10%
+}
+
+/* 배너가 있을 때 */
+.sub_nav_box.br .sub_nav {
+  overflow: hidden;
+  width: 774px;
+  float: left
+}
+
+.sub_nav_box.br .sub_br {
+  float: right
+}
+
+.sub_nav {
+  overflow: hidden;
+  background: #fff
+}
+
+.sub_nav .depth1>li {
+  float: left
+}
+
+.sub_nav .depth1 li .tit_depth1 {
+  padding: 15px 0 13px;
+  background: #000;
+  display: block;
+  text-align: center
+}
+
+.sub_nav .depth1 li .tit_depth1 a {
+  vertical-align: top;
+  line-height: 14px;
+  font-weight: bold;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 0 0 3px 0;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1
+}
+
+.sub_nav .depth1 li.on .tit_depth1 {
+  padding: 15px 0 11px
+}
+
+.sub_nav .depth1 li.on .tit_depth1 a {
+  border-bottom: 2px solid #fff
+}
+
+.sub_nav .depth2 {
+  overflow: hidden;
+  border-top: 1px solid #e9e9e9
+}
+
+.sub_nav .depth2 ul {
+  min-height: 202px;
+  margin: 12px 0;
+  padding-top: 9px;
+  border-left: 1px solid #e9e9e9
+}
+
+.sub_nav .depth2.no_h ul {
+  min-height: auto;
+}
+
+.sub_nav li:first-child .depth2 ul {
+  border-left: 0
+}
+
+.sub_nav .depth2 ul li {
+  line-height: 1;
+  padding-bottom: 17px;
+  text-align: center
+}
+
+.sub_nav .depth2 ul li a {
+  color: #6c6c6c
+}
+
+.sub_nav .depth2 ul li a:hover,
+.sub_nav .depth2 ul li.on a {
+  color: #000;
+  font-weight: bold
+}
+
+.sub_nav .depth2 ul {
+  /*height:162px;*/
+  margin: 12px 0 12px 0
+}
+
+.sub_menu {
+  width: 96px;
+  padding-top: 10px
+}
+
+.sub_menu li a {
+  display: block;
+  padding: 5px 0 5px 18px
+}
+
+.sub_menu li a:hover,
+.sub_menu li.on a {
+  color: #109aa3;
+  font-weight: 600
+}
+
+.sub_col {
+  position: relative;
+  float: left;
+  height: 396px;
+  overflow-x: hidden;
+  overflow-y: auto
+}
+
+.sub_col a:hover {
+  color: #109aa3
+}
+
+/* title */
+.tit_h2 {
+  float: left;
+  margin-right: 15px;
+}
+
+.tit_h2.nobg {
+  background: none
+}
+
+.tit_h3 {
+  line-height: 1;
+  vertical-align: bottom;
+  font-weight: normal;
+  margin-bottom: 35px
+}
+
+.tit_h3 span {
+  vertical-align: bottom;
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 11px;
+  color: #929292
+}
+
+.tit_h4 {
+  margin-bottom: 17px;
+  height: 16px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #000;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/line_tit_h4.gif") no-repeat 0 0
+}
+
+.tit_h4 span {
+  font-weight: normal
+}
+
+.tit_h4 .txt {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 7px;
+  font-size: 11px;
+  color: #929292
+}
+
+.tit_h4_v2 {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: bold
+}
+
+.tit_h4.fs12 {
+  height: 13px;
+  margin-bottom: 13px
+}
+
+.tit_h5 {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: bold
+}
+
+.tit_h6 {
+  clear: both;
+  padding-left: 22px;
+  line-height: 45px;
+  background: #000;
+  font-size: 14px;
+  color: #fff
+}
+
+.tit_h6 .txt {
+  font-size: 11px;
+  font-weight: normal;
+  color: #949494
+}
+
+.tit_h7 {
+  font-size: 16px;
+  color: #000
+}
+
+.tit_area {
+  overflow: hidden;
+  margin-bottom: 14px
+}
+
+.tit_area_txt {
+  float: left;
+  padding-left: 15px;
+  font-size: 11px;
+  color: #929292;
+  line-height: 24px;
+  height: 24px;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/line_tit_h2.gif") no-repeat 0 2px
+}
+
+.tit_area_txt strong {
+  color: #000
+}
+
+.tit_area_info {
+  margin-left: 15px;
+  padding-left: 18px;
+  float: left;
+  font-size: 11px;
+  line-height: 24px;
+  height: 24px;
+  position: relative
+}
+
+.tit_area_info .bul_point {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  background-position: 0 -24px
+}
+
+.tit_area_info .bul_coupon {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 14px;
+  height: 10px;
+  background-position: -17px -24px
+}
+
+.tit_area_info .fc_point:hover {
+  text-decoration: underline
+}
+
+.tit_area .btn_m {
+  padding: 0 25px
+}
+
+.tit_area2 {
+  *zoom: 1
+}
+
+.tit_area2:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+.tit_area2 .tit {
+  float: left
+}
+
+.tit_area2 .line_map {
+  float: right;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 0
+}
+
+.tit_area3 {
+  height: 56px;
+  margin-top: 36px;
+  position: relative;
+  *zoom: 1
+}
+
+.tit_area3:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+.tit_area4 {
+  position: relative
+}
+
+.tit_area4:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+/* caution */
+.caution_p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #4487ef
+}
+
+.caution_p2 {
+  color: #6c6c6c
+}
+
+p.caution_p2 {
+  clear: both;
+  color: #6c6c6c
+}
+
+.caution_p2 .ico_caution {
+  margin: -4px 7px 0 0;
+  vertical-align: middle
+}
+
+.caution_box {
+  position: relative;
+  clear: both;
+  margin-bottom: 38px;
+  padding: 13px 15px 13px 20px;
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  line-height: 1.5;
+  font-size: 11px;
+  color: #929292
+}
+
+.caution_box .bul_arr {
+  display: inline-block;
+  width: 5px;
+  height: 9px;
+  background-position: 0 -784px;
+  vertical-align: middle;
+  margin: -1px 0 0 10px
+}
+
+.caution_box .btn_faq {
+  display: inline-block;
+  width: 143px;
+  position: absolute;
+  top: 14px;
+  right: 15px;
+  border: 1px solid #000;
+  line-height: 28px;
+  text-align: center
+}
+
+.caution_box.ty {
+  margin-bottom: 0
+}
+
+.caution_box.ty2 {
+  margin-bottom: 8px;
+  color: #000
+}
+
+.caution_box.ty2 a {
+  text-decoration: underline;
+  color: #4487ef
+}
+
+.caution_box2 {
+  position: relative;
+  margin-top: 36px;
+  padding: 20px 23px;
+  clear: both;
+  background: #e9e9e9
+}
+
+.caution_box2 b {
+  color: #4487ef
+}
+
+.caution_box2 p {
+  margin: 7px 0 0 19px
+}
+
+.caution_box2 .bul_arr {
+  display: inline-block;
+  width: 5px;
+  height: 9px;
+  background-position: 0 0;
+  vertical-align: middle;
+  margin: -1px 0 0 10px
+}
+
+.caution_box2 .btn_appr {
+  display: inline-block;
+  width: 163px;
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  line-height: 33px;
+  border: 1px solid #000;
+  text-align: center
+}
+
+.caution_box3 {
+  position: relative;
+  margin-bottom: 26px;
+  padding: 25px 28px;
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  line-height: 18px;
+  overflow: hidden
+}
+
+.caution_box3 .btn {
+  height: 28px;
+  display: block;
+  border: 1px solid #000;
+  margin-top: -15px;
+  padding: 0 24px;
+  text-align: center;
+  line-height: 28px;
+  position: absolute;
+  right: 15px;
+  top: 50%
+}
+
+.caution_box3 .btn .bul_arr {
+  background-position: 0 0;
+  width: 5px;
+  height: 9px;
+  vertical-align: top;
+  margin: 9px 0 0 10px;
+  *margin: 2px 0 0 10px
+}
+
+.caution_box3 .bul_point,
+.caution_box3 .bul_coupon {
+  margin: 0px 3px -1px 0;
+  *margin: 0px 6px -1px 0;
+  position: static;
+  *vertical-align: top
+}
+
+.caution_box4 li {
+  margin-top: 3px;
+  font-size: 11px;
+  color: #ababab
+}
+
+.caution_box4 li:first-child {
+  margin-top: 0
+}
+
+div.caution_box4 {
+  line-height: 16px;
+  font-size: 11px;
+  color: #ababab
+}
+
+.caution_box5 {
+  position: relative;
+  padding: 30px 35px;
+  border: 1px solid #e9e9e9;
+  background: #fff
+}
+
+.caution_box5 .tit {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 12px
+}
+
+.caution_box5 li {
+  margin-top: 10px;
+  font-size: 11px;
+  color: #575757
+}
+
+.caution_box5 li:first-child {
+  margin-top: 0
+}
+
+.caution_box5 .btn_ty_rt {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  text-decoration: underline;
+  color: #4487ef
+}
+
+.caution_box5 .txt {
+  font-size: 11px;
+  color: #575757
+}
+
+.caution_box5 .cbx {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+  margin: -2px 3px 0 0;
+  background: #e5f7f3;
+  border: 1px solid #575757
+}
+
+/* notice */
+.notice_list strong {
+  color: #000;
+  display: block;
+  margin-bottom: 10px
+}
+
+.notice_list li {
+  padding-left: 10px;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/list_bul1.gif") no-repeat 0 10px;
+  line-height: 24px;
+  font-size: 11px;
+  color: #575757
+}
+
+.notice_list.nobul li {
+  padding-left: 0;
+  background: none
+}
+
+.notice_list2 {
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  padding: 20px 20px 13px 20px
+}
+
+.notice_list2 strong {
+  display: block;
+  margin-bottom: 9px
+}
+
+.notice_list2 ul li {
+  font-size: 11px;
+  line-height: 22px;
+  color: #575757
+}
+
+.notice_list3 {
+  padding-top: 16px;
+  position: relative
+}
+
+.notice_list3 ul li {
+  font-size: 11px;
+  line-height: 20px;
+  color: #929292
+}
+
+.notice_list3 strong {
+  display: block
+}
+
+.notice_list3 .btn_pst_r {
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.notice_list4 {
+  position: relative;
+  padding: 27px 48px;
+  background: #fff;
+  border: 1px solid #e9e9e9
+}
+
+.notice_list4 li {
+  line-height: 20px;
+  font-size: 11px;
+  color: #575757
+}
+
+.notice_list4 .btn_rt {
+  position: absolute;
+  top: 27px;
+  right: 35px;
+  color: #4487ef;
+  text-decoration: underline
+}
+
+.notice_box {
+  margin-bottom: 36px;
+  padding: 30px 36px 21px 36px;
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  overflow: hidden;
+  position: relative
+}
+
+.notice_box .btn_pst_r {
+  position: absolute;
+  right: 38px;
+  top: 30px
+}
+
+.notice_box .notice_img {
+  position: absolute;
+  right: 50px;
+  top: 46px
+}
+
+/* tab */
+.tab_type1 {
+  position: relative;
+  border-bottom: 2px solid #4487ef;
+}
+
+.tab_type1 ul {
+  overflow: hidden
+}
+
+.tab_type1 ul li {
+  float: left;
+  width: 185px;
+  line-height: 1
+}
+
+.tab_type1 ul li:first-child a {
+  border-left: 1px solid #e4e4e4
+}
+
+.tab_type1 ul li a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  display: block;
+  padding: 13px 0 12px;
+  background: #ffffff;
+  text-align: center;
+  color: #000
+}
+
+.tab_type1 ul li a:hover,
+.tab_type1 ul li.on a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  background: #4487ef;
+  border-color: #4487ef;
+  color: #fff;
+  font-weight: bold
+}
+
+.tab_type1 li.last {
+  width: auto;
+  overflow: hidden;
+  float: none
+}
+
+.tab_type1.tab3 li {
+  width: auto;
+}
+
+.tab_type1.tab3_2 li {
+  width: 33.3%;
+}
+
+.tab_type1.tab3 li a {
+  padding: 13px 20px 12px 20px;
+}
+
+/*.tab_type1.tab3 li:first-child{width:34%;*width:33.9%}*/
+.tab_type1.tab4 li {
+  width: 25%
+}
+
+.tab_type1.tab4 li:first-child {
+  *width: 24.9%
+}
+
+.tab_type1.tab5 li {
+  width: 20%
+}
+
+.tab_type1.tab5 li:first-child {
+  *width: 19.9%
+}
+
+.tab_type1.w130 li {
+  width: 130px
+}
+
+.tab_type1 .speaking_care_btn {
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  width: 185px;
+  height: 38px;
+  line-height: 38px;
+  background: #4487ef;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tab_tbl_box .tab_type1 ul li {
+  vertical-align: top
+}
+
+.tab_type2 {
+  background: #fff;
+  border-right: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  *zoom: 1
+}
+
+.tab_type2:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+.tab_type2 li {
+  position: relative;
+  width: 209px;
+  float: left;
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  vertical-align: top
+}
+
+.tab_type2 li.last {
+  width: 207px
+}
+
+.tab_type2 a {
+  display: block;
+  text-align: center;
+  line-height: 39px
+}
+
+.tab_type2 li.on {
+  z-index: 1
+}
+
+.tab_type2 li.on a {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 100%;
+  border: 1px solid #4487ef;
+  font-weight: bold;
+  color: #4487ef;
+  z-index: 1
+}
+
+.tab_type2.col4 li {
+  width: 261px
+}
+
+.tab_type3 {
+  border-bottom: 2px solid #4487ef;
+  margin-bottom: 26px
+}
+
+.tab_type3 ul {
+  overflow: hidden
+}
+
+.tab_type3 ul li {
+  float: left;
+  line-height: 1;
+  width: 131px
+}
+
+.tab_type3 ul li:first-child {
+  width: 133px
+}
+
+.tab_type3 ul li:first-child a {
+  border-left: 1px solid #e4e4e4
+}
+
+.tab_type3 ul li a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  display: block;
+  padding: 13px 25px 12px;
+  background: #ffffff;
+  text-align: center;
+  color: #000
+}
+
+.tab_type3 ul li a:hover,
+.tab_type3 ul li.on a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  background: #4487ef;
+  border-color: #4487ef;
+  color: #fff;
+  font-weight: bold
+}
+
+.tab_type3.tab4 ul li {
+  width: 262px
+}
+
+.tab_type3.tab4 ul li:first-child {
+  width: 262px
+}
+
+.tab_tbl_box .tab_type3 {
+  margin-bottom: 0
+}
+
+.tab_type4 {
+  border-bottom: 2px solid #4487ef;
+  position: relative
+}
+
+.tab_type4 ul {
+  overflow: hidden
+}
+
+.tab_type4 ul li {
+  float: left;
+  line-height: 1;
+  width: 160px
+}
+
+.tab_type4 ul li a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  display: block;
+  padding: 13px 30px 12px;
+  background: #ffffff;
+  text-align: center;
+  color: #000
+}
+
+.tab_type4 ul li a:hover,
+.tab_type4 ul li.on a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  background: #4487ef;
+  border-color: #4487ef;
+  color: #fff;
+  font-weight: bold
+}
+
+.tab_type4 .search_area {
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.tab_type5 {
+  border-bottom: 2px solid #4487ef;
+  margin-bottom: 26px
+}
+
+.tab_type5 ul {
+  overflow: hidden
+}
+
+.tab_type5 ul li {
+  float: left;
+  line-height: 1;
+  width: 175px
+}
+
+.tab_type5 ul li a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  display: block;
+  padding: 13px 30px 12px;
+  background: #ffffff;
+  text-align: center;
+  color: #000
+}
+
+.tab_type5 ul li a:hover,
+.tab_type5 ul li.on a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  background: #4487ef;
+  border-color: #4487ef;
+  color: #fff;
+  font-weight: bold
+}
+
+.tab_type6 {
+  border-bottom: 2px solid #4487ef
+}
+
+.tab_type6 ul {
+  overflow: hidden
+}
+
+.tab_type6 ul li {
+  float: left;
+  line-height: 1
+}
+
+.tab_type6 ul li a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  border-left: 1px solid #e4e4e4;
+  display: block;
+  padding: 15px 30px 13px;
+  background: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  color: #000
+}
+
+.tab_type6 ul li a:hover,
+.tab_type6 ul li.on a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  background: #4487ef;
+  border-color: #4487ef;
+  color: #fff;
+  font-weight: bold
+}
+
+.tab_type6.tab2 ul li {
+  width: 50%
+}
+
+.tab_type7 {
+  border-bottom: 2px solid #4487ef;
+  margin-bottom: 36px
+}
+
+.tab_type7 ul {
+  overflow: hidden
+}
+
+.tab_type7 ul li {
+  width: 130px;
+  text-align: center;
+  float: left;
+  line-height: 1
+}
+
+.tab_type7 ul li a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  display: block;
+  padding: 13px 0 12px 0;
+  background: #ffffff;
+  text-align: center;
+  color: #000
+}
+
+.tab_type7 ul li:first-child a {
+  border-left: 1px solid #e4e4e4
+}
+
+.tab_type7 ul li a:hover,
+.tab_type7 ul li.on a {
+  border-right: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  background: #4487ef;
+  border-color: #4487ef;
+  color: #fff;
+  font-weight: bold
+}
+
+.tab_tbl_box .tab_type7 {
+  margin-bottom: 0
+}
+
+.tab_type8 {
+  background: #fff;
+  border-right: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  *zoom: 1
+}
+
+.tab_type8:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+.tab_type8 li {
+  position: relative;
+  width: 209px;
+  float: left;
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  vertical-align: top
+}
+
+.tab_type8 li.last {
+  width: 207px;
+  height: 39px
+}
+
+.tab_type8 a {
+  display: block;
+  text-align: center;
+  line-height: 39px
+}
+
+.tab_type8 li.on {
+  z-index: 1
+}
+
+.tab_type8 li.on a {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 100%;
+  border: 1px solid #4487ef;
+  font-weight: bold;
+  color: #4487ef;
+  z-index: 1
+}
+
+.tab_type8.col4 li {
+  width: 261px
+}
+
+.tab_type9 {
+  background: #fff;
+  *zoom: 1
+}
+
+.tab_type9:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+.tab_type9 li {
+  float: left;
+  width: 175px;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/line_tab.gif") no-repeat 0 50%
+}
+
+.tab_type9 li:first-child {
+  background: none
+}
+
+.tab_type9 a {
+  display: block;
+  line-height: 45px;
+  text-align: center;
+  color: #000
+}
+
+.tab_type9 li.on a {
+  background: #000;
+  font-weight: bold;
+  color: #fff
+}
+
+/* list */
+.bnr_list1 {
+  overflow: hidden
+}
+
+.bnr_list1 li {
+  float: left;
+  margin-left: 15px
+}
+
+.bnr_list1 li:first-child {
+  margin-left: 0
+}
+
+.img_list_type1 {
+  position: relative;
+  border-top: 2px solid #4487ef
+}
+
+.img_list_type1 ul {
+  overflow: hidden;
+  margin-left: -16px;
+}
+
+.img_list_type1 li {
+  position: relative;
+  float: left;
+  margin-left: 16px;
+  margin-top: 23px
+}
+
+.img_list_type1 li.fst {
+  padding-left: 0
+}
+
+.img_list_type1 li .link_thumb {}
+
+.img_list_type1 li .link_thumb img {}
+
+.img_list_type1 li .link_thumb:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 250px;
+  height: 130px;
+  z-index: 9;
+}
+
+.img_list_type1 li .link_thumb:hover:after {
+  background: url("//gscdn.hackers.co.kr/champ//img/chobo/freelecture/icon_playbtn2.png") no-repeat center center;
+}
+
+#list_div1.img_list_type1 li .link_thumb:after {
+  width: 250px;
+  height: 140px;
+}
+
+.img_list_type1 li .cont_info {
+  margin-top: 7px
+}
+
+.img_list_type1 li .tit_subject {
+  width: 250px;
+  height: 15px;
+  overflow: hidden;
+  display: block;
+  font-size: 13px
+}
+
+.img_list_type1 li .txt_desc {
+  margin: 3px 0 5px;
+  display: block;
+  font-size: 12px;
+  width: 240px;
+  height: 12px;
+  overflow: hidden
+}
+
+.img_list_type1 li .txt_time {
+  width: 250px;
+  height: 13px;
+  display: block;
+  font-size: 11px;
+  color: #949494
+}
+
+.img_list_type1 li:hover a {
+  color: #4487ef
+}
+
+.list_btn_more {
+  display: block;
+  width: 100%;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  color: #4487ef;
+  text-align: center;
+  height: 38px;
+  line-height: 38px;
+}
+
+.list_btn_more .no_top_line {
+  border-top: 0;
+}
+
+.list_btn_more>span {
+  position: relative;
+  padding-right: 20px;
+}
+
+.list_btn_more i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -4px;
+  background-position: 0 -453px;
+  width: 11px;
+  height: 7px;
+}
+
+/* ratio1 */
+.ratio1 {
+  margin: 0 auto;
+  display: inline-block
+}
+
+.ratio1 dt,
+.ratio1 dd {
+  float: left
+}
+
+.ratio1 dt {
+  margin-right: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #929292
+}
+
+.ratio1 dt strong {
+  font-weight: normal;
+  color: #000
+}
+
+.ratio1 dd strong {
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4487ef
+}
+
+.ratio1 p {
+  width: 71px;
+  height: 18px;
+  background: url('//gscdn.hackers.co.kr/champ/images/hackerstalk/common/ratio_bg.gif') no-repeat;
+  text-align: left
+}
+
+.ratio1 span {
+  display: block;
+  height: 18px;
+  background-color: #4487ef;
+  font-size: 0
+}
+
+.ratio1 dd.txt strong {
+  font-weight: normal;
+  font-size: 11px;
+  color: #929292
+}
+
+.ratio1 dt.tit {
+  color: #000
+}
+
+.ratio1 dt.tit strong {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -1px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #4487ef
+}
+
+/* table */
+.tbl_top {
+  margin-bottom: 8px;
+  overflow: hidden
+}
+
+.tbl_top .f_l a {
+  float: left;
+  margin-right: 5px
+}
+
+.tbl_top .select-row {
+  margin-right: 5px
+}
+
+.tbl_top * {
+  vertical-align: top
+}
+
+.tbl {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+/* 테이블 초기화 */
+caption {
+  display: none
+}
+
+.tbl_fixed table {
+  table-layout: fixed
+}
+
+.tbl_top .btn_write {
+  display: inline-block;
+  width: 145px;
+  height: 30px;
+  line-height: 30px;
+  background: #4487ef;
+  text-align: center;
+  color: #fff
+}
+
+.tbl_top .f_l .btn_m {
+  padding: 0
+}
+
+.tbl_top .f_r .btn_m {
+  padding: 0 25px
+}
+
+.tbl_type1 {
+  position: relative;
+  margin-bottom: 14px
+}
+
+.tbl_type1 input[type='radio'],
+.tbl_type1 input[type='checkbox'] {
+  vertical-align: top;
+  margin-right: 5px;
+  *width: 13px;
+  *height: 13px
+}
+
+.tbl_type1 table {
+  width: 100%;
+  border-top: 2px solid #4487ef;
+  border-bottom: 1px solid #e9e9e9;
+  *table-layout: fixed
+}
+
+.tbl_type1.line_no table {
+  border-top: 0
+}
+
+.tbl_type1 thead th,
+.tbl_type1 td {
+  vertical-align: middle;
+  text-align: center;
+  background: #fff;
+  padding: 13px 10px;
+  word-break: break-all;
+}
+
+.tbl_type1 thead th {
+  background: #f8f8f8;
+  color: #4487ef;
+  border-bottom: 1px solid #e2e2e2
+}
+
+.tbl_type1 thead th a.link_type {
+  color: #4487ef;
+  vertical-align: middle;
+  position: relative;
+}
+
+.tbl_type1 thead th a.link_type:hover {
+  text-decoration: underline;
+}
+
+.tbl_type1 thead th a.link_type:hover+.info_bubble_box {
+  display: block;
+}
+
+/* 말풍선 추가 */
+.info_bubble_box {
+  display: none;
+  position: absolute;
+  right: 183px;
+  top: -84px;
+  z-index: 5;
+  line-height: 18px;
+  background: #e7e7e7;
+  border: 1px solid #4487ef;
+  padding: 15px 10px;
+  height: 53px;
+  color: #000;
+  font-weight: 600;
+}
+
+.info_bubble_box .ico_sty {
+  position: absolute;
+  left: 50%;
+  bottom: -18px;
+  margin-left: -21px;
+  z-index: 4;
+}
+
+.tbl_type1 td {
+  border-top: 1px dotted #e3e3e3
+}
+
+.tbl_type1 td.subj {
+  padding: 23px 10px;
+  text-align: left
+}
+
+.tbl_type1 td.subj a {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis
+}
+
+.tbl_type1 tr:first-child td {
+  border-top: 0
+}
+
+.tbl_type1 td a:hover {
+  text-decoration: underline
+}
+
+.tbl_type1 td .class_tag {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 3px 4px 2px 4px;
+  font-size: 11px;
+  color: #fff
+}
+
+.tbl_type1 td .class_tag.ing {
+  background-color: #4487ef
+}
+
+.tbl_type1 td .class_tag.todo {
+  background-color: #000
+}
+
+.tbl_type1 td .class_tag.complete {
+  background-color: #c2c2c2
+}
+
+.tbl_type1 .dline {
+  border-right: 1px dotted #e3e3e3
+}
+
+.tbl_type1 td.delivery_info {
+  background-color: #fcfcfc;
+  text-align: left;
+  padding-left: 21px;
+  line-height: 20px
+}
+
+.tbl_type1 td.delivery_info img {
+  margin-right: 10px
+}
+
+.tbl_type1 td.tbl_type1_gray {
+  background-color: #f8f8f8;
+  text-align: left;
+  padding: 16px 30px
+}
+
+.tbl_type1 .btn_view {
+  width: 16px;
+  height: 16px;
+  background-position: -26px 0
+}
+
+.tbl_type1 .ico_chk {
+  width: 25px;
+  height: 25px;
+  background-position: 0 -141px
+}
+
+.tbl_type1 .ico_memo {
+  width: 15px;
+  height: 19px;
+  background-position: 0 -912px
+}
+
+.tbl_type1 a.ico_memo:hover {
+  background-position: 0 -936px
+}
+
+.tbl_type1 .ico_down {
+  width: 18px;
+  height: 20px;
+  background-position: 0 -960px
+}
+
+.tbl_type1 a.ico_down:hover {
+  background-position: 0 -985px
+}
+
+.tbl_type1 .ico_down2 {
+  width: 12px;
+  height: 14px;
+  background-position: 0 -1010px
+}
+
+.tbl_type1 .ico_listen {
+  width: 12px;
+  height: 12px;
+  background-position: 0 -1028px
+}
+
+.tbl_type1 .ico_grade {
+  display: inline-block;
+  width: 62px;
+  height: 10px;
+  background-image: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/ico_grade.png")
+}
+
+.tbl_type1 .ico_grade.s0 {
+  background-position: 0 -56px
+}
+
+.tbl_type1 .ico_grade.s1 {
+  background-position: 0 -45px
+}
+
+.tbl_type1 .ico_grade.s2 {
+  background-position: 0 -34px
+}
+
+.tbl_type1 .ico_grade.s3 {
+  background-position: 0 -23px
+}
+
+.tbl_type1 .ico_grade.s4 {
+  background-position: 0 -12px
+}
+
+.tbl_type1 .ico_grade.s5 {
+  background-position: 0 0
+}
+
+.tbl_type1 .mp_ico_area li {
+  float: left;
+  margin-right: 10px
+}
+
+.tbl_type1 tr.notice td {
+  font-weight: bold
+}
+
+.tbl_type1 td.sbj {
+  padding-left: 25px;
+  text-align: left
+}
+
+.tbl_type1 td.sbj a {
+  display: inline-block;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  width: auto;
+  vertical-align: middle
+}
+
+.tbl_type1 td.sbj.t_c {
+  text-align: center
+}
+
+.tbl_type1 td.sbj.ty {
+  padding-right: 0;
+  padding-left: 0
+}
+
+.tbl_type1 tr.bg_blue td {
+  background: #e4edfb;
+}
+
+.tbl_type1 td.bt a {
+  margin-top: 5px
+}
+
+.tbl_type1 td.bt a {
+  text-decoration: none
+}
+
+.tbl_type1 td.nodata {
+  padding-top: 50px;
+  padding-bottom: 30px
+}
+
+.tbl_type1 td.nodata p {
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: bold
+}
+
+.tbl_type1 td.nodata a {
+  margin-left: 10px
+}
+
+.tbl_type1 td.days table {
+  margin: 0 auto;
+  width: auto;
+  border: 0
+}
+
+.tbl_type1 td.days th,
+.tbl_type1 td.days td {
+  padding: 0
+}
+
+.tbl_type1 td.days td {
+  padding-left: 20px;
+  text-align: left;
+  color: #929292
+}
+
+.tbl_type1 td.days td p {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #000
+}
+
+.tbl_type1 td.days td p strong {
+  font-size: 14px;
+  color: #4487ef
+}
+
+.tbl_type1 td.down .ico_down2 {
+  margin: 0 7px 0 0;
+  vertical-align: top
+}
+
+.tbl_type1 td.down a {
+  text-decoration: underline
+}
+
+.tbl_type1 td.down a:hover {
+  color: #4487ef
+}
+
+.tbl_type1 td.listen a {
+  text-decoration: underline;
+  color: #4487ef
+}
+
+.tbl_type1 td.listen .ico_listen {
+  margin: 0 5px 0 0;
+  vertical-align: top
+}
+
+/* 게시판 펼침 */
+.tbl_type1 tr.noti_view td {
+  text-align: left;
+  line-height: 18px;
+  background: transparent;
+  padding: 0;
+  color: #000
+}
+
+.tbl_type1 tr.noti_view.type2 td {
+  padding: 13px 10px
+}
+
+.tbl_type1 tr.noti_view.type2 td.sbj {
+  padding-left: 0
+}
+
+.tbl_type1 tr.active th,
+.tbl_type1 tr.active td {
+  background-color: #e5eff7;
+  font-weight: bold
+}
+
+/* action */
+.tbl_type1 tr.noti_view td>div {
+  padding: 20px 90px 20px 108px
+}
+
+.tbl_type1 tr.noti_view .no_question {
+  color: #949494;
+  background: url(//gscdn.hackers.co.kr/champ/images/champstudy/common/ico_question.png) no-repeat 30px 50%
+}
+
+.tbl_type1 tr.noti_view .no_ask {
+  color: #000;
+  background: url(//gscdn.hackers.co.kr/champ/images/hackerstalk/common/ico_ask.png) no-repeat 30px 50%;
+  border-top: 1px dotted #e3e3e3
+}
+
+.tbl_type1 tr.noti_view .no_ask>strong {
+  font-size: 14px;
+  display: block;
+  padding-bottom: 12px;
+}
+
+.tbl_type1 tr.clsrm:hover td.sbj a,
+.tbl_type1 tr.clsrm:hover td.bun {
+  font-weight: bold
+}
+
+.tbl_type1 tr.num td {
+  font-size: 16px;
+  font-weight: bold
+}
+
+.tbl_type1 tr.num td span {
+  font-family: verdana;
+  font-weight: normal;
+  font-size: 30px;
+  color: #4487ef
+}
+
+.tbl_type1 td.stit {
+  border-left: 0 !important;
+  background: #f8f8f8
+}
+
+.tbl_type1 td.books {
+  background: #f6fcfd;
+  vertical-align: top
+}
+
+.tbl_type1 td.books table {
+  border-top: 0;
+  border-bottom: 0
+}
+
+.tbl_type1 td.books td {
+  padding: 0 !important;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  background: none
+}
+
+.tbl_type1 td.books td.img {
+  height: 113px;
+  vertical-align: top
+}
+
+.tbl_type1 td.books b {
+  display: inline-block;
+  font-size: 14px;
+  color: #6c6c6c
+}
+
+.tbl_type1 td.books a:hover img {
+  margin-top: 3px
+}
+
+.tbl_type1 td.file {
+  padding-left: 45px;
+  text-align: left
+}
+
+.tbl_type1 td.file img {
+  margin-right: 13px
+}
+
+.tbl_type1_v1 table {
+  border-top: 1px solid #e9e9e9
+}
+
+.tbl_type1_v1 thead th {
+  color: #000;
+  border-color: #e9e9e9;
+  background-color: #f0f0f0
+}
+
+.tbl_type1_v2 thead th,
+.tbl_type1_v2 td,
+.tbl_type1_v2 td a {
+  font-size: 11px;
+  color: #6c6c6c
+}
+
+.tbl_type1_v3 tr:hover td {
+  background-color: #e5f7f3
+}
+
+.tbl_type1_v4 table {
+  table-layout: fixed
+}
+
+.tbl_type1_v4 thead th {
+  background: #f8f8f8 url("//gscdn.hackers.co.kr/champ/images/hackerstalk/communicate/th_arr.gif") no-repeat 0 50%
+}
+
+.tbl_type1_v4 thead th.first {
+  background-image: none
+}
+
+.tbl_type1_v4 table.body {
+  border-top: 0
+}
+
+.tbl_type1_v4 table.body tbody td {
+  padding: 15px 0;
+  border-top: 1px solid #e3e3e3;
+  border-left: 1px solid #e3e3e3;
+  text-align: center
+}
+
+.tbl_type1_v5 thead th,
+.tbl_type1_v5 td {
+  font-size: 11px
+}
+
+.tbl_type1_v5 td {
+  line-height: 17px;
+  color: #6c6c6c
+}
+
+.tbl_type1_v6 th,
+.tbl_type1_v6 td {
+  border-left: 1px solid #e3e3e3
+}
+
+.tbl_type1_v6 .first {
+  border-left: 0
+}
+
+.tab_tbl_box .tbl_type1 table {
+  border-top: 0
+}
+
+.tbl_type2 {
+  position: relative;
+  margin-bottom: 7px
+}
+
+.tbl_type2 table {
+  width: 100%;
+  border-bottom: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9
+}
+
+.tbl_type2 thead th,
+.tbl_type2 td {
+  width: 45px;
+  height: 50px;
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  vertical-align: middle;
+  text-align: center;
+  background: #fff
+}
+
+.tbl_type2 thead th {
+  background-color: #f8f8f8;
+  font-weight: normal;
+  color: #b0b0b0;
+  border-top: 0
+}
+
+.tbl_type2 table:first-child thead th {
+  border-top: 1px solid #e9e9e9
+}
+
+.tbl_type2 thead th.dayoff,
+.tbl_type2 td.dayoff {
+  color: #e00001
+}
+
+.tbl_type3 {
+  border-bottom: 1px solid #e9e9e9
+}
+
+.tbl_type3 table {
+  width: 100%;
+  *table-layout: fixed
+}
+
+.tbl_type3 th,
+.tbl_type3 td {
+  border-top: 1px solid #e9e9e9
+}
+
+.tbl_type3 th {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  text-align: left;
+  font-weight: normal
+}
+
+.tbl_type3 td {
+  padding-top: 6px;
+  padding-bottom: 6px
+}
+
+.tbl_type4 {
+  position: relative;
+  margin-bottom: 7px
+}
+
+.tbl_type4 table {
+  width: 100%;
+  border-bottom: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9
+}
+
+.tbl_type4 thead th,
+.tbl_type4 td {
+  height: 47px;
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  vertical-align: middle;
+  text-align: center;
+  background: #fff
+}
+
+.tbl_type4 thead th {
+  font-size: 14px;
+  font-weight: bold;
+  background: #f8f8f8;
+  color: #000000;
+  border-top: 0
+}
+
+.tbl_type4 table:first-child thead th {
+  border-top: 1px solid #e9e9e9
+}
+
+.tbl_type5 {
+  clear: both
+}
+
+.tbl_type5 .btn_type9 {
+  vertical-align: middle
+}
+
+.tbl_type5 input[type='radio'],
+.tbl_type5 input[type='checkbox'] {
+  vertical-align: top;
+  margin-right: 5px;
+  *width: 13px;
+  *height: 13px
+}
+
+.tbl_type5 input[type='text'],
+.tbl_type5 input[type='password'] {
+  padding: 9px 10px;
+  height: 14px;
+  *margin-top: -1px
+}
+
+.tbl_type5 .inp_box {
+  overflow: hidden;
+  position: relative;
+  height: 32px;
+  border: 1px solid #e4e4e4;
+  vertical-align: middle
+}
+
+.tbl_type5 .inp_box .lbl {
+  top: 10px;
+  left: 10px
+}
+
+.tbl_type5 .i_text {
+  margin-top: 0;
+  padding: 9px 10px;
+  height: 14px
+}
+
+.tbl_type5 .bar {
+  margin: 0 8px
+}
+
+.tbl_type5 .tcau {
+  line-height: 15px;
+  font-size: 11px;
+  color: #929292
+}
+
+.tbl_type5 p.tcau {
+  margin-top: 6px
+}
+
+.tbl_type5 table {
+  width: 100%;
+  border-top: 2px solid #4487ef;
+  border-bottom: 1px solid #e9e9e9
+}
+
+.tbl_type5 th,
+.tbl_type5 td {
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/bg_line_dot.gif") repeat-x
+}
+
+.tbl_type5 th {
+  padding: 18px 20px;
+  background-color: #f8f8f8;
+  font-weight: normal;
+  text-align: left
+}
+
+.tbl_type5 td {
+  padding: 8px 20px
+}
+
+.tbl_type5 tr.first th,
+.tbl_type5 tr.first td {
+  background-image: none
+}
+
+.tbl_type5 td.inpty input {
+  margin-right: 10px;
+  margin-left: 20px;
+  vertical-align: middle
+}
+
+.tbl_type5 td.chklist ul {
+  *zoom: 1
+}
+
+.tbl_type5 td.chklist ul:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+.tbl_type5 td.chklist li {
+  float: left;
+  width: 74px;
+  margin-bottom: 8px
+}
+
+.tbl_type5 td.chklist li.ty {
+  width: 148px
+}
+
+.tbl_type5 td.chklist li.ty2 {
+  width: 78px
+}
+
+.tbl_type5 td.chklist li.ty3 {
+  width: 93px
+}
+
+.tbl_type5 td.chklist li.last {
+  float: none;
+  overflow: hidden;
+  width: auto
+}
+
+.tbl_type5 td.chklist .tcau {
+  margin-top: 0;
+  color: #e00000
+}
+
+.tbl_type6 {
+  position: relative;
+  margin-bottom: 20px
+}
+
+.tbl_type6 table {
+  width: 100%;
+  border-top: 2px solid #6c6c6c;
+  border-bottom: 1px solid #e9e9e9
+}
+
+.tbl_type6 thead th {
+  height: 40px;
+  background: #f8f8f8;
+  vertical-align: middle;
+  text-align: center;
+  color: #6c6c6c;
+  border-bottom: 1px solid #e2e2e2
+}
+
+.tbl_type6 tbody th {
+  height: 39px;
+  background-color: #fff;
+  padding-left: 20px;
+  border-right: 1px dotted #e3e3e3;
+  border-top: 1px dotted #e3e3e3;
+  text-align: left;
+  color: #6c6c6c
+}
+
+.tbl_type6 tbody tr:first-child th {
+  border-top: 0
+}
+
+.tbl_type6 td {
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  background: #fff;
+  border-top: 1px dotted #e3e3e3
+}
+
+.tbl_type6 td.t_l {
+  padding-left: 20px
+}
+
+.tbl_type6 td.subj {
+  padding: 23px 10px;
+  text-align: left
+}
+
+.tbl_type6 tr:first-child td {
+  border-top: 0
+}
+
+.tbl_type6 .dline {
+  border-right: 1px dotted #e3e3e3
+}
+
+.tbl_type7 {
+  position: relative;
+  margin-bottom: 7px
+}
+
+.tbl_type7 table {
+  width: 100%;
+  border-bottom: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9
+}
+
+.tbl_type7 thead th,
+.tbl_type7 td {
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  font-size: 11px;
+  vertical-align: middle;
+  text-align: center;
+  background: #fff;
+  color: #4487ef;
+  padding: 4px 10px
+}
+
+.tbl_type7 thead th {
+  font-weight: normal;
+  background: #f8f8f8;
+  color: #000000;
+  border-top: 1px solid #e9e9e9
+}
+
+.tbl_type8 table {
+  width: 100%;
+  border: 1px solid #e9e9e9;
+  table-layout: fixed
+}
+
+.tbl_type8 input[type='radio'],
+.tbl_type8 input[type='checkbox'] {
+  vertical-align: top;
+  margin-right: 5px;
+  *width: 13px;
+  *height: 13px
+}
+
+.tbl_type8 textarea {
+  padding: 10px;
+  border: 1px solid #e4e4e4
+}
+
+.tbl_type8 th,
+.tbl_type8 td {
+  border-right: 1px dotted #e3e3e3;
+  border-top: 1px dotted #e3e3e3
+}
+
+.tbl_type8 th {
+  height: 40px;
+  background-color: #f8f8f8;
+  text-align: center;
+  font-weight: bold;
+  color: #6c6c6c
+}
+
+.tbl_type8 td {
+  background-color: #fff;
+  padding-left: 20px
+}
+
+.tbl_type8 td.ref_cls>div {
+  position: relative
+}
+
+.tbl_type8 td.ref_cls a.clsview {
+  display: inline-block;
+  vertical-align: top;
+  margin: 9px 0 0 10px;
+  text-decoration: underline;
+  color: #4487ef
+}
+
+.tbl_type8 td.ref_cls .won {
+  position: absolute;
+  top: 9px;
+  right: 17px
+}
+
+.tbl_type8 td.priceway {
+  padding-top: 13px;
+  padding-bottom: 5px
+}
+
+.tbl_type8 td.priceway .select-row,
+.tbl_type8 td.priceway select {
+  height: 15px
+}
+
+.tbl_type8 td.priceway .select-row {
+  vertical-align: top
+}
+
+.tbl_type8 td.priceway select {
+  font-weight: normal
+}
+
+.tbl_type8 td.priceway div {
+  margin-top: 3px
+}
+
+.tbl_type8 td.priceway .cau {
+  font-size: 11px;
+  color: #929292
+}
+
+.tbl_type8 td.priceway input {
+  margin: 0 5px;
+  vertical-align: top;
+  font-size: 12px
+}
+
+.tbl_type8 td.refwhy {
+  padding: 0
+}
+
+.tbl_type8 td.refwhy table {
+  border: 0
+}
+
+.tbl_type8 td.refwhy th,
+.tbl_type8 td.refwhy td {
+  color: #000
+}
+
+.tbl_type8 td.refwhy th {
+  padding-left: 20px;
+  background: #fff;
+  text-align: left;
+  font-weight: normal
+}
+
+.tbl_type8 td.refwhy td {
+  padding-top: 5px;
+  padding-bottom: 10px
+}
+
+.tbl_type8 td.refwhy ul {
+  *zoom: 1
+}
+
+.tbl_type8 td.refwhy ul:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+.tbl_type8 td.refwhy li {
+  float: left;
+  width: 183px;
+  margin-top: 5px
+}
+
+.tbl_type8 td.refwhy li.wide {
+  clear: both;
+  width: 100%
+}
+
+.tbl_type8 td.refwhy li.last {
+  width: auto
+}
+
+.tbl_type8 td.refwhy textarea {
+  margin-top: 8px
+}
+
+.tbl_type8_v1 td {
+  padding: 13px;
+  text-align: center;
+  line-height: 20px
+}
+
+.tbl_type8_v1 td.stit {
+  background: #f8f8f8;
+  font-weight: bold;
+  color: #6c6c6c
+}
+
+.tbl_type9 table {
+  width: 100%;
+  border-top: 2px solid #4487ef;
+  border-bottom: 1px solid #e9e9e9
+}
+
+.tbl_type9 tbody th,
+.tbl_type9 tbody td {
+  height: 40px;
+  background-color: #fff;
+  border-left: 1px dotted #e3e3e3;
+  border-top: 1px dotted #e3e3e3;
+  text-align: left;
+  padding-left: 20px
+}
+
+.tbl_type9 tbody th {
+  color: #4487ef
+}
+
+.tbl_type9 tbody tr:first-child th,
+.tbl_type9 tbody tr:first-child td {
+  border-top: 0
+}
+
+.tbl_type9 tbody tr th:first-child {
+  border-left: 0
+}
+
+.tbl_type9 tbody tr th.t_c {
+  padding: 0
+}
+
+.tbl_type10 {
+  position: relative;
+  margin-bottom: 7px
+}
+
+.tbl_type10 table {
+  width: 100%;
+  border-bottom: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9
+}
+
+.tbl_type10 thead th,
+.tbl_type10 td {
+  height: 47px;
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  vertical-align: middle;
+  text-align: center;
+  background: #fff
+}
+
+.tbl_type10 thead th {
+  font-size: 14px;
+  font-weight: bold;
+  background: #f8f8f8;
+  color: #000000;
+  border-top: 0
+}
+
+.tbl_type10 table:first-child thead th {
+  border-top: 1px solid #e9e9e9
+}
+
+.tbl_type11 table {
+  width: 100%
+}
+
+.tbl_type11 tbody th,
+.tbl_type11 tbody td {
+  border-bottom: 1px dotted #e3e3e3;
+  padding: 10px 0;
+  text-align: left
+}
+
+.tbl_type11 tbody th {
+  font-size: 14px;
+  font-weight: bold
+}
+
+.tbl_type11.nline tbody th,
+.tbl_type11.nline tbody td {
+  border: 0
+}
+
+.tbl_type12 {
+  position: relative;
+  margin-bottom: 7px
+}
+
+.tbl_type12 table {
+  width: 100%;
+  border-bottom: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9
+}
+
+.tbl_type12 thead th,
+.tbl_type12 td {
+  width: 45px;
+  height: 50px;
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  vertical-align: middle;
+  text-align: center;
+  background: #fff
+}
+
+.tbl_type12 thead th {
+  background-color: #f8f8f8;
+  font-weight: normal;
+  color: #b0b0b0;
+  border-top: 0
+}
+
+.tbl_type12 table:first-child thead th {
+  border-top: 1px solid #e9e9e9
+}
+
+.tbl_type12 thead th.dayoff,
+.tbl_type12 td.dayoff {
+  color: #e00001
+}
+
+.tbl_type13 {
+  border-right: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9
+}
+
+.tbl_type13 table {
+  width: 100%
+}
+
+.tbl_type13 th,
+.tbl_type13 td {
+  padding-top: 15px;
+  padding-bottom: 15px
+}
+
+.tbl_type13 th {
+  background-color: #4487ef;
+  border-left: 1px solid #2faab2;
+  color: #fff
+}
+
+.tbl_type13 td {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-top: 1px dotted #e3e3e3;
+  border-left: 1px solid #e9e9e9;
+  text-align: center;
+  font-size: 11px;
+  color: #6c6c6c
+}
+
+.tbl_type13 .brl0 {
+  border-left: 0
+}
+
+.tbl_type13 tr.brt0 td {
+  border-top: 0
+}
+
+.tbl_type13 tr.ty td {
+  background: #f8f8f8;
+  color: #000
+}
+
+.tbl_type13 tr.ty2 td {
+  color: #000
+}
+
+.tbl_type13 tr.devide td {
+  border-top: 1px solid #e3e3e3
+}
+
+.tbl_type14 table {
+  width: 288px;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd
+}
+
+.tbl_type14 th {
+  width: 73px;
+  height: 38px;
+  text-align: center;
+  font-weight: bold;
+  color: #4487ef;
+  background: #f8f8f8;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd
+}
+
+.tbl_type14 td {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  font-weight: bold;
+  padding-left: 10px
+}
+
+.tbl_type15 {
+  position: relative;
+  margin-bottom: 7px
+}
+
+.tbl_type15 table {
+  width: 100%;
+  border-bottom: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9
+}
+
+.tbl_type15 thead th,
+.tbl_type15 td {
+  height: 47px;
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  vertical-align: middle;
+  text-align: center;
+  background: #fff
+}
+
+.tbl_type15 thead th {
+  font-size: 14px;
+  font-weight: bold;
+  background: #f8f8f8;
+  color: #000000;
+  border-top: 0
+}
+
+.tbl_type15 table:first-child thead th {
+  border-top: 1px solid #e9e9e9
+}
+
+.tbl_type_wrap1 .top {
+  vertical-align: top
+}
+
+.tbl_type_wrap1 table {
+  width: 100%
+}
+
+/* subject_box */
+.subject_box {
+  *height: 30px;
+  padding: 6px 0
+}
+
+.subject_box strong {
+  float: left;
+  line-height: 30px;
+  font-weight: normal;
+  width: 160px;
+  padding-left: 23px;
+  display: block
+}
+
+.subject_box:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+.subject_box .inp_lst {
+  overflow: hidden
+}
+
+.subject_box .inp_lst.style2 {
+  line-height: 30px;
+}
+
+.subject_box .inp_lst li {
+  float: left;
+  padding-right: 20px
+}
+
+.subject_box .inp_lst li span {
+  display: block
+}
+
+.subject_box .inp_lst li span.even {
+  margin-top: 7px
+}
+
+.subject_box .inp_lst li input[type="radio"] {
+  margin-right: 6px;
+  .width: 13px;
+  .height: 13px
+}
+
+.subject_box.ty {
+  border-top: 1px solid #e4e4e4
+}
+
+/* seach_box */
+.seach_box {
+  overflow: hidden;
+  background: #ececec;
+  border: 1px solid #e4e4e4;
+  padding: 6px;
+  line-height: 30px
+}
+
+.seach_box_tit {
+  float: left;
+  padding-left: 17px
+}
+
+.seach_box .tit {
+  float: left;
+  line-height: 30px;
+  padding-left: 15px;
+  font-weight: normal;
+  width: 135px;
+  display: block
+}
+
+.seach_box .f_r {
+  *margin-top: 7px
+}
+
+.seach_box .chkbox {
+  float: left
+}
+
+.seach_box .chkbox label {
+  margin-right: 30px
+}
+
+/* paging */
+.paging {
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  margin-top: 24px
+}
+
+.paging a,
+.paging strong {
+  margin-left: 1px;
+  color: #828282;
+  min-width: 16px;
+  padding: 0 4px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center
+}
+
+.paging strong {
+  background: #4487ef;
+  color: #fff
+}
+
+/* cont_type1 */
+.cont_type1 {
+  border-top: 2px solid #4487ef;
+  padding-top: 17px;
+  line-height: 20px
+}
+
+/* tit_count */
+.tit_count {
+  margin-bottom: 20px;
+  position: relative;
+  *zoom: 1;
+}
+
+.tit_count:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.tit_count .left {
+  font-weight: bold
+}
+
+.tit_count .right {
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.tit_count .right ul li {
+  float: left
+}
+
+.tit_count .right ul li>span {
+  margin: 0 10px;
+}
+
+.tit_count .right ul li.on a {
+  font-weight: bold;
+  color: #4487ef
+}
+
+.tit_count .right ul.order_list {
+  margin: -5px 0 0 20px;
+}
+
+.tit_count .right ul.order_list li {
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  margin-left: -1px;
+}
+
+.tit_count .right ul.order_list li a {
+  color: #6c6c6c;
+  font-size: 11px;
+  height: 22px;
+  line-height: 22px;
+  padding: 0 10px;
+  display: block;
+}
+
+.tit_count .right ul.order_list li.on a {
+  color: white;
+  font-weight: bold;
+  background: #4487ef;
+}
+
+/* list_type1 */
+.list_type1 {
+  overflow: hidden
+}
+
+.list_type1 ul li {
+  width: 513px;
+  height: 250px;
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  margin: 20px 0 0 20px;
+  float: left;
+  position: relative
+}
+
+.list_type1 ul li.first {
+  margin-left: 0
+}
+
+.list_type1 ul li .list_info {
+  width: 100%;
+  height: 32px;
+  border-top: 1px solid #e9e9e9;
+  padding: 19px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0
+}
+
+.list_type1 ul li .list_info .block {
+  width: 110px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  left: 19px;
+  top: 19px
+}
+
+.list_type1 ul li .list_info .block.block_ing {
+  background-color: #000
+}
+
+.list_type1 ul li .list_info .block.block_today {
+  background-color: #4487ef
+}
+
+.list_type1 ul li .list_info .txt {
+  padding-left: 149px
+}
+
+.list_type1 ul li .list_info .txt strong {
+  margin-bottom: 3px;
+  display: block
+}
+
+.list_type1.event_list ul {
+  margin-left: -20px;
+}
+
+.list_type2 {
+  background-color: #fff;
+  border-bottom: 1px solid #e9e9e9
+}
+
+.list_type2 td {
+  border-top: 1px dotted #e3e3e3;
+  line-height: 20px
+}
+
+.list_type2 td:first-child {
+  border-top: 1px solid #e9e9e9
+}
+
+.list_type2 td.logo_area {
+  width: 214px;
+  padding: 39px 0 39px 41px
+}
+
+.list_type2 td.txt_area {
+  padding: 33px 33px 30px 0
+}
+
+.list_type2 td.txt_area strong {
+  margin-bottom: 15px;
+  font-size: 14px;
+  display: block
+}
+
+.list_type2 td.txt_area strong span {
+  font-weight: normal;
+  color: #929292
+}
+
+.list_type2 td.txt_area ul li {
+  ;
+  overflow: hidden;
+  position: relative;
+  padding-left: 62px;
+  border: 0;
+  font-size: 11px
+}
+
+.list_type2 td.txt_area ul li .subj {
+  width: 62px;
+  color: #929292;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+@media print {
+  #popup2 {
+    border-top: 0;
+    padding: 0
+  }
+
+  .print_box {
+    display: none
+  }
+}
+
+/* tooltip */
+.tooltip_cont {
+  width: 294px;
+  background-color: #f8f8f8;
+  border: 1px solid #000;
+  padding: 20px;
+  font-size: 11px;
+  line-height: 18px;
+  color: #575757;
+  position: absolute;
+  left: 0;
+  top: 95px;
+  z-index: 10;
+  display: none
+}
+
+.tooltip_cont strong {
+  display: block
+}
+
+.tooltip_arrow {
+  width: 23px;
+  height: 10px;
+  background: url('//gscdn.hackers.co.kr/champ/images/hackerstalk/common/tooltip_arrow.png') no-repeat;
+  position: absolute;
+  left: 29px;
+  top: -10px
+}
+
+.tooltip_btn:hover .tooltip_cont {
+  display: block
+}
+
+/* section */
+.section {
+  clear: both;
+  margin-bottom: 57px
+}
+
+/* layout */
+.inner {
+  width: 1050px;
+  margin: 0 auto
+}
+
+#wrap {
+  position: relative;
+  min-width: 1332px;
+}
+
+#header {
+  height: 96px;
+  padding-top: 14px;
+  border-bottom: 2px solid #4487ef;
+  background: #fff
+}
+
+#header .mem_set {
+  text-align: right;
+  font-size: 11px;
+  color: #797979
+}
+
+#header .mem_set .bar {
+  margin: 0 4px
+}
+
+#header h1 {
+  float: left;
+  margin: 20px 0 0 1px
+}
+
+.gnb {
+  float: right;
+  margin-top: 41px
+}
+
+.gnb>li {
+  float: left;
+  height: 44px;
+  margin-left: 40px
+}
+
+.gnb>li:hover {
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/gnb_hover_arr.png") no-repeat 50% 100%
+}
+
+.gnb>li:hover>.sub {
+  display: block !important
+}
+
+.gnb>li>a {
+  display: inline-block;
+  position: relative
+}
+
+.gnb .bx_count {
+  position: absolute;
+  top: -12px;
+  right: -21px;
+  width: 19px;
+  height: 19px;
+  line-height: 21px;
+  text-align: center;
+  color: #fff
+}
+
+.gnb .sub {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 82px;
+  left: 0;
+  right: 0;
+  padding-top: 41px;
+  padding-bottom: 15px;
+  padding-left: 160px;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/gnb_bg.gif") repeat-x 0 100%
+}
+
+.gnb .sub li {
+  float: left;
+  margin-left: 16px;
+  padding-left: 17px;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/ico_bar.gif") no-repeat 0 2px
+}
+
+.gnb .sub li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+  background: none
+}
+
+.gnb .sub li a {
+  color: #fff
+}
+
+.gnb .sub li a:hover,
+.gnb .sub li a.on {
+  font-weight: bold
+}
+
+.gnb .menu1 .sub ul {
+  margin-left: 128px
+}
+
+.gnb .menu2 .sub ul {
+  margin-left: 235px
+}
+
+.gnb .menu3 .sub ul {
+  margin-left: 281px
+}
+
+.gnb .menu4 .sub ul {
+  margin-left: 486px
+}
+
+.gnb .menu5 .sub ul {
+  margin-left: 577px
+}
+
+.gnb .menu6 .sub ul {
+  margin-left: 672px
+}
+
+.gnb .menu7 .sub ul {
+  margin-left: 499px
+}
+
+.gnb .menu8:hover {
+  background: none
+}
+
+.gnb .menu8 .sub ul {
+  margin-left: 347px
+}
+
+/* gnb_renew*/
+#header_new {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+#header_new.fix {
+  position: fixed;
+}
+
+.gnb_top {
+  padding-top: 20px;
+  height: 90px;
+  background: #fff;
+}
+
+.gnb_top h1 {
+  padding: 15px 3px 0 25px;
+}
+
+.gnb_top .top-bnr-box {
+  position: absolute;
+  left: 0;
+  top: 14px;
+  width: 220px;
+}
+
+.gnb_top .top-bnr-box .bxslider-default {
+  width: 220px;
+  padding: 0;
+  margin: 0;
+}
+
+.gnb_top .user_info {
+  position: absolute;
+  bottom: 3px;
+  right: 0;
+  font-family: 'noto', Tahoma, sans-serif;
+  color: #dedede;
+}
+
+.gnb_top .user_info a {
+  font-size: 13px;
+  color: #555;
+}
+
+.gnb_top .user_info .bar {
+  margin: 0 4px;
+}
+
+.bg_point,
+.bg_point>span {
+  display: inline-block;
+  background-image: url('//gscdn.hackers.co.kr/champ/img/chobo/main_re/bg_util01.jpg');
+}
+
+.bg_point {
+  padding-left: 8px;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.bg_point>span {
+  padding-right: 10px;
+  padding-bottom: 4px;
+  height: 15px;
+  color: #000;
+  background-position: right top;
+  background-repeat: repeat-x;
+}
+
+.gnb_area_wrap {
+  width: 100%;
+  z-index: 300;
+}
+
+.gnb_area_wrap.active {
+  border-bottom: 3px solid #fdb813;
+  background: #fff;
+}
+
+.gnb_area_wrap.active .sub_list {
+  display: block;
+}
+
+.gnb_area {
+  background: url('//gscdn.hackers.co.kr/champ/img/chobo/main_re/bg_gnb.png') repeat-x left top;
+}
+
+.gnb_list>li {
+  position: relative;
+  float: left;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.gnb_list>li>a {
+  display: block;
+  padding-top: 2px;
+  width: 152px;
+  height: 50px;
+  line-height: 45px;
+  cursor: pointer;
+  letter-spacing: -1px;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'noto', Tahoma, sans-serif;
+}
+
+.gnb_list>li.mnu2>a {
+  width: 152px;
+}
+
+.gnb_list>li.mnu3>a {
+  width: 152px;
+}
+
+.gnb_list>li.mnu5>a {
+  width: 152px;
+}
+
+.gnb_list>li.mnu6>a {
+  width: 152px;
+}
+
+.gnb_list>li.mnu7>a {
+  width: 136px;
+}
+
+.gnb_list>li.on>a {
+  color: #fdb813;
+}
+
+.gnb_list>li.on>a span {
+  display: inline-block;
+  border-bottom: 3px solid #fdb813;
+}
+
+.gnb_list .sub_list {
+  display: none;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.gnb_list .sub_list li {
+  margin-top: 14px
+}
+
+.gnb_list .sub_list li:first-child {
+  margin-top: 0
+}
+
+.gnb_list .sub_list li a {
+  height: 30px;
+  line-height: 16px;
+  font-family: 'noto', Tahoma, sans-serif;
+  font-size: 13px;
+  letter-spacing: -1.3px;
+}
+
+.gnb_list .icon_count {
+  display: block;
+  position: absolute;
+  top: -7px;
+  right: -65px;
+  width: 22px;
+  height: 22px;
+  background: url('//gscdn.hackers.co.kr/champ/img/chobo/common/common_ico.png') -38px -40px;
+  color: #fff;
+  line-height: 22px;
+  text-align: center
+}
+
+.gnb_list .icon_new {
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 59px;
+  width: 36px;
+  height: 22px;
+  background: url('//gscdn.hackers.co.kr/champ/img/chobo/common/common_ico.png') 0 -40px
+}
+
+.gnb_list .icon_dead {
+  display: block;
+  position: absolute;
+  top: -11px;
+  left: 42px;
+  width: 67px;
+  height: 27px;
+  background: url('//gscdn.hackers.co.kr/champ/img/chobo/main_re/ico_cloud.png') 0 0
+}
+
+.gnb_list .icon_free {
+  display: block;
+  position: absolute;
+  top: -11px;
+  left: 53px;
+  width: 47px;
+  height: 27px;
+  background: url('//gscdn.hackers.co.kr/champ/img/chobo/main_re/ico_free.png') 0 0
+}
+
+.gnb_bg {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .5;
+  filter: alpha(opacity=50);
+  z-index: 90;
+}
+
+
+/* 20180413 - gnb 마이클래스 칼라 변경*/
+.gnb_list>li.mnu7 a {
+  color: #fff
+}
+
+.gnb_list>li.mnu7 a span {
+  display: inline-block;
+  margin-top: 8px;
+  width: 137px;
+  height: 28px;
+  border: 1px solid #fff;
+  line-height: 28px;
+}
+
+.gnb_list>li.mnu7 a span:after {
+  display: inline-block;
+  content: '';
+  margin: 7px 0 0 10px;
+  width: 8px;
+  height: 12px;
+  background: url(//gscdn.hackers.co.kr/champ//img/chobo/common/sp_layout.png) no-repeat -319px 0;
+  vertical-align: top;
+}
+
+.gnb_list>li.mnu7.on a span {
+  border-bottom-width: 1px;
+}
+
+#container {
+  background: #f8f8f8;
+  padding-top: 160px;
+}
+
+.line_map {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 18px;
+  font-size: 11px;
+  color: #929292
+}
+
+.line_map em {
+  color: #4487ef
+}
+
+#content {
+  width: 1050px;
+  margin: 0 auto;
+  padding: 24px 0 23px 0
+}
+
+#footer {
+  background-color: #fff
+}
+
+.ft_txt {
+  background-color: #ffb302;
+  text-align: center
+}
+
+.certifi_area {
+  overflow: hidden
+}
+
+.certifi_area .hackess_brand_wrap {
+  width: 1000px;
+  margin: 0 auto
+}
+
+.certifi_area ul {
+  width: 1050px;
+  margin: 0 auto
+}
+
+.certifi_area ul li {
+  width: 262px;
+  height: 210px;
+  text-align: center;
+  float: left
+}
+
+.certifi_img1 {
+  width: 138px;
+  height: 173px;
+  background-position: 0 0
+}
+
+.certifi_img2 {
+  width: 176px;
+  height: 157px;
+  background-position: -150px 0
+}
+
+.certifi_img3 {
+  width: 135px;
+  height: 148px;
+  background-position: -340px 0
+}
+
+.certifi_img4 {
+  width: 187px;
+  height: 157px;
+  background-position: -490px 0
+}
+
+.certifi_img5 {
+  width: 141px;
+  height: 153px;
+  background-position: 0 -190px
+}
+
+.certifi_img6 {
+  width: 142px;
+  height: 151px;
+  background-position: -160px -190px
+}
+
+.certifi_img7 {
+  width: 138px;
+  height: 145px;
+  background-position: -320px -190px
+}
+
+.certifi_img8 {
+  width: 210px;
+  height: 147px;
+  background-position: -480px -190px
+}
+
+.certifi_img9 {
+  width: 177px;
+  height: 155px;
+  background-position: 0 -360px
+}
+
+.certifi_img10 {
+  width: 171px;
+  height: 153px;
+  background-position: -190px -360px
+}
+
+.certifi_img11 {
+  width: 151px;
+  height: 148px;
+  background-position: -380px -360px
+}
+
+.certifi_img12 {
+  width: 182px;
+  height: 153px;
+  background-position: -550px -360px
+}
+
+.certifi_img13 {
+  width: 189px;
+  height: 173px;
+  background-position: 0 -559px
+}
+
+.certifi_img14 {
+  width: 122px;
+  height: 173px;
+  background-position: -204px -559px
+}
+
+.certifi_link {
+  width: 74px;
+  height: 14px;
+  background-position: 0 -530px;
+  margin: 5px auto 0;
+  display: block
+}
+
+.ft_area {
+  border-top: 1px solid #e1e1e1;
+  padding: 48px 0
+}
+
+.ft_area .inner {
+  font-size: 11px;
+  overflow: hidden
+}
+
+.ft_area .inner .f_l {
+  width: 700px
+}
+
+.ft_area .inner .f_l .ft_logo {
+  margin-bottom: 30px
+}
+
+.ft_area .inner .f_l .ft_logo img {
+  width: 100px;
+  height: auto
+}
+
+.ft_area .inner .f_l .ft_call {
+  margin-bottom: 25px;
+  color: #333
+}
+
+.ft_area .inner .f_l .ft_link {
+  margin-bottom: 22px;
+  overflow: hidden
+}
+
+.ft_area .inner .f_l .ft_link ul {
+  overflow: hidden
+}
+
+.ft_area .inner .f_l .ft_link ul li {
+  float: left
+}
+
+.ft_area .inner .f_l .ft_link ul li a {
+  display: inline-block;
+  height: 23px;
+  line-height: 23px;
+  margin: 0 5px;
+  color: #333
+}
+
+.ft_area .inner .f_l .ft_link ul li.first a {
+  margin-left: 0
+}
+
+.ft_area .inner .f_l .ft_link ul li.privacy a {
+  color: #ffb302
+}
+
+.ft_area .inner .f_l .ft_info {
+  margin-bottom: 25px;
+  line-height: 20px;
+  color: #787878
+}
+
+.ft_area .inner .f_l address {
+  color: #787878
+}
+
+.ft_area .inner .f_r {
+  width: 350px;
+  padding-top: 70px;
+  position: relative;
+}
+
+.ft_area .inner .f_r .lg_logo {
+  margin-bottom: 22px
+}
+
+.ft_area .inner .f_r .lg_logo img {
+  margin-right: 10px
+}
+
+.ft_area .inner .f_r .lg_logo a {
+  border: 1px solid #bbb;
+  padding: 2px 3px;
+  color: #a8a8a8;
+  display: inline-block
+}
+
+.ft_area .inner .f_r .lg_txt {
+  line-height: 18px;
+  color: #a8a8a8
+}
+
+.ft_area .inner .f_r ul {
+  width: 500px;
+  position: absolute;
+  left: -145px;
+  top: 0;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+.ft_area .inner .f_r ul li {
+  float: left;
+  padding-right: 5px;
+}
+
+.ft_area .inner .f_r ul li a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  font-size: 0;
+  line-height: 0;
+  background: url(//gscdn.hackers.co.kr/champ//img/chobo/common/sp_layout.png) no-repeat;
+}
+
+.ft_area .inner .f_r ul li a.btn1 {
+  background-position: -52px -176px;
+}
+
+.ft_area .inner .f_r ul li a.btn2 {
+  background-position: -112px -176px;
+}
+
+.ft_area .inner .f_r ul li a.btn3 {
+  background-position: -172px -176px;
+}
+
+.ft_area .inner .f_r ul li a.btn4 {
+  background-position: -232px -176px;
+}
+
+.ft_area .inner .f_r ul li a.btn5 {
+  background-position: -292px -176px;
+}
+
+.ft_area .inner .f_r ul li a.btn6 {
+  background-position: -352px -176px;
+}
+
+.ft_area .inner .f_r ul li a.btn7 {
+  background-position: -412px -176px;
+}
+
+.ft_area .inner .f_r ul li a.btn8 {
+  background-position: -52px -127px;
+}
+
+.ft_area .inner .f_r ul li a.btn9 {
+  background: url(//gscdn.hackers.co.kr/champ/img/chobo/common/f_blog_icon.png) no-repeat;
+}
+
+.ft_area .inner .f_r ul li a.btn10 {
+  background: url(//gscdn.hackers.co.kr/champ/img/chobo/common/f_post_icon.png) no-repeat;
+}
+
+.ft_area .inner .f_r ul li a.btn11 {
+  background-position: -112px -127px;
+}
+
+.best_seller {
+  overflow: hidden;
+  clear: both;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  background: #fff;
+}
+
+.text_box {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.text_box dl {
+  padding: 18px 0 17px;
+}
+
+.text_box dl * {
+  color: #777;
+  /*font-family:'Nanum Gothic Thin';*/
+  font-size: 12px;
+}
+
+.text_box dl dt a {
+  position: relative;
+  font-size: 11px;
+}
+
+.text_box dl dd {
+  display: none
+}
+
+.text_box dl a:hover {
+  color: #666
+}
+
+.text_box dl a {
+  overflow: hidden;
+  display: block;
+}
+
+.text_box dl .text_box_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer
+}
+
+.text_box dl dd {
+  display: none;
+  height: 150px;
+  overflow-y: auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #d3d3d3;
+  line-height: 18px
+}
+
+/* Print */
+.print_wrap {
+  position: relative;
+  padding: 80px 23px 23px;
+  border-top: 4px solid #4487ef
+}
+
+.print_btn_print {
+  position: absolute;
+  top: 24px;
+  right: 24px
+}
+
+.print_ct {
+  position: relative;
+  padding: 25px;
+  border: 5px solid #ddd;
+  background: #fff
+}
+
+.pinrt_tit {
+  margin-top: 25px;
+  padding: 18px 0;
+  border: 3px solid #4487ef;
+  text-align: center
+}
+
+.print_p {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+  color: #a2a2a2
+}
+
+.print_p2 {
+  margin-top: 12px;
+  text-align: right;
+  color: #a2a2a2
+}
+
+.print_tbl {
+  margin-top: 25px;
+  padding: 10px 48px 45px 48px;
+  border: 1px solid #ddd
+}
+
+.print_tbl table {
+  width: 100%
+}
+
+.print_tbl th,
+.print_tbl td {
+  padding-top: 35px;
+  font-size: 16px
+}
+
+.print_tbl th {
+  padding-left: 12px;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/myclass/print_bar.gif") no-repeat 0 36px;
+  text-align: left;
+  color: #4487ef
+}
+
+.print_tbl td {
+  font-weight: bold
+}
+
+.print_tbl2 {
+  margin-top: 25px
+}
+
+.print_tbl2 table {
+  width: 100%;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd
+}
+
+.print_tbl2 th,
+.print_tbl2 td {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd
+}
+
+.print_tbl2 th {
+  background: #f8f8f8;
+  font-size: 14px
+}
+
+.print_tbl2 td {
+  text-align: center
+}
+
+.print_stamp {
+  position: relative;
+  margin-top: 320px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 32px;
+  font-size: 16px
+}
+
+.print_stamp .box {
+  position: relative;
+  z-index: 10;
+  display: inline-block
+}
+
+.print_stamp .txt {
+  font-weight: normal;
+  color: #afafaf
+}
+
+.print_stamp .stamp {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  margin-left: 110px
+}
+
+.print_foot {
+  margin-top: 55px;
+  text-align: center;
+  line-height: 20px;
+  color: #afafaf
+}
+
+/* seach_box */
+.seach_box {
+  overflow: hidden;
+  background: #ececec;
+  border: 1px solid #e4e4e4;
+  padding: 6px;
+  line-height: 30px
+}
+
+.seach_box strong {
+  float: left;
+  line-height: 30px;
+  padding-left: 15px;
+  font-weight: normal;
+  width: 135px;
+  display: block
+}
+
+.seach_box .select-row,
+.seach_box select {
+  height: 15px
+}
+
+.seach_box select {
+  width: 100%
+}
+
+/* Design Select */
+.wSelect-el {
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  overflow: hidden;
+  display: none
+}
+
+.wSelect {
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+.wSelect-arrow {
+  position: absolute;
+  width: 30px;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0px center
+}
+
+.wSelect-hover .wSelect-arrow,
+.wSelect-active .wSelect-arrow {
+  background-position: -30px center
+}
+
+.wSelect.wSelect-multiple {
+  overflow: hidden
+}
+
+.wSelect-selected {
+  margin: 0px 35px 0px 5px;
+  padding: 5px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  background-repeat: no-repeat;
+  background-position: 0 center
+}
+
+.wSelect-options-holder {
+  position: absolute;
+  display: none;
+  left: 0px;
+  z-index: 200;
+  overflow: hidden
+}
+
+.wSelect-multiple .wSelect-options-holder {
+  position: relative !important;
+  display: block !important;
+  top: auto !important;
+  z-index: auto !important;
+  border: none !important
+}
+
+.wSelect-options {
+  overflow-y: scroll;
+  overflow-x: hidden
+}
+
+.wSelect-option {
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  margin-bottom: 1px;
+  cursor: pointer
+}
+
+.wSelect-option-value {
+  margin: 0 10px;
+  padding: 14px 0;
+  *padding: 7px 0;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  white-space: nowrap;
+  overflow: hidden
+}
+
+.wSelect-theme-classic.wSelect {
+  width: 182px !important;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  padding: 9px 5px;
+  *padding: 2px 5px
+}
+
+.wSelect-arrow {
+  background-image: url('//gscdn.hackers.co.kr/champ/images/hackerstalk/common/select_arrow.png')
+}
+
+.wSelect-theme-classic .wSelect-options-holder {
+  width: 192px;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  top: 28px !important;
+  *top: 26px !important;
+  left: -1px !important
+}
+
+/* file_form_box */
+.file_form_box ul {
+  border: 1px solid #e9e9e9
+}
+
+.file_form_box ul li {
+  height: 18px;
+  border-top: 1px dotted #e3e3e3;
+  padding: 11px 20px
+}
+
+.file_form_box ul li:first-child {
+  border-top: 0
+}
+
+.file_form_box ul li .tit {
+  width: 312px;
+  padding-top: 3px;
+  float: left
+}
+
+/* lypopup */
+.lypop {
+  display: none;
+  position: fixed;
+  _position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000
+}
+
+.lypop .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
+.lypop .bg.shw {
+  background: #000;
+  opacity: .5;
+  filter: alpha(opacity=50)
+}
+
+.lypop .lypop_wrap,
+.lypop .lypop_wrap2,
+.lypop_video {
+  display: block
+}
+
+.lypop_wrap {
+  width: 394px;
+  height: 474px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #f8f8f8;
+  border: 3px solid #4487ef
+}
+
+.lypop_wrap2 {
+  width: 394px;
+  height: 364px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #f8f8f8;
+  border: 3px solid #4487ef
+}
+
+.lypop_video {
+  width: 886px;
+  height: 485px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #000
+}
+
+.lypop_tit {
+  height: 47px;
+  background-color: #4487ef;
+  padding: 0 18px;
+  position: relative
+}
+
+.lypop_tit .lypop_tit_h2 {
+  font-size: 16px;
+  line-height: 45px;
+  font-weight: bold;
+  color: #fff
+}
+
+.lypop_tit .lypop_tit_h2 span {
+  padding-left: 10px;
+  font-size: 11px;
+  font-weight: normal;
+  color: #afceff
+}
+
+.lypop_close {
+  width: 20px;
+  height: 20px;
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/button.png") no-repeat 0 -122px;
+  position: absolute;
+  right: 14px;
+  top: 12px
+}
+
+.lypop_close.ty {
+  right: -60px;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  background-position: 0 -147px
+}
+
+.lypop .lypop_wrap3 {
+  display: block
+}
+
+.lypop_wrap3 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  border: 1px solid #010101
+}
+
+.lypop_wrap3 .cont {
+  overflow: auto
+}
+
+.lypop_tit2 {
+  position: relative;
+  height: 40px;
+  background-color: #efefef;
+  padding: 0 18px
+}
+
+.lypop_tit2 .lypop_tit_h2 {
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #000
+}
+
+.lypop_close2 {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  right: 19px;
+  background-image: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/button.png");
+  background-position: 0 -321px;
+  text-indent: -3000em
+}
+
+.lypop_cont2 {
+  padding: 30px
+}
+
+/* popup */
+#popup {
+  padding: 21px 19px 28px 19px
+}
+
+#popup2 {
+  background-color: #f8f8f8;
+  border-top: 4px solid #4487ef;
+  padding: 23px
+}
+
+#popup .tit_h4 {
+  margin-bottom: 13px
+}
+
+#popup .section,
+#popup2 .section {
+  margin-bottom: 0
+}
+
+#popup3 {
+  padding: 30px 32px
+}
+
+.print_wrap {
+  padding-left: 0 !important
+}
+
+.print_box {
+  text-align: right;
+  margin-bottom: 23px
+}
+
+.popup_head {
+  position: relative;
+  height: 43px;
+  padding: 10px 35px 0;
+  background: #efefef
+}
+
+.popup_head h1 {
+  font-size: 20px;
+  font-family: Malgun Gothic
+}
+
+.popup_head h1 img {
+  margin-right: 15px;
+  vertical-align: middle
+}
+
+.popup_head .count_hour {
+  position: absolute;
+  top: 13px;
+  right: 33px
+}
+
+.popup_head .count_hour .time {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 19px;
+  line-height: 24px;
+  padding: 0 15px;
+  background: #fff;
+  font-size: 11px
+}
+
+.popup_head .ty_rt {
+  position: absolute;
+  top: 12px;
+  right: 33px
+}
+
+.btn_comm_mp3 {
+  background: url('//gscdn.hackers.co.kr/champ/images/hackerstalk_m/common/btn_comm.png') no-repeat;
+  background-size: 50px auto;
+  display: inline-block;
+  vertical-align: top
+}
+
+@media print {
+  #popup2 {
+    border-top: 0;
+    padding: 0
+  }
+
+  .print_box {
+    display: none
+  }
+}
+
+.gate_coupon_wrp {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.gate_coupon_wrp ul {
+  padding: 60px 0;
+}
+
+.gate_coupon_wrp li {
+  display: inline-block;
+}
+
+.gate_coupon_wrp li:first-child {
+  padding-right: 145px;
+}
+
+/* top_bnr */
+.mobile_top_bnr {
+  width: 100%;
+  text-align: center;
+  background: #010101;
+}
+
+.top_bnr {
+  width: 100%;
+  text-align: center;
+}
+
+.top_bnr [class^="top_open"]>.inner {
+  width: 1050px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.top_bnr .top_open {
+  cursor: pointer;
+}
+
+.top_bnr .top_open_box {
+  width: 100%;
+  height: 497px;
+  overflow: hidden;
+  border-bottom: 1px solid #e9e9e9;
+  background: #fff;
+}
+
+.top_bnr .top_open .btn_slider {
+  cursor: pointer;
+  position: absolute;
+  top: 28px;
+  right: 10px;
+  width: 120px;
+  height: 32px;
+  background: url('//gscdn.hackers.co.kr/champ//images/champstudy/main/line_close.png') no-repeat 0 -32px;
+}
+
+.top_bnr .top_open .btn_slider.active {
+  background-position: 0 0px;
+}
+
+.top_bnr .top_open_box .bx-viewport {
+  width: 1000px !important;
+}
+
+.top_bnr .top_open_box .bx-viewport li {
+  height: 497px !important;
+}
+
+.top_bnr .top_open_box .bx-wrapper .bx-controls-direction a {
+  width: 30px;
+  height: 59px;
+  background: url("//gscdn.hackers.co.kr/hacademia/images/main/btn_br_direct.png") no-repeat 0 -121px;
+}
+
+.top_bnr .top_open_box .bx-wrapper .bx-controls-direction a.bx-prev {
+  left: 10px;
+  background-position: 0 -121px
+}
+
+.top_bnr .top_open_box .bx-wrapper .bx-controls-direction a.bx-prev:hover {
+  background-position: 0 0
+}
+
+.top_bnr .top_open_box .bx-wrapper .bx-controls-direction a.bx-next {
+  right: 10px;
+  background-position: -30px -121px
+}
+
+.top_bnr .top_open_box .bx-wrapper .bx-controls-direction a.bx-next:hover {
+  background-position: -30px 0
+}
+
+.top_bnr .top_open_box .top_open_close {
+  position: absolute;
+  right: 10px;
+  z-index: 200;
+  cursor: pointer;
+  top: 5px;
+}
+
+/* 170904 sub_nav_box 개선 */
+.sub_new_nav {
+  border: 1px solid #e9e9e9;
+}
+
+.sub_new_nav .depth2 ul {
+  height: auto;
+  min-height: 116px;
+}
+
+.customer_info_wrap {
+  border-top: 2px solid #4487ef;
+}
+
+.customer_info_wrap ul {
+  overflow: hidden;
+}
+
+.customer_info_wrap ul li {
+  padding: 40px 0;
+  float: left;
+}
+
+.customer_info_wrap.tab4 ul li {
+  width: 25%;
+  *width: 24.999%
+}
+
+.customer_info_wrap.tab3 ul li {
+  width: 33.3%
+}
+
+.customer_info_wrap.tab2 ul li {
+  width: 50%
+}
+
+.customer_info_wrap .customer_info_cont {
+  padding-left: 53px;
+}
+
+.customer_info_wrap .customer_info_cont strong {
+  margin-left: -34px;
+}
+
+.customer_info_wrap .customer_info_cont p {
+  font-size: 11px;
+  color: #6c6c6c;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+
+.customer_info_cont [class^="custom_tit0"] {
+  display: block;
+  margin-bottom: 10px;
+  width: 190px;
+  height: 30px;
+  background: url('//gscdn.hackers.co.kr/champ/images/hackerstalk/common/bg_sprite_faq.png') no-repeat;
+  font-size: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.customer_info_cont .custom_tit01 {
+  background-position: 0 0;
+}
+
+.customer_info_cont .custom_tit02 {
+  background-position: 0 -40px;
+}
+
+.customer_info_cont .custom_tit03 {
+  background-position: 0 -80px;
+}
+
+.customer_info_cont .custom_tit04 {
+  background-position: 0 -120px;
+}
+
+.customer_info_wrap .btn_line_full a {
+  border: 1px solid #000;
+  height: 28px;
+  line-height: 30px;
+  padding: 0 20px;
+}
+
+.btn_line_full .bul_arr {
+  display: inline-block;
+  width: 5px;
+  height: 9px;
+  background-position: 0 0;
+  vertical-align: middle;
+  margin: 0 0 0 10px
+}
+
+/* 하단띠배너 */
+.banner_bottom_line {
+  z-index: 999;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 88px;
+  background: #000
+}
+
+.banner_bottom_line .banner_img {
+  z-index: 3;
+  position: relative;
+  width: 1000px;
+  margin: -20px auto 0
+}
+
+.bottom_banner_close {
+  position: absolute;
+  top: -1px;
+  right: 0
+}
+
+/* 마감이슈 자동화*/
+.slide_end_day {
+  z-index: 51;
+  overflow: hidden;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #fff;
+}
+
+.slide_end_day>strong {
+  display: block;
+  width: 147px;
+  height: 37px;
+  line-height: 37px;
+  font-family: 'noto', Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  color: #000;
+  letter-spacing: -1px;
+}
+
+.slide_end_day>strong span.last-period {
+  color: #ff0000;
+}
+
+.slide_end_day>strong.black {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.slide_end_day>strong.black span.last-period {
+  color: #74fffd;
+}
+
+.slide_end_day>strong.white {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.slide_end_day>strong.white span.last-period {
+  color: #ff0000;
+}
+
+.slide_end_day.main_top_left {
+  top: 90px;
+  left: 20px;
+}
+
+.slide_end_day.sub_type2 {
+  top: 20px;
+  left: 336px
+}
+
+/* 수강신청 */
+
+.slide_end_day.bt_bn {
+  top: 45px;
+  left: 80px
+}
+
+.slide_end_day.bt_bn>strong {
+  width: 135px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 17px
+}
+
+.slide_end_day.sub_type {
+  top: 20px;
+  left: 340px
+}
+
+.slide_end_day.sub_type>strong {
+  width: 135px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 17px
+}
+
+.slide_end_day.s_bn {
+  top: 15px;
+  left: 1%;
+  width: 98%;
+  text-align: center
+}
+
+.slide_end_day.s_bn>span {
+  display: inline-block;
+  padding: 0 10px;
+  border: 2px solid #777;
+  height: 24px;
+  line-height: 24px;
+  *line-height: 25px;
+  font-size: 14px
+}
+
+/* 댓글 추가 */
+.cmt_area {}
+
+.cmt_area .cmt_header {
+  margin-bottom: 10px;
+  font-size: 0;
+  margin-left: 5px;
+}
+
+.cmt_area .cmt_header * {
+  vertical-align: text-top;
+  margin-left: 5px;
+}
+
+.cmt_area .cmt_header strong {
+  font-size: 12px;
+}
+
+.cmt_area .cmt_header .ico_cmt {
+  margin-top: -3px;
+}
+
+.cmt_area .cmt_info {
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  padding: 28px 35px 20px 35px;
+}
+
+.cmt_area .cmt_info .cmt_title {
+  overflow: hidden;
+}
+
+.cmt_area .cmt_info .cmt_tit {
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.cmt_area .cmt_info .cmt_timer {
+  font-size: 11px;
+  line-height: 11px;
+  color: #c3c3c3;
+  margin-top: 2px;
+  border-left: 1px solid #c3c3c3;
+  border-right: 1px solid #c3c3c3;
+  padding: 0 10px;
+}
+
+.cmt_area .cmt_info .cmt_content {
+  margin-top: 15px;
+  color: #929292;
+}
+
+/* 정렬 */
+.array_list {
+  overflow: hidden;
+}
+
+.array_list li {
+  float: left;
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  margin-left: -1px;
+}
+
+.array_list li.on {
+  background: #4487ef
+}
+
+.array_list li.on a {
+  color: #fff;
+}
+
+.array_list li a {
+  color: #6c6c6c;
+  font-size: 12px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 15px;
+  display: block;
+}
+
+/*둥둥이 배너*/
+.dungdung {
+  animation-name: dungdung;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+
+@keyframes dungdung {
+
+  0%,
+  100% {
+    transform: translate(0, 0)
+  }
+
+  50% {
+    transform: translate(0, -20px)
+  }
+}
+
+/*둥둥이 배너*/
+
+/* 퀵배너 */
+.main_quick_ver2 {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  width: 115px;
+  margin-left: 535px;
+  font-family: 'noto', sans-serif;
+  z-index: 97
+}
+
+.main_quick_ver2.fixed {
+  position: fixed;
+  top: 0;
+}
+
+.main_quick_bg {
+  background: #f3f3f3 url("//gscdn.hackers.co.kr/champ/images/champstudy/main/main_img.png") no-repeat 3px -320px;
+}
+
+.main_quick_ver2 .quickmenu_tit {
+  margin-top: 0;
+}
+
+.main_quick .menu {
+  border-right: 1px solid #d7d7d7;
+  border-left: 1px solid #d7d7d7
+}
+
+.main_quick_ver2 .menu li {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.main_quick_ver2 .menu li a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+  background-color: #fff;
+  text-align: center;
+}
+
+.main_quick_ver2 .menu li a span {
+  font-size: 12.5px;
+  display: block;
+  letter-spacing: -0.5px;
+}
+
+.main_quick_ver2 .topdown {
+  margin-top: 8px;
+  border: 1px solid #d7d7d7;
+  border-bottom: 0
+}
+
+.main_quick_ver2 .topdown li {
+  border-bottom: 1px solid #d7d7d7
+}
+
+.main_quick_ver2 .topdown li a {
+  font-size: 0;
+  text-indent: -3000em;
+  display: block;
+  width: 113px;
+  height: 21px;
+}
+
+.main_quick_ver2 .topdown li a.quickmenu_top {
+  background-position: 0 -356px;
+}
+
+.main_quick_ver2 .topdown li a.quickmenu_down {
+  background-position: 0 -377px;
+}
+
+.main_quick_ver2 .quick_latest_tit {
+  height: 30px;
+  margin-top: 8px;
+  background: #000;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 13px
+}
+
+.main_quick_ver2 .quick_latest {
+  padding: 0 10px 10px;
+  border: 1px solid #d7d7d7;
+  background: #fff
+}
+
+.main_quick_ver2 .quick_latest .lst_latest li {
+  position: relative;
+  padding-top: 10px;
+}
+
+.main_quick_ver2 .quick_latest .lst_latest li:first-child {
+  border-top: 0;
+  margin-top: 0
+}
+
+.main_quick_ver2 .quick_latest .lst_latest li a img {
+  width: 93px;
+}
+
+.main_quick_ver2 .quick_latest .lst_latest>li>a:hover .hover_br {
+  display: block;
+}
+
+.main_quick_ver2 .quick_latest .lst_latest>li .hover_br {
+  display: none;
+  position: absolute;
+  left: -200px;
+  top: 10px;
+  width: 174px;
+  padding: 6px 13px;
+  min-height: 37px;
+  font-size: 11px;
+  color: #fff;
+  background-color: #777;
+}
+
+.main_quick_ver2 .quick_latest .lst_latest>li .hover_br em {
+  display: block;
+  color: #cccccc;
+}
+
+.main_quick_ver2 .quick_latest .lst_latest>li:hover .btn_delete {
+  display: block
+}
+
+.main_quick_ver2 .quick_latest button {
+  background: url("//gscdn.hackers.co.kr/champ/images/hackerstalk/common/button.png") no-repeat;
+}
+
+.main_quick_ver2 .quick_latest .btn_delete {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background-position: 0 -828px;
+  text-indent: -9999px;
+  z-index: 999
+}
+
+.main_quick_ver2 .quick_latest .pager {
+  width: 70px;
+  margin: 7px auto 0;
+  line-height: 12px;
+  text-align: center
+}
+
+.main_quick_ver2 .quick_latest .num_pager {
+  display: inline-block;
+  width: 31px;
+  font-size: 13px;
+  color: #999
+}
+
+.main_quick_ver2 .quick_latest .num_pager .fc_b {
+  color: #000;
+}
+
+.main_quick_ver2 .quick_latest .pager button {
+  overflow: hidden;
+  width: 15px;
+  height: 15px;
+}
+
+.main_quick_ver2 .quick_latest .next {
+  background-position: -14px -804px
+}
+
+.main_quick_ver2 .quick_latest .prev {
+  background-position: 0 -804px
+}
+
+.main_quick_ver2 .quick_latest .quick_consulting {}
+
+.main_quick_ver2 .quick_latest.quick_consulting input[type="text"] {
+  margin: 8px 0;
+  padding: 7px 0;
+  width: 90px;
+  height: 6px;
+  text-align: center;
+}
+
+.main_quick_ver2 .quick_latest.quick_consulting input[type="submit"],
+.main_quick_ver2 .quick_latest.quick_consulting input[type="button"] {
+  background: #cd1110;
+  color: white;
+  cursor: pointer;
+  width: 93px;
+  border-radius: 5px;
+  height: 28px;
+}
+
+/* 우측퀵배너 */
+.Outer_Quick {
+  position: fixed;
+  width: 150px;
+  left: 50%;
+  margin-left: 600px;
+  top: 290px;
+  z-index: 89;
+}
+
+.Outer_Quick.lecture {
+  width: 80px;
+  margin-left: 580px;
+  top: 250px;
+}
+
+.quick_module li {
+  padding-top: 5px;
+}
+
+.Outer_Quick.lecture .quick_module li img {
+  border: 1px solid #ddd;
+}
+
+.quick_module .reserve {
+  position: relative;
+  width: 150px;
+  height: 263px;
+  text-align: center;
+  background: url('//gscdn.hackers.co.kr/champ//img/chobo/common/banner_right_reservation_bg_170413.png') no-repeat;
+}
+
+.quick_module .reserve .phone {
+  display: block;
+  padding-top: 90px;
+}
+
+.quick_module .reserve strong,
+.quick_module .reserve p label,
+.quick_module .reserve p a,
+.quick_module .reserve button {
+  font-size: 0;
+  line-height: 0;
+}
+
+.quick_module .reserve p {
+  position: relative;
+  height: 42px;
+  margin: 0px 0 10px;
+}
+
+.quick_module .reserve button[type=submit] {
+  display: inline-block;
+  width: 123px;
+  height: 36px;
+  background: url('//gscdn.hackers.co.kr/champ//img/chobo/common/banner_right_reservation_submit_v2.png') no-repeat;
+}
+
+.quick_module .reserve input[type=text] {
+  width: 30px;
+  padding: 7px 5px;
+  border: 1px solid #141f51;
+  text-align: center;
+}
+
+.quick_module .reserve input[type=checkbox] {
+  width: 14px;
+  height: 14px;
+}
+
+.quick_module .reserve p label {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  text-align: left;
+}
+
+.quick_module .reserve a {
+  position: absolute;
+  right: 12px;
+  top: 2px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url('//gscdn.hackers.co.kr/champ//img/chobo/common/banner_right_reservation_viewbtn_v2.png') no-repeat;
+}
+
+.quick_module .reserve .anch_bx {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 37px;
+  background: url('//gscdn.hackers.co.kr/champ//img/chobo/common/banner_right_reservation_anch.png') no-repeat;
+}
+
+.quick_module .reserve .anch_bx button {
+  display: inline-block;
+  width: 70px;
+  height: 32px;
+}
+
+.pop_privacy_bg {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 9000;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+
+.pop_privacy_wrp {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 548px;
+  margin: -175px 0 0 -274px;
+  border: 1px solid #000;
+  z-index: 9001;
+  background: #fff;
+}
+
+.pop_privacy_wrp.view,
+.pop_privacy_bg.view {
+  display: block;
+}
+
+.pop_privacy_wrp .pop_privacy_bx {
+  position: relative;
+}
+
+.pop_privacy_wrp .btn_close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('//gscdn.hackers.co.kr/champ//img/chobo/common/btn_ly_close.gif') no-repeat;
+  font-size: 0;
+  line-height: 0;
+}
+
+.pop_privacy_wrp h2 {
+  height: 28px;
+  padding: 12px 0 0 20px;
+  font-size: 14px;
+  color: #000;
+  background: #efefef;
+}
+
+.pop_privacy_wrp h2 span {
+  font-size: 11px;
+  color: #9e9e9e;
+  margin-left: 5px;
+}
+
+.pop_privacy_wrp .cont {
+  padding: 28px 20px 4px 40px;
+  padding-bottom: 25px;
+  font-size: 11px;
+  color: #6c6c6c;
+  line-height: 1.5;
+}
+
+.pop_privacy_wrp ol {
+  padding-left: 15px;
+}
+
+.pop_privacy_wrp ol li {
+  list-style: decimal;
+  padding-bottom: 10px;
+}
+
+/* 레이어 배너 */
+.layer_n {
+  display: none;
+  position: fixed;
+  _position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+}
+
+.layer_n .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  z-index: 1000;
+}
+
+.layer_n.coupon_banner {
+  display: block;
+  width: 300px;
+  left: auto;
+  right: 14%;
+  height: 250px;
+  top: auto;
+  bottom: 150px;
+  border: 1px solid #000;
+  background: #fff;
+  font-size: 19px;
+  overflow: hidden;
+  font-family: 'Malgun gothic', dotum, sans-serif
+}
+
+.layer_n.coupon_banner .layer_box {
+  top: auto;
+  left: 0;
+  right: 0
+}
+
+.layer_n.coupon_banner .pop_head {
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px;
+  position: relative
+}
+
+.layer_n.coupon_banner .pop_head a {
+  position: absolute;
+  right: 5px;
+  top: 5px
+}
+
+.layer_n.coupon_banner .pop_cnt {
+  padding: 25px 12px;
+  height: 176px;
+  overflow-y: auto;
+  text-align: center
+}
+
+.layer_n.coupon_banner .pop_cnt .tit_mem {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline
+}
+
+.layer_n.coupon_banner .pop_cnt .evt_info_cnt {
+  font-size: 14px;
+  background: #feefcb;
+  padding: 14px;
+  margin: 14px 0
+}
+
+.layer_n.coupon_banner .pop_cnt .exit_mem {
+  color: #c9002b
+}
+
+.layer .layer_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  z-index: 1002 !important
+}
+
+.layer .layer_box .close {
+  display: block;
+  text-align: right;
+  margin-right: 10px
+}
+
+.layer .layer_box .btn_pop {
+  text-align: center;
+  display: block
+}
+
+.youtubeWrap {
+  margin: 6px auto 19px auto;
+  width: 638px;
+  height: 357px;
+  border: 10px solid #104d9e
+}
+
+/* 영상레이어팝업 */
+.layer .layer_box.movie_type2 {
+  width: 913px;
+  height: 610px;
+  background: url("//gscdn.hackers.co.kr/champ/img/chobo/re-new/cont_layer_bg01.png") no-repeat 0 30px !important
+}
+
+.layer .layer_box.movie_type2 .vod-grid {
+  width: 872px;
+  height: 485px;
+  margin: 20px auto 0;
+  background: none
+}
+
+/* 즐겨찾기 */
+.btn_bookmark {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font-family: 'noto', Tahoma, sans-serif;
+  font-size: 12px;
+  color: #555;
+  letter-spacing: -0.5px;
+}
+
+/* 버튼 팝업 */
+.btn_top_banner {
+  position: absolute;
+  right: -150px;
+  top: 12px;
+}
+
+
+/* 영상 문제해결 */
+.prb_search_form {
+  border: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  height: 150px;
+  display: table;
+  width: 100%;
+  background: url(//gscdn.hackers.co.kr/champ/images/champstudy/common/ico_tit_cm.png) no-repeat 57px center;
+}
+
+.prb_search_form legend {
+  display: none
+}
+
+.prb_search_form form {
+  display: table-cell;
+  vertical-align: middle
+}
+
+.prb_search_form .input_search {
+  border: 2px solid #000;
+  height: 42px;
+  font-size: 14px;
+  color: #000;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 516px;
+  margin-left: 323px;
+  float: left;
+  line-height: 42px
+}
+
+.prb_search_form .btn_prb_search {
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  height: 60px;
+  width: 110px
+}
+
+.prb_board {
+  margin: 50px 0 57px;
+}
+
+.prb_board .js-tab-type1 {
+  overflow: hidden;
+  background: #4487ef;
+}
+
+.prb_board .js-tab-type1 li {
+  float: left;
+  position: relative
+}
+
+.prb_board .js-tab-type1 li::after {
+  content: '|';
+  color: #66bfc5;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -7px;
+}
+
+.prb_board .js-tab-type1 li:last-child::after {
+  display: none
+}
+
+.prb_board .js-tab-type1 li a {
+  text-align: center;
+  display: block;
+  background: #4487ef;
+  font-size: 12px;
+  color: #fff;
+  padding: 20px 23px;
+}
+
+.prb_board .js-tab-type1 li:first-child a {
+  padding-left: 33px
+}
+
+.prb_board .js-tab-type1 li.on a {
+  color: #46feef;
+  font-weight: bold
+}
+
+.prb_board .acco_wrap {
+  border-bottom: 1px solid #e9e9e9;
+  width: 100%;
+  background: #fff
+}
+
+.prb_board .acco_wrap .acco_head {
+  border-top: 1px solid #e9e9e9;
+  padding: 20px 40px 20px 45px;
+  font-size: 12px;
+  cursor: pointer;
+  position: relative
+}
+
+.prb_board .acco_wrap .acco_head::after,
+.prb_board .acco_wrap .acco_cnt::after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0
+}
+
+.prb_board .acco_wrap .acco_head>.tit_head {
+  width: 146px;
+  display: inline-block;
+  font-weight: normal;
+  float: left;
+}
+
+.prb_board .acco_wrap .acco_head strong {
+  font-weight: normal;
+  position: relative;
+  padding-left: 35px;
+  width: 765px;
+  float: left;
+  line-height: 16px
+}
+
+.prb_board .acco_wrap .acco_head .ico_q {
+  background: url(//gscdn.hackers.co.kr/champ/images/champstudy/common/spr_qa.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  text-indent: -9999px
+}
+
+.prb_board .acco_wrap .ico_arrow_down,
+.prb_board .acco_wrap .ico_arrow_top {
+  content: '';
+  background: url(//gscdn.hackers.co.kr/champ/images/champstudy/common/spr_qa.png) no-repeat;
+  background-position: 0 -26px;
+  width: 16px;
+  height: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  top: 23px;
+  right: 40px
+}
+
+.prb_board .acco_wrap .ico_arrow_top {
+  background-position: -21px -26px;
+}
+
+.prb_board .acco_wrap .acco_cnt {
+  border-top: 1px solid #e9e9e9;
+  padding: 20px 40px 20px 45px;
+  background: #eaf6f7;
+  line-height: 25px;
+  display: none
+}
+
+.prb_board .acco_wrap .acco_cnt dl {
+  padding-left: 147px;
+  width: 765px;
+  float: left;
+  position: relative
+}
+
+.prb_board .acco_wrap .acco_cnt dd {
+  margin-left: 34px
+}
+
+.prb_board .acco_wrap .acco_cnt .ico_a {
+  content: '';
+  background: url(//gscdn.hackers.co.kr/champ/images/champstudy/common/spr_qa.png) no-repeat;
+  background-position: -22px 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-indent: -9999px
+}
+
+.prb_board .acco_wrap .acco_cnt .hlt {
+  display: block;
+  color: #109aa3;
+  position: relative
+}
+
+.prb_board .acco_wrap .acco_cnt .hlt .sub_tit {
+  margin-left: 34px;
+  display: block
+}
+
+.prb_board .paging {
+  margin-top: 8px
+}
+
+.talk_ten_area {
+  margin: 40px 0 0 0;
+  width: 750px
+}
+
+.talk_ten_area.talk_tv {
+  margin: 0 0 0 -40px;
+  width: 790px
+}
+
+.quick_menu_area {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  bottom: 0;
+  width: 282px
+}
+
+.quick_menu_area li {
+  margin-top: 10px
+}
+
+.quick_menu_area li:first-child {
+  margin-top: 0
+}
+
+.quick_menu_area a {
+  display: block
+}
+
+.lec_detail_tab {
+  overflow: hidden;
+  border-bottom: 1px solid #e4e4e4;
+  width: 100%
+}
+
+.lec_detail_tab li {
+  float: left;
+}
+
+.lec_detail_tab li:first-child a {
+  color: #000;
+  position: relative
+}
+
+.lec_detail_tab li:first-child a::before {
+  content: '';
+  position: absolute;
+  top: 11px;
+  background: #4487ef;
+  width: 4px;
+  height: 16px;
+  left: 0;
+}
+
+.lec_detail_tab li a {
+  display: block;
+  padding: 13px 20px 12px;
+  text-align: center;
+  color: #000
+}
+
+.lec_detail_tab li a:hover,
+.lec_detail_tab li.on a {
+  font-weight: bold
+}
+
+/* 통합 lnb */
+.hackers-site-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  width: 142px;
+  height: 100%;
+  padding-top: 35px;
+  background: #F4F4F4;
+  border-right: 1px solid #D7D7D7;
+  letter-spacing: -1px;
+  box-sizing: border-box;
+}
+
+.hackers-site-wrap * {
+  font-family: 'noto', Tahoma, sans-serif;
+}
+
+.hackers-site-wrap.close {
+  left: -100%;
+  width: 53px;
+  cursor: pointer;
+}
+
+.hackers-site-header [class^='family-menu-'] {
+  padding-left: 15px;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #939393;
+  cursor: pointer;
+}
+
+.hackers-site-header [class^='family-menu-']:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  background-image: url("//gscdn.hackers.co.kr/champ/img/common/icon_family_site.png");
+  background-position: -2px -21px;
+  vertical-align: bottom;
+}
+
+.hackers-site-header .family-menu-open:before {
+  display: block;
+  margin: 0 auto;
+  background-position-x: -24px;
+}
+
+.hackers-site-header .title {
+  display: block;
+  margin: 15px;
+  width: 126px;
+  min-height: 65px;
+  font-size: 0;
+  line-height: 0;
+  background: url(//gscdn.hackers.co.kr/champ/img/chobo/common/bg_family_site_tit.png) no-repeat 0 0;
+}
+
+.hackers-site-header .title-close {
+  display: inline-block;
+  margin-top: 20px;
+  padding-left: 15px;
+  min-height: 200px;
+  font-size: 15px;
+  color: #5E5F61;
+  writing-mode: tb-rl;
+  text-align: left;
+}
+
+.hackers-site-header .title-close:before {
+  content: '';
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 25px;
+  height: 25px;
+  background-image: url("//gscdn.hackers.co.kr/champ/img/common/icon_family_site.png");
+  background-position: -48px -21px;
+}
+
+.hackers-site-header .text {
+  position: relative;
+  display: block;
+  padding: 15px;
+  font-size: 14px;
+  color: #404040;
+  font-weight: 400;
+}
+
+.hackers-site-header .text em {
+  font-weight: 600;
+}
+
+.hackers-site-header .text span {
+  display: none;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 79%;
+  color: #395CC1;
+  background: #F4F4F4;
+}
+
+.hackers-site-myInfo>li {
+  position: relative;
+  border-top: 1px solid #E0E1E3;
+}
+
+.hackers-site-myInfo>li>a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 15px;
+  font-size: 14px;
+  color: #939393;
+}
+
+.hackers-site-myInfo .ico-family {
+  display: inline-block;
+  margin-right: 2px;
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
+  background-image: url("//gscdn.hackers.co.kr/champ/img/common/icon_family_site.png");
+}
+
+.hackers-site-myInfo .ico-family.lock {
+  background-position-x: -20px;
+}
+
+.hackers-site-myInfo .ico-family.send {
+  background-position-x: -40px;
+}
+
+.hackers-site-myInfo .ico-family.play {
+  background-position-x: -60px;
+}
+
+.hackers-site-myInfo .ico-family.mypage {
+  background-position-x: -80px;
+}
+
+.hackers-site-myInfo .ico-family.cart {
+  background-position-x: -101px;
+}
+
+.hackers-site-myInfo .list-recent-wrap {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 99;
+  width: 448px;
+  margin-left: 1px;
+  background: #FFF;
+  border: 1px solid #000;
+}
+
+.hackers-site-myInfo .list-recent-wrap ul {
+  overflow: hidden;
+  height: 315px;
+}
+
+.hackers-site-myInfo .list-recent-wrap li {
+  border-top: 1px solid #e0e1e3;
+}
+
+.hackers-site-myInfo .list-recent-wrap li:first-child {
+  border-top: 0;
+}
+
+.hackers-site-myInfo .list-recent-wrap li a {
+  display: block;
+  padding: 5px 14px;
+  font-size: 12px;
+}
+
+.hackers-site-myInfo .list-recent-wrap li .event {
+  display: block;
+}
+
+.hackers-site-myInfo .list-recent-wrap li .teacher {
+  color: #939393;
+}
+
+/*.hackers-site-myInfo .list-recent-wrap li .teacher:before { content: ''; display: inline-block; width: 1px; height: 11px; margin: 0 8px; background: #939393; vertical-align: middle; }*/
+.hackers-site-myInfo .list-recent-wrap .list-recent-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 28px;
+  padding-right: 10px;
+  background: #e0e1e6;
+  text-align: right;
+  line-height: 28px;
+  color: #939393;
+}
+
+.hackers-site-myInfo .list-recent-wrap .list-resent-null {
+  height: 315px;
+  line-height: 315px;
+  text-align: center;
+}
+
+.hackers-site-link {
+  padding-left: 15px;
+}
+
+.js_hover_wrap .js_hover_content {
+  display: none;
+}
+
+.js_hover_wrap.on .js_hover_content {
+  display: block;
+}
+
+
+/*closing_banner*/
+.closing_banner_wrap {
+  position: fixed;
+  top: -770px;
+  right: 0;
+  transition: all 0.3s;
+  z-index: 1001;
+}
+
+.closing_banner_wrap .bg {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 1001;
+  opacity: .8;
+  filter: alpha(opacity=80)
+}
+
+.closing_banner {
+  position: absolute;
+  top: 0;
+  right: 8px;
+  width: 370px;
+  height: 770px;
+  background-color: rgb(243, 243, 243);
+  z-index: 1001;
+}
+
+.closing_banner img {
+  max-width: 340px;
+}
+
+.closing_banner .closing_title {
+  text-align: center;
+  height: 55px;
+  line-height: 55px;
+  background: #232323;
+}
+
+.closing_banner .closing_title a {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+}
+
+.closing_banner a.close {
+  display: block;
+  position: absolute;
+  top: 17.5px;
+  right: 19px;
+  margin-right: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url(//gscdn.hackers.co.kr/champ/img/common/close_btn2.png);
+  text-indent: -3000em;
+  font-size: 0;
+}
+
+.closing_banner .top_view {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.closing_banner .btm_view {
+  padding: 15px 15px 0 15px;
+  overflow: hidden;
+}
+
+.closing_banner .btm_view li {
+  float: left;
+  margin-left: 16px;
+  width: 162px;
+}
+
+.closing_banner .btm_view li:first-child {
+  margin-left: 0;
+}
+
+.closing_banner .btm_view li .list_wrap .view_img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.closing_banner .btm_view li .list_wrap .view_name {
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  font-size: 13px;
+  color: #424242;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.closing_banner .btm_view li .list_wrap:hover .view_name {
+  color: #000 !important;
+  font-weight: 600;
+}
+
+.closing_banner .btm_view li .list_wrap:hover .view_img {
+  transition-duration: 0.15s;
+  -webkit-transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-delay: initial;
+  -webkit-transition-delay: initial;
+  transition-property: initial;
+  -webkit-transition-property: initial;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  box-shadow: rgba(50, 50, 50, 0.15) 0 6px 6px 0;
+  border: none;
+}
+
+.closing_banner .closing_closetoday {
+  display: block;
+  width: 340px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.closing_banner input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+
+/*1:1 맞춤 스피킹케어 신청서*/
+#speaking_care {
+  width: 400px;
+}
+
+#speaking_care img {
+  width: 100%;
+}
+
+#speaking_care .close {
+  position: relative;
+  float: right;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-right: 0;
+}
+
+#speaking_care .close::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#speaking_care .close span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 1px;
+  background: #fff;
+}
+
+#speaking_care .close span:first-of-type {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#speaking_care .close span:last-of-type {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+#speaking_care .cont {
+  padding: 0 5% 10%;
+  background: #fff;
+}
+
+#speaking_care .cont table {
+  width: 100%;
+}
+
+#speaking_care .cont table td {
+  padding: 3%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+#speaking_care .cont table td.list {
+  background: #f2f5fa;
+}
+
+#speaking_care .cont table td input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+}
+
+#speaking_care .cont table td select {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+#speaking_care .cont ul {
+  margin-top: 50px;
+}
+
+#speaking_care .cont ul li {
+  margin-bottom: 30px;
+}
+
+#speaking_care .cont ul li h4 {
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+#speaking_care .cont ul li input {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
