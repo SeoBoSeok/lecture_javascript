@@ -50,6 +50,35 @@ function hello(name) {
 
 hello('javascript');
 
+/** */
+/** 함수 표현식과 함수 선언식 */
+// 실행 전
+logMessage();
+sumNumbers();
+
+function logMessage() {
+  return 'worked';
+}
+
+var sumNumbers = function () {
+  return 10 + 20;
+};
+
+// 실행 시
+function logMessage() {
+  return 'worked';
+}
+
+var sumNumbers;
+
+logMessage(); // 'worked'
+sumNumbers(); // Uncaught TypeError: sumNumbers is not a function
+
+sumNumbers = function () {
+  return 10 + 20;
+};
+/** */
+
 /** 함수의 활용 */
 function getGrade(score) {
   if (score === 100) {

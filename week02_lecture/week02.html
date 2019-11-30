@@ -5,15 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <!-- <script src="//code.jquery.com/jquery-3.3.1.min.js"></script> -->
     <script src="script.js"></script>
     <!--Function-->
-    <script src="function.js"></script>
-    <script src="string.js"></script>
-    <script src="dom.js"></script>
-    <script src="attribute.js"></script>
-    <script src="find.js"></script>
-    <script src="check.js"></script>
+    <!-- <script src="function.js"></script> -->
+    <!-- <script src="string.js"></script> -->
+    <!-- <script src="dom.js"></script> -->
+    <script src="method.js"></script>
+    <!-- <script src="check.js"></script> -->
     <title>Week2</title>
   </head>
-  <body></body>
+  <body>
+    <div id="app"></div>
+    <div class="root">
+      <span class="product" data-product-id="G123">Guitar</span>
+    </div>
+
+    <div id="foo">
+      <h1 class="h1">Lorem ipsum dolor.</h1>
+      <h2>Lorem ipsum dolor.</h2>
+    </div>
+    <p class="ip">Amet</p>
+    <ul>
+      <li>Lorem</li>
+      <li class="ip">Ipsum</li>
+      <li>Dolor</li>
+    </ul>
+    <div id="radioTest">
+      <input type="radio" id="check1" name="checks" value="1" /> 체크1
+      <input type="radio" id="check2" name="checks" value="2" /> 체크2
+      <input type="radio" id="check3" name="checks" value="3" /> 체크3
+    </div>
+    <label
+      ><input type="checkbox" id="check_all" class="input_check" />
+      <b>전체선택</b></label
+    >
+    <ul class="select_subject">
+      <label
+        ><input type="checkbox" class="input_check" name="check" value="1" />
+        <b>1</b></label
+      >
+      <label
+        ><input type="checkbox" class="input_check" name="check" value="2" />
+        <b>2</b></label
+      >
+    </ul>
+  </body>
 </html>
