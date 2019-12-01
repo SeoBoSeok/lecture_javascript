@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="../week02_lecture/script.js"></script>
+    <script src="select.js"></script>
+  </head>
+  <body>
+    <select name="test" id="test" size="3" multiple onchange="change()">
+      <option value="none">== 선택해주세요 ==</option>
+      <option value="1" selected>test1</option>
+      <option value="2">test2</option>
+      <option value="3">test3</option>
+      <option value="4" hidden>test4</option>
+      <option value="5" disabled>test5</option>
+    </select>
+
+    <select size="6">
+      <optgroup label="한국">
+        <option value="seoul">서울</option>
+        <option value="busan">부산</option>
+      </optgroup>
+      <optgroup label="미국">
+        <option value="newyork">뉴욕</option>
+        <option value="la">로스앤젤레스</option>
+      </optgroup>
+    </select>
+  </body>
+</html>
