@@ -1,0 +1,46 @@
+[ Web Service 만들기 ]
+￼￼
+	⁃	HTML
+
+	•	브라우저는 어떻게 동작하는가?
+	https://d2.naver.com/helloworld/59361
+
+https://developer.mozilla.org/ko/docs/Web/HTML
+https://www.w3schools.com/html/default.asp
+
+########################################################################
+#
+#	•	aws 계정만들기
+#	•	프리티어계정 : 1년간 무료
+#	•	혹시나 비용이 나올 수 있으므로 실습 종료 후 인스턴스 종료!!
+#	https://console.aws.amazon.com/billing/home#/preferences
+#
+# sudo su ↵ (root 권한 획득)
+# amazon-linux-extras install nginx1.12 (nginx 설치하기)
+# yum update (yum package manager 최신화)
+# yum install -y git (git 설치하기)
+# cd /usr/share/nginx/html (nginx 기본 세팅되어 root 디렉토리로 이동)
+# rm -rf index.html (기존의 index.html 삭제하기)
+# git clone https://github.com/HeropCode/GitHub-Responsive.git
+# mv [git으로 다운받은 폴더명]/* . (폴더의 모든파일을 현재 디렉토리로 모두 이동)
+# 서버 접속확인 하기 (public DNS 주소, 80번 포트 확인![Inbound 규칙])
+# 
+########################################################################
+
+	⁃	DOM
+https://velog.io/@ddinggu/HTML-DOM-%EA%B0%84%EB%8B%A8-%EC%A0%95%EB%A6%AC
+
+	•	Font
+https://fonts.google.com/
+	•	Debug
+	•	크롬 개발자도구 활용하기
+	•	브라우저별로 가지고 있는 기본적인 스타일 초기화 하기
+	•	reset.css
+	•	CSS 작명 규칙
+	https://codepen.io/ggy7bbo/pen/ZEYYWYm
+	https://codepen.io/ggy7bbo/pen/ZEYYWKP
+	•	- : 일반적인 작명
+	•	__ : ~의 일부분
+	•	— : ~의 상태
+	•	btn-success
+	•	HTML 부분 코딩하기

@@ -1,6 +1,7 @@
 $(document).ready(function () {
   var answer_list = [];
   var multi_answer = {};
+  var survey_list = [];
 
   $('#btn_quiz_start').click(function () {
     $('#quiz_start').hide();
@@ -10,7 +11,7 @@ $(document).ready(function () {
   $('.btn_next').click(function () {
     var step = $(this).parent().parent().attr('class').split("qz_")[1];
 
-    if (!$('input:radio[name=qz' + step + ']:checked').val() && (!$('.con_qz_' + step).find('.seq_area').find('.on').length) && (!$('.con_qz_10').find('.answer_check').hasClass('on'))) {
+    if (!$('input:radio[name=qz' + step + ']').is(":checked") && (!$('.con_qz_' + step).find('.seq_area').find('.on').length) && (!$('.con_qz_10').find('.answer_check').hasClass('on'))) {
       alert('하나 이상 선택해주세요^^*');
       return;
     }
@@ -61,10 +62,39 @@ $(document).ready(function () {
     } else if ($(this).data("no") && ($(this).hasClass('btn_o') || $(this).hasClass('btn_x'))) {
       $(this).siblings().removeClass('on');
       $(this).toggleClass('on');
-      answer_list[index - 1] = $(this).data('no');
+      index = $(this).parent().parent().parent().attr('class').split("qz_")[1];
+      answer_list[index - 1] = parseInt($(this).data("no"));
     } else {
       answer_list[index - 1] = $(this).val();
     }
     console.log(answer_list);
   });
+
+  $('[name="survey[]"]').change(function () {
+    var index = $('[name="survey[]"]').index($(this));
+
+    survey_list[index] = $(this).val();
+
+    // if ($(this).is('select')) {
+    //   survey_list[index] = $(this).val();
+    // }
+
+    // if ($(this).is('input[type="text"]')) {
+    //   survey_list[index] = $(this).val();
+    // }
+
+    console.log(survey_list);
+  });
+
+  $('.con_qz_13 .answer_check').click(function () {
+    $('.con_qz_13').hide();
+    $('#level_result').show();
+    show_result(answer_list);
+  });
+
 });
+
+function show_result(answer_list) {
+  console.log(answer_list);
+  $('.ans_result').append('<p>' + answer_list.join(",") + '</p>');
+}
