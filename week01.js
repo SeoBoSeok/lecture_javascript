@@ -57,7 +57,6 @@ $(document).ready(function () {
       multi_answer["m" + index].forEach(function (e) {
         text = text + $('.con_qz_' + index + ' ' + '.seq_area li').eq(e - 1).text() + " ";
       });
-      console.log(multi_answer);
       $('.con_qz_' + index).find('.show_seq').text(text);
     } else if ($(this).data("no") && ($(this).hasClass('btn_o') || $(this).hasClass('btn_x'))) {
       $(this).siblings().removeClass('on');
@@ -67,23 +66,11 @@ $(document).ready(function () {
     } else {
       answer_list[index - 1] = $(this).val();
     }
-    console.log(answer_list);
   });
 
   $('[name="survey[]"]').change(function () {
     var index = $('[name="survey[]"]').index($(this));
-
     survey_list[index] = $(this).val();
-
-    // if ($(this).is('select')) {
-    //   survey_list[index] = $(this).val();
-    // }
-
-    // if ($(this).is('input[type="text"]')) {
-    //   survey_list[index] = $(this).val();
-    // }
-
-    console.log(survey_list);
   });
 
   $('.con_qz_13 .answer_check').click(function () {
@@ -95,6 +82,74 @@ $(document).ready(function () {
 });
 
 function show_result(answer_list) {
-  console.log(answer_list);
-  $('.ans_result').append('<p>' + answer_list.join(",") + '</p>');
+  var correct_answer = [2, 1, 2, 1, 1, "How long have you lived here?", 1, "I drink water before I have breakfast.", 2, 2];
+  var score = 0;
+  var level = [{
+    name: "왕초보",
+    level_detail: "[level 1]"
+  }, {
+    name: "초보",
+    level_detail: "[level 2]"
+  }, {
+    name: "중수",
+    level_detail: "[level 3]"
+  }, {
+    name: "고수",
+    level_detail: "[level 4]"
+  }, {
+    name: "실전",
+    level_detail: "[level 5]"
+  }];
+
+  answer_list.forEach(function (e, i) {
+    if (Array.isArray(e)) {
+      arrayToStringMatch(e, correct_answer[i], i) ? score += 1 : null;
+    } else if (correct_answer[i] == e) {
+      $('#result_list_' + i).text("O");
+      score += 1;
+    } else {
+      $('#result_list_' + i).text("X");
+    }
+  });
+
+  result_score = score > 8 ? 4 : score > 6 ? 3 : score > 4 ? 2 : score > 2 ? 1 : 0;
+  console.log(result_score);
+
+  $('.level').text(level[result_score].name);
+  $('.level_detail').text(level[result_score].level_detail);
+  $('.guide_result dl').eq(0).children().eq(result_score + 1).show();
+  $('.guide_result dl').eq(1).children().eq(result_score + 1).show();
+  $('.result_score').text(score * 10);
 }
+
+function arrayToStringMatch(arr, answer, index) {
+  var text = '';
+
+  arr.forEach(function (e) {
+    text = text + $('.con_qz_' + (index + 1) + ' ' + '.seq_area li').eq(e - 1).text() + " ";
+  });
+
+  if (text.toLowerCase().trim() === answer.toLowerCase().trim()) {
+    $('#result_list_' + index).text("O");
+    return true;
+  } else {
+    $('#result_list_' + index).text("X");
+    return false;
+  }
+
+}
+
+var arraysMatch = function (arr1, arr2) {
+
+  // Check if the arrays are the same length
+  if (arr1.length !== arr2.length) return false;
+
+  // Check if all items exist and are in the same order
+  for (var i = 0; i < arr1.length; i++) {
+    if (arr1[i] !== arr2[i]) return false;
+  }
+
+  // Otherwise, return true
+  return true;
+
+};
