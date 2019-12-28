@@ -12,7 +12,7 @@ $(document).ready(function () {
     var step = $(this).parent().parent().attr('class').split("qz_")[1];
 
     if (!$('input:radio[name=qz' + step + ']').is(":checked") && (!$('.con_qz_' + step).find('.seq_area').find('.on').length) && (!$('.con_qz_10').find('.answer_check').hasClass('on'))) {
-      alert('�섎굹 �댁긽 �좏깮�댁＜�몄슂^^*');
+      alert('한개 이상 선택해주세요');
       return;
     }
 

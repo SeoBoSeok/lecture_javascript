@@ -1,17 +1,28 @@
 let answer_list = [];
 let multi_answer = {};
-// let answer_list = [2, 1, 2, 1, 1, "How long have you lived here?", 1, "I drink water before I have breakfast.", 2, 2];
+let survey_answer = [];
 
 (function () {
   window.onload = function () {
     let nextBtn = document.querySelectorAll('.btn_next');
     let beforeBtn = document.querySelectorAll('.btn_prev');
     let answerCheckBtn = document.querySelectorAll('.answer_check');
+    let selectCheck = document.querySelectorAll('select');
 
     nextBtn.forEach(function (e) {
       e.onclick = function (e) {
         let questionClassName = e.target.parentNode.parentNode.parentNode.className || e.target.parentNode.parentNode.className;
         let questionNumber = e.target.parentNode.parentNode.parentNode.className.split("_")[2] || e.target.parentNode.parentNode.className.split("_")[2];
+
+        if (!radio_checked(document.querySelectorAll("." + questionClassName + ' input')) // 라디오 버튼 체크여부
+          && (!multiAndOX_checked(document.querySelectorAll("." + questionClassName + ' .seq_area li'))) // 문장만들기 및 OX퀴즈 체크여부
+          && (!multiAndOX_checked(document.querySelectorAll("." + questionClassName + ' .ox_area a'))) // 문장만들기 및 OX퀴즈 체크여부
+          && !survey_answer.length
+        ) {
+          alert('한개 이상 선택해주세요');
+          return;
+        }
+
 
         document.querySelector("." + questionClassName).style.display = "none";
         document.querySelector("." + /[a-zA-Z_]+/ig.exec(questionClassName)[0] + (+questionNumber + 1)).style.display = "block";
@@ -59,9 +70,17 @@ let multi_answer = {};
               text = text + document.querySelectorAll('.con_qz_' + questionNumber + ' .seq_area li')[e - 1].innerText + " ";
             });
             document.querySelector('.con_qz_' + questionNumber + " .show_seq").innerText = text;
-            answer_list[questionNumber - 1] = multi_answer["m" + questionNumber];
+            answer_list[questionNumber - 1] = text;
           }
         }
+      }
+    });
+    selectCheck.forEach(function (e) {
+      e.onchange = function () {
+        survey_answer = [];
+        selectCheck.forEach(function (e) {
+          survey_answer.push(e.options.selectedIndex);
+        })
       }
     });
   }
@@ -84,6 +103,20 @@ function checkType(el) {
     }
   }
 }
+function radio_checked(arr) {
+  let checkVal = false;
+  arr.forEach(function (e) {
+    checkVal += e.checked;
+  });
+  return checkVal;
+}
+function multiAndOX_checked(arr) {
+  let checkVal = false;
+  arr.forEach(function (e) {
+    checkVal += e.classList.contains("on");
+  });
+  return checkVal;
+}
 function show_result() {
   let correct_answer = [2, 1, 2, 1, 1, "How long have you lived here?", 1, "I drink water before I have breakfast.", 2, 2];
   let score = 0;
@@ -105,7 +138,7 @@ function show_result() {
   }];
 
   answer_list.forEach(function (e, i) {
-    if (Array.isArray(e)) {
+    if (typeof e === "string") {
       arrayToStringMatch(e, correct_answer[i], i) ? score += 1 : null;
     } else if (correct_answer[i] === e) {
       document.querySelector('#result_list_' + i).innerText = "O";
@@ -127,20 +160,11 @@ function show_result() {
   document.querySelector('.result').style.display = "block";
 }
 function arrayToStringMatch(arr, answer, index) {
-  let text = '';
-
-  arr.forEach(function (e) {
-    text = text + document.querySelectorAll('.con_qz_' + (index + 1) + ' .seq_area li')[e - 1].children[0].innerText + " ";
-  });
-
-  if (text.toLowerCase().trim() === answer.toLowerCase().trim()) {
+  if (arr.toLowerCase().trim() === answer.toLowerCase().trim()) {
     document.querySelector('#result_list_' + index).innerText = "O";
     return true;
   } else {
     document.querySelector('#result_list_' + index).innerText = "X";
     return false;
   }
-}
-function silbing() {
-
 }
