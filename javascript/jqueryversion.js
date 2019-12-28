@@ -12,7 +12,7 @@ $(document).ready(function () {
     var step = $(this).parent().parent().attr('class').split("qz_")[1];
 
     if (!$('input:radio[name=qz' + step + ']').is(":checked") && (!$('.con_qz_' + step).find('.seq_area').find('.on').length) && (!$('.con_qz_10').find('.answer_check').hasClass('on'))) {
-      alert('하나 이상 선택해주세요^^*');
+      alert('�섎굹 �댁긽 �좏깮�댁＜�몄슂^^*');
       return;
     }
 
@@ -97,7 +97,7 @@ function show_result(answer_list) {
     name: "고수",
     level_detail: "[level 4]"
   }, {
-    name: "실전",
+    name: "초고수",
     level_detail: "[level 5]"
   }];
 
@@ -113,7 +113,6 @@ function show_result(answer_list) {
   });
 
   result_score = score > 8 ? 4 : score > 6 ? 3 : score > 4 ? 2 : score > 2 ? 1 : 0;
-  console.log(result_score);
 
   $('.level').text(level[result_score].name);
   $('.level_detail').text(level[result_score].level_detail);
@@ -138,18 +137,3 @@ function arrayToStringMatch(arr, answer, index) {
   }
 
 }
-
-var arraysMatch = function (arr1, arr2) {
-
-  // Check if the arrays are the same length
-  if (arr1.length !== arr2.length) return false;
-
-  // Check if all items exist and are in the same order
-  for (var i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) return false;
-  }
-
-  // Otherwise, return true
-  return true;
-
-};
